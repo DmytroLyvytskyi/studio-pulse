@@ -13,6 +13,9 @@ dependencies = [
     "tzdata>=2026.6",
 ]
 
+[project.scripts]
+studio-pulse-mcp = "studio_pulse.mcp_server:main"
+
 [build-system]
 requires = ["uv_build>=0.9,<0.14"]
 build-backend = "uv_build"

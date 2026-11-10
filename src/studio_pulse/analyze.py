@@ -7,6 +7,7 @@ project id. Inputs are in minutes; results are converted to hours and percentage
 
 import logging
 from collections import defaultdict
+from collections.abc import Callable
 from datetime import date
 from decimal import ROUND_HALF_UP, Decimal
 
@@ -15,6 +16,8 @@ from studio_pulse.models import (
     Budget,
     BudgetState,
     BudgetStatus,
+    GroupBy,
+    GroupHours,
     MissingLog,
     Person,
     Project,
@@ -26,9 +29,9 @@ from studio_pulse.sources.base import DataSource
 
 logger = logging.getLogger(__name__)
 
-# Budgets are compared with all time logged on a project. Time entries are loaded from this day on.
+# "All time": budgets and unbilled hours count every entry logged from this day on.
 # TODO: Productive may expose used budget time directly; revisit when the source is built.
-BUDGET_HISTORY_START = date(2000, 1, 1)
+HISTORY_START = date(2000, 1, 1)
 
 STATUS_ORDER: dict[BudgetState, int] = {"over": 0, "warning": 1, "ok": 2, "no_budget": 3}
 
@@ -122,28 +125,64 @@ def budget_status(
     return sorted(statuses, key=lambda s: (STATUS_ORDER[s.status], -(s.used_percent or 0)))
 
 
-def hours_by_project(entries: list[TimeEntry], projects: list[Project]) -> list[ProjectHours]:
-    """Total and billable hours per project with any time logged, largest total first."""
+def _sum_by(
+    entries: list[TimeEntry], key: Callable[[TimeEntry], str]
+) -> dict[str, tuple[int, int]]:
+    """(total minutes, billable minutes) per key."""
     total: dict[str, int] = defaultdict(int)
     billable: dict[str, int] = defaultdict(int)
     for entry in entries:
-        total[entry.project_id] += entry.minutes
-        billable[entry.project_id] += entry.billable_minutes
+        total[key(entry)] += entry.minutes
+        billable[key(entry)] += entry.billable_minutes
+    return {name: (total[name], billable[name]) for name in total}
 
+
+def hours_by_project(entries: list[TimeEntry], projects: list[Project]) -> list[ProjectHours]:
+    """Total and billable hours per project with any time logged, largest total first."""
     by_id = {project.id: project for project in projects}
-    _warn_unknown("project", total.keys() - by_id.keys())
+    sums = _sum_by(entries, lambda entry: entry.project_id)
+    _warn_unknown("project", sums.keys() - by_id.keys())
     rows = []
-    for project_id, minutes in total.items():
+    for project_id, (minutes, billable) in sums.items():
         project = by_id.get(project_id)
         rows.append(
             ProjectHours(
                 project=project.name if project else project_id,
                 client=project.client if project else "",
                 total_hours=to_hours(minutes),
-                billable_hours=to_hours(billable[project_id]),
+                billable_hours=to_hours(billable),
             )
         )
     return sorted(rows, key=lambda row: (-row.total_hours, row.project))
+
+
+def hours_by_group(
+    entries: list[TimeEntry], people: list[Person], projects: list[Project], group_by: GroupBy
+) -> list[GroupHours]:
+    """Total and billable hours per project, person or client name, largest total first.
+
+    Unknown ids are kept under the id itself.
+    """
+    if group_by == "person":
+        names = {person.id: person.name for person in people}
+        _warn_unknown("person", {entry.person_id for entry in entries} - names.keys())
+        sums = _sum_by(entries, lambda entry: names.get(entry.person_id, entry.person_id))
+    else:
+        field = "name" if group_by == "project" else "client"
+        names = {project.id: getattr(project, field) for project in projects}
+        _warn_unknown("project", {entry.project_id for entry in entries} - names.keys())
+        sums = _sum_by(entries, lambda entry: names.get(entry.project_id, entry.project_id))
+
+    rows = [
+        GroupHours(
+            name=name,
+            total_hours=to_hours(minutes),
+            billable_hours=to_hours(billable),
+            billable_percent=_percent(billable, minutes) if minutes else 0.0,
+        )
+        for name, (minutes, billable) in sums.items()
+    ]
+    return sorted(rows, key=lambda row: (-row.total_hours, row.name))
 
 
 def billable_percent(entries: list[TimeEntry]) -> float:
@@ -196,7 +235,7 @@ def build_report(source: DataSource, day: date, settings: Settings) -> ReportDat
     people = source.people()
     projects = source.projects()
     day_entries = source.time_entries(day, day)
-    history = source.time_entries(BUDGET_HISTORY_START, day)
+    history = source.time_entries(HISTORY_START, day)
 
     statuses = budget_status(history, projects, source.budgets(), settings.budget_warning_percent)
     return ReportData(

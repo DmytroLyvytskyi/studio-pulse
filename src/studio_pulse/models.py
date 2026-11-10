@@ -7,6 +7,7 @@ from pydantic import BaseModel, Field
 
 ProjectKind = Literal["3D", "VR", "WEB", "CGI", "INTERNAL"]
 BudgetState = Literal["ok", "warning", "over", "no_budget"]
+GroupBy = Literal["project", "person", "client"]
 
 
 # Source data
@@ -67,6 +68,13 @@ class ProjectHours(BaseModel):
     client: str
     total_hours: float
     billable_hours: float
+
+
+class GroupHours(BaseModel):
+    name: str  # project, person or client name
+    total_hours: float
+    billable_hours: float
+    billable_percent: float
 
 
 class ReportData(BaseModel):

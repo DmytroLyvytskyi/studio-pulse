@@ -7,6 +7,7 @@ from studio_pulse.analyze import (
     budget_status,
     build_report,
     entries_without_note,
+    hours_by_group,
     hours_by_project,
     missing_logs,
     to_hours,
@@ -194,6 +195,49 @@ def test_hours_by_project_sorted_by_total() -> None:
 
 def test_hours_by_project_no_entries() -> None:
     assert hours_by_project([], PROJECTS) == []
+
+
+# hours_by_group
+
+
+def test_hours_by_group() -> None:
+    entries = [
+        entry("a", project="x", minutes=60),
+        entry("a", project="r", minutes=60, billable=0),
+        entry("b", project="y", minutes=180, billable=90),
+        entry("b", project="x", minutes=30),
+    ]
+    by_person = hours_by_group(entries, PEOPLE, PROJECTS, "person")
+    assert [(g.name, g.total_hours, g.billable_hours, g.billable_percent) for g in by_person] == [
+        ("Boris", 3.5, 2.0, 57.1),
+        ("Anna", 2.0, 1.0, 50.0),
+    ]
+    by_client = hours_by_group(entries, PEOPLE, PROJECTS, "client")
+    assert [(g.name, g.total_hours) for g in by_client] == [
+        ("Klient Y", 3.0),
+        ("Klient X", 1.5),
+        ("Studio", 1.0),
+    ]
+    by_project = hours_by_group(entries, PEOPLE, PROJECTS, "project")
+    assert [(g.name, g.total_hours) for g in by_project] == [
+        ("Projekt Y", 3.0),
+        ("Projekt X", 1.5),
+        ("R&D", 1.0),
+    ]
+
+
+def test_hours_by_group_no_entries_and_zero_minutes() -> None:
+    assert hours_by_group([], PEOPLE, PROJECTS, "person") == []
+    [group] = hours_by_group([entry(minutes=0)], PEOPLE, PROJECTS, "person")
+    assert (group.total_hours, group.billable_percent) == (0.0, 0.0)
+
+
+def test_hours_by_group_unknown_ids_kept_under_id(caplog: pytest.LogCaptureFixture) -> None:
+    entries = [entry("ghost", project="lost")]
+    with caplog.at_level("WARNING", logger="studio_pulse.analyze"):
+        assert [g.name for g in hours_by_group(entries, PEOPLE, PROJECTS, "person")] == ["ghost"]
+        assert [g.name for g in hours_by_group(entries, PEOPLE, PROJECTS, "client")] == ["lost"]
+    assert len(caplog.records) == 2
 
 
 # billable_percent
