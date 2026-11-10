@@ -226,11 +226,10 @@ def unbilled_hours(
     }
 
 
-def build_report(source: DataSource, day: date, settings: Settings) -> ReportData:
-    """Everything the daily report shows for `day`. Budgets count all time logged up to `day`.
+def build_report(source: DataSource, day: date, settings: Settings, today: date) -> ReportData:
+    """Everything the daily report shows for `day`, produced on `today`.
 
-    TODO: `settings.low_billable_percent` is not applied here; the report rendering
-    (milestones 6 and 7) must highlight `billable_percent` below it.
+    Budgets count all time logged up to `day`.
     """
     people = source.people()
     projects = source.projects()
@@ -238,10 +237,15 @@ def build_report(source: DataSource, day: date, settings: Settings) -> ReportDat
     history = source.time_entries(HISTORY_START, day)
 
     statuses = budget_status(history, projects, source.budgets(), settings.budget_warning_percent)
+    total_minutes = sum(entry.minutes for entry in day_entries)
+    billable = billable_percent(day_entries)
     return ReportData(
         day=day,
-        total_hours=to_hours(sum(entry.minutes for entry in day_entries)),
-        billable_percent=billable_percent(day_entries),
+        generated_on=today,
+        total_hours=to_hours(total_minutes),
+        billable_percent=billable,
+        low_billable_percent=settings.low_billable_percent,
+        billable_low=total_minutes > 0 and billable < settings.low_billable_percent,
         hours_by_project=hours_by_project(day_entries, projects),
         budget_alerts=[s for s in statuses if s.status in ("warning", "over")],
         missing_logs=missing_logs(day_entries, people, day, settings.min_hours_per_day),

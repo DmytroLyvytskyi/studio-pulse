@@ -46,8 +46,11 @@ def test_unknown_project_kind_rejected() -> None:
 def test_report_data_round_trips_through_json() -> None:
     report = ReportData(
         day=date(2026, 11, 9),
+        generated_on=date(2026, 11, 10),
         total_hours=46.5,
         billable_percent=82.0,
+        low_billable_percent=70,
+        billable_low=False,
         hours_by_project=[],
         budget_alerts=[
             BudgetStatus(

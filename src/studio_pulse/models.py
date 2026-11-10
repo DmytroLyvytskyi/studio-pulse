@@ -78,9 +78,12 @@ class GroupHours(BaseModel):
 
 
 class ReportData(BaseModel):
-    day: date
+    day: date  # the reported day
+    generated_on: date  # the day the report is produced ("Včera" when `day` is the day before)
     total_hours: float
     billable_percent: float
+    low_billable_percent: float  # configured threshold
+    billable_low: bool  # billable_percent below the threshold (and something was logged)
     hours_by_project: list[ProjectHours]
     budget_alerts: list[BudgetStatus]  # warning and over only
     missing_logs: list[MissingLog]

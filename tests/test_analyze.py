@@ -300,14 +300,31 @@ def settings() -> Settings:
 
 @pytest.fixture
 def mock_report(settings: Settings) -> ReportData:
-    return build_report(MockSource(today=TUESDAY), MONDAY, settings)
+    return build_report(MockSource(today=TUESDAY), MONDAY, settings, today=TUESDAY)
 
 
 def test_mock_report_totals(mock_report: ReportData) -> None:
-    assert mock_report.day == MONDAY
+    assert (mock_report.day, mock_report.generated_on) == (MONDAY, TUESDAY)
     assert mock_report.total_hours == 46.5
     assert mock_report.billable_percent == 81.7  # shown as 82 %
     assert round(mock_report.billable_percent) == 82
+    assert (mock_report.low_billable_percent, mock_report.billable_low) == (70, False)
+
+
+@pytest.mark.parametrize(
+    ("threshold", "expected"),
+    [(81.6, False), (81.7, False), (81.8, True)],  # 81.7 % billable on the mock day
+)
+def test_report_flags_billable_below_threshold(threshold: float, expected: bool) -> None:
+    settings = Settings(low_billable_percent=threshold)
+    report = build_report(MockSource(today=TUESDAY), MONDAY, settings, today=TUESDAY)
+    assert report.billable_low is expected
+
+
+def test_empty_day_is_not_flagged_as_low_billable() -> None:
+    sunday = date(2026, 11, 8)
+    report = build_report(MockSource(today=TUESDAY), sunday, Settings(), today=TUESDAY)
+    assert (report.total_hours, report.billable_low) == (0.0, False)
 
 
 def test_mock_report_budget_alerts(mock_report: ReportData) -> None:
@@ -354,7 +371,7 @@ def test_mock_budget_status_all_projects() -> None:
 
 def test_mock_report_on_monday_covers_friday(settings: Settings) -> None:
     friday = date(2026, 11, 6)
-    report = build_report(MockSource(today=MONDAY), friday, settings)
+    report = build_report(MockSource(today=MONDAY), friday, settings, today=MONDAY)
     assert report.total_hours == 46.5
     assert [m.person for m in report.missing_logs] == ["Jana Nováková", "Martin Horák"]
 
@@ -402,5 +419,5 @@ def test_unknown_ids_log_a_warning_and_keep_the_id_as_name(
 
 def test_known_ids_log_nothing(caplog: pytest.LogCaptureFixture) -> None:
     with caplog.at_level("WARNING", logger="studio_pulse.analyze"):
-        build_report(MockSource(today=TUESDAY), MONDAY, Settings())
+        build_report(MockSource(today=TUESDAY), MONDAY, Settings(), today=TUESDAY)
     assert caplog.records == []

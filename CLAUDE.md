@@ -65,7 +65,8 @@ studio-pulse/
 │   │   ├── mock.py          # reads mock/*.json
 │   │   └── productive.py    # Productive JSON:API client; all response mapping lives here
 │   ├── delivery/
-│   │   ├── base.py          # Delivery Protocol
+│   │   ├── base.py          # Delivery Protocol, post_json (retry on 429)
+│   │   ├── text.py          # Slovak report text shared by the adapters
 │   │   ├── console.py
 │   │   ├── teams.py         # build_adaptive_card(report) -> dict
 │   │   └── discord.py
