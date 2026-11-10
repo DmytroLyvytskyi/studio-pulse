@@ -1,0 +1,37 @@
+[
+  {
+    "id": "pr-lesna",
+    "name": "Lesná Brána, VR prehliadka",
+    "client": "Lesná Brána Development",
+    "kind": "VR",
+    "active": true
+  },
+  {
+    "id": "pr-hradna",
+    "name": "Rezidencia Hradná, vizualizácie",
+    "client": "Hradná Invest",
+    "kind": "3D",
+    "active": true
+  },
+  {
+    "id": "pr-riverside",
+    "name": "Riverside Lofts, web",
+    "client": "Riverside Lofts",
+    "kind": "WEB",
+    "active": true
+  },
+  {
+    "id": "pr-hr",
+    "name": "HR kampaň, video",
+    "client": "Nordica HR",
+    "kind": "CGI",
+    "active": true
+  },
+  {
+    "id": "pr-rnd",
+    "name": "Interné R&D",
+    "client": "Studio",
+    "kind": "INTERNAL",
+    "active": true
+  }
+]

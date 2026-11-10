@@ -1,0 +1,50 @@
+[
+  {
+    "id": "p1",
+    "name": "Jana Nováková",
+    "email": "jana.novakova@studio-pulse.example",
+    "active": true
+  },
+  {
+    "id": "p2",
+    "name": "Martin Horák",
+    "email": "martin.horak@studio-pulse.example",
+    "active": true
+  },
+  {
+    "id": "p3",
+    "name": "Peter Kováč",
+    "email": "peter.kovac@studio-pulse.example",
+    "active": true
+  },
+  {
+    "id": "p4",
+    "name": "Lucia Szabová",
+    "email": "lucia.szabova@studio-pulse.example",
+    "active": true
+  },
+  {
+    "id": "p5",
+    "name": "Tomáš Baláž",
+    "email": "tomas.balaz@studio-pulse.example",
+    "active": true
+  },
+  {
+    "id": "p6",
+    "name": "Katarína Vargová",
+    "email": "katarina.vargova@studio-pulse.example",
+    "active": true
+  },
+  {
+    "id": "p7",
+    "name": "Michal Polák",
+    "email": "michal.polak@studio-pulse.example",
+    "active": true
+  },
+  {
+    "id": "p8",
+    "name": "Zuzana Kráľová",
+    "email": "zuzana.kralova@studio-pulse.example",
+    "active": true
+  }
+]

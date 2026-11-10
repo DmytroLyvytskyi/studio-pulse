@@ -27,6 +27,16 @@ def previous_working_day(today: date) -> date:
     return today - timedelta(days=1)
 
 
+def working_days_back(today: date, count: int) -> date:
+    """`count` working days before `today`; 0 -> `today`, 1 -> `previous_working_day(today)`."""
+    if count < 0:
+        raise ValueError("count must not be negative")
+    day = today
+    for _ in range(count):
+        day = previous_working_day(day)
+    return day
+
+
 def parse_date(value: str, today: date) -> date:
     """Parse `YYYY-MM-DD`, `today` or `yesterday` (the calendar day before `today`)."""
     text = value.strip().lower()

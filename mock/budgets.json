@@ -1,0 +1,22 @@
+[
+  {
+    "project_id": "pr-lesna",
+    "budget_minutes": 7200
+  },
+  {
+    "project_id": "pr-hradna",
+    "budget_minutes": 4800
+  },
+  {
+    "project_id": "pr-riverside",
+    "budget_minutes": 12000
+  },
+  {
+    "project_id": "pr-hr",
+    "budget_minutes": 3600
+  },
+  {
+    "project_id": "pr-rnd",
+    "budget_minutes": null
+  }
+]

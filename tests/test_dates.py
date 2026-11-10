@@ -3,7 +3,13 @@ from datetime import date
 import pytest
 
 from studio_pulse import StudioPulseError
-from studio_pulse.dates import parse_date, parse_date_range, previous_working_day, today_in
+from studio_pulse.dates import (
+    parse_date,
+    parse_date_range,
+    previous_working_day,
+    today_in,
+    working_days_back,
+)
 
 # Week of 2026-11-09: Monday 9 ... Sunday 15
 MONDAY = date(2026, 11, 9)
@@ -62,3 +68,15 @@ def test_parse_date_range_reversed() -> None:
 
 def test_today_in_returns_date() -> None:
     assert isinstance(today_in("Europe/Bratislava"), date)
+
+
+def test_working_days_back() -> None:
+    assert working_days_back(MONDAY, 0) == MONDAY
+    assert working_days_back(MONDAY, 1) == FRIDAY_BEFORE
+    assert working_days_back(MONDAY, 5) == date(2026, 11, 2)  # Monday a week before
+    assert working_days_back(date(2026, 11, 15), 1) == date(2026, 11, 13)  # Sunday -> Friday
+
+
+def test_working_days_back_negative() -> None:
+    with pytest.raises(ValueError):
+        working_days_back(MONDAY, -1)

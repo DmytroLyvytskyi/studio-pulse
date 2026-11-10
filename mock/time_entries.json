@@ -1,0 +1,1642 @@
+[
+  {
+    "id": "te-0001",
+    "working_days_ago": 10,
+    "person_id": "p1",
+    "project_id": "pr-riverside",
+    "minutes": 240,
+    "billable_minutes": 240,
+    "note": "Frontend, galéria bytov",
+    "invoiced": true
+  },
+  {
+    "id": "te-0002",
+    "working_days_ago": 10,
+    "person_id": "p1",
+    "project_id": "pr-rnd",
+    "minutes": 210,
+    "billable_minutes": 0,
+    "note": "Školenie Unreal Engine",
+    "invoiced": false
+  },
+  {
+    "id": "te-0003",
+    "working_days_ago": 10,
+    "person_id": "p2",
+    "project_id": "pr-riverside",
+    "minutes": 180,
+    "billable_minutes": 180,
+    "note": "Napojenie na CMS",
+    "invoiced": true
+  },
+  {
+    "id": "te-0004",
+    "working_days_ago": 10,
+    "person_id": "p2",
+    "project_id": "pr-rnd",
+    "minutes": 330,
+    "billable_minutes": 0,
+    "note": null,
+    "invoiced": false
+  },
+  {
+    "id": "te-0005",
+    "working_days_ago": 10,
+    "person_id": "p3",
+    "project_id": "pr-hradna",
+    "minutes": 120,
+    "billable_minutes": 120,
+    "note": "Úpravy podľa pripomienok klienta",
+    "invoiced": true
+  },
+  {
+    "id": "te-0006",
+    "working_days_ago": 10,
+    "person_id": "p3",
+    "project_id": "pr-lesna",
+    "minutes": 360,
+    "billable_minutes": 360,
+    "note": "Textúry a materiály",
+    "invoiced": true
+  },
+  {
+    "id": "te-0007",
+    "working_days_ago": 10,
+    "person_id": "p4",
+    "project_id": "pr-lesna",
+    "minutes": 21,
+    "billable_minutes": 21,
+    "note": "Textúry a materiály",
+    "invoiced": true
+  },
+  {
+    "id": "te-0008",
+    "working_days_ago": 10,
+    "person_id": "p4",
+    "project_id": "pr-rnd",
+    "minutes": 459,
+    "billable_minutes": 0,
+    "note": "Príprava knižnice assetov",
+    "invoiced": false
+  },
+  {
+    "id": "te-0009",
+    "working_days_ago": 10,
+    "person_id": "p5",
+    "project_id": "pr-hradna",
+    "minutes": 90,
+    "billable_minutes": 90,
+    "note": "Modelovanie interiéru",
+    "invoiced": true
+  },
+  {
+    "id": "te-0010",
+    "working_days_ago": 10,
+    "person_id": "p5",
+    "project_id": "pr-rnd",
+    "minutes": 390,
+    "billable_minutes": 0,
+    "note": "Testovanie nového renderera",
+    "invoiced": false
+  },
+  {
+    "id": "te-0011",
+    "working_days_ago": 10,
+    "person_id": "p6",
+    "project_id": "pr-riverside",
+    "minutes": 243,
+    "billable_minutes": 243,
+    "note": "Napojenie na CMS",
+    "invoiced": true
+  },
+  {
+    "id": "te-0012",
+    "working_days_ago": 10,
+    "person_id": "p6",
+    "project_id": "pr-rnd",
+    "minutes": 267,
+    "billable_minutes": 0,
+    "note": "Školenie Unreal Engine",
+    "invoiced": false
+  },
+  {
+    "id": "te-0013",
+    "working_days_ago": 10,
+    "person_id": "p7",
+    "project_id": "pr-hradna",
+    "minutes": 67,
+    "billable_minutes": 67,
+    "note": "Modelovanie interiéru",
+    "invoiced": true
+  },
+  {
+    "id": "te-0014",
+    "working_days_ago": 10,
+    "person_id": "p7",
+    "project_id": "pr-lesna",
+    "minutes": 270,
+    "billable_minutes": 270,
+    "note": "Modelovanie exteriéru",
+    "invoiced": true
+  },
+  {
+    "id": "te-0015",
+    "working_days_ago": 10,
+    "person_id": "p7",
+    "project_id": "pr-rnd",
+    "minutes": 143,
+    "billable_minutes": 0,
+    "note": "Testovanie nového renderera",
+    "invoiced": false
+  },
+  {
+    "id": "te-0016",
+    "working_days_ago": 10,
+    "person_id": "p8",
+    "project_id": "pr-hr",
+    "minutes": 80,
+    "billable_minutes": 80,
+    "note": "Kompozícia",
+    "invoiced": true
+  },
+  {
+    "id": "te-0017",
+    "working_days_ago": 10,
+    "person_id": "p8",
+    "project_id": "pr-hradna",
+    "minutes": 240,
+    "billable_minutes": 240,
+    "note": "Modelovanie interiéru",
+    "invoiced": true
+  },
+  {
+    "id": "te-0018",
+    "working_days_ago": 10,
+    "person_id": "p8",
+    "project_id": "pr-rnd",
+    "minutes": 190,
+    "billable_minutes": 0,
+    "note": "Príprava knižnice assetov",
+    "invoiced": false
+  },
+  {
+    "id": "te-0019",
+    "working_days_ago": 9,
+    "person_id": "p1",
+    "project_id": "pr-lesna",
+    "minutes": 150,
+    "billable_minutes": 150,
+    "note": "Testovanie prehliadky v headsete",
+    "invoiced": true
+  },
+  {
+    "id": "te-0020",
+    "working_days_ago": 9,
+    "person_id": "p1",
+    "project_id": "pr-riverside",
+    "minutes": 180,
+    "billable_minutes": 180,
+    "note": "Frontend, galéria bytov",
+    "invoiced": true
+  },
+  {
+    "id": "te-0021",
+    "working_days_ago": 9,
+    "person_id": "p1",
+    "project_id": "pr-rnd",
+    "minutes": 180,
+    "billable_minutes": 0,
+    "note": "Príprava knižnice assetov",
+    "invoiced": false
+  },
+  {
+    "id": "te-0022",
+    "working_days_ago": 9,
+    "person_id": "p2",
+    "project_id": "pr-riverside",
+    "minutes": 150,
+    "billable_minutes": 150,
+    "note": "Frontend, galéria bytov",
+    "invoiced": true
+  },
+  {
+    "id": "te-0023",
+    "working_days_ago": 9,
+    "person_id": "p2",
+    "project_id": "pr-rnd",
+    "minutes": 300,
+    "billable_minutes": 0,
+    "note": "Interná porada",
+    "invoiced": false
+  },
+  {
+    "id": "te-0024",
+    "working_days_ago": 9,
+    "person_id": "p3",
+    "project_id": "pr-hradna",
+    "minutes": 159,
+    "billable_minutes": 159,
+    "note": "Rendering obývačky",
+    "invoiced": true
+  },
+  {
+    "id": "te-0025",
+    "working_days_ago": 9,
+    "person_id": "p3",
+    "project_id": "pr-lesna",
+    "minutes": 321,
+    "billable_minutes": 321,
+    "note": "Nastavenie VR scén",
+    "invoiced": true
+  },
+  {
+    "id": "te-0026",
+    "working_days_ago": 9,
+    "person_id": "p4",
+    "project_id": "pr-rnd",
+    "minutes": 420,
+    "billable_minutes": 0,
+    "note": "Príprava knižnice assetov",
+    "invoiced": false
+  },
+  {
+    "id": "te-0027",
+    "working_days_ago": 9,
+    "person_id": "p5",
+    "project_id": "pr-hradna",
+    "minutes": 118,
+    "billable_minutes": 118,
+    "note": "Modelovanie interiéru",
+    "invoiced": true
+  },
+  {
+    "id": "te-0028",
+    "working_days_ago": 9,
+    "person_id": "p5",
+    "project_id": "pr-rnd",
+    "minutes": 302,
+    "billable_minutes": 0,
+    "note": "Školenie Unreal Engine",
+    "invoiced": false
+  },
+  {
+    "id": "te-0029",
+    "working_days_ago": 9,
+    "person_id": "p6",
+    "project_id": "pr-riverside",
+    "minutes": 333,
+    "billable_minutes": 333,
+    "note": "Opravy po review",
+    "invoiced": true
+  },
+  {
+    "id": "te-0030",
+    "working_days_ago": 9,
+    "person_id": "p6",
+    "project_id": "pr-rnd",
+    "minutes": 177,
+    "billable_minutes": 0,
+    "note": "Testovanie nového renderera",
+    "invoiced": false
+  },
+  {
+    "id": "te-0031",
+    "working_days_ago": 9,
+    "person_id": "p7",
+    "project_id": "pr-hradna",
+    "minutes": 240,
+    "billable_minutes": 240,
+    "note": "Úpravy podľa pripomienok klienta",
+    "invoiced": true
+  },
+  {
+    "id": "te-0032",
+    "working_days_ago": 9,
+    "person_id": "p7",
+    "project_id": "pr-lesna",
+    "minutes": 180,
+    "billable_minutes": 180,
+    "note": null,
+    "invoiced": true
+  },
+  {
+    "id": "te-0033",
+    "working_days_ago": 9,
+    "person_id": "p7",
+    "project_id": "pr-rnd",
+    "minutes": 30,
+    "billable_minutes": 0,
+    "note": "Školenie Unreal Engine",
+    "invoiced": false
+  },
+  {
+    "id": "te-0034",
+    "working_days_ago": 9,
+    "person_id": "p8",
+    "project_id": "pr-hr",
+    "minutes": 80,
+    "billable_minutes": 80,
+    "note": "Kompozícia",
+    "invoiced": true
+  },
+  {
+    "id": "te-0035",
+    "working_days_ago": 9,
+    "person_id": "p8",
+    "project_id": "pr-rnd",
+    "minutes": 400,
+    "billable_minutes": 0,
+    "note": "Príprava knižnice assetov",
+    "invoiced": false
+  },
+  {
+    "id": "te-0036",
+    "working_days_ago": 8,
+    "person_id": "p1",
+    "project_id": "pr-lesna",
+    "minutes": 150,
+    "billable_minutes": 150,
+    "note": "Textúry a materiály",
+    "invoiced": true
+  },
+  {
+    "id": "te-0037",
+    "working_days_ago": 8,
+    "person_id": "p1",
+    "project_id": "pr-riverside",
+    "minutes": 180,
+    "billable_minutes": 180,
+    "note": "Responzívny layout",
+    "invoiced": true
+  },
+  {
+    "id": "te-0038",
+    "working_days_ago": 8,
+    "person_id": "p1",
+    "project_id": "pr-rnd",
+    "minutes": 120,
+    "billable_minutes": 0,
+    "note": "Interná porada",
+    "invoiced": false
+  },
+  {
+    "id": "te-0039",
+    "working_days_ago": 8,
+    "person_id": "p3",
+    "project_id": "pr-hradna",
+    "minutes": 240,
+    "billable_minutes": 240,
+    "note": "Rendering obývačky",
+    "invoiced": true
+  },
+  {
+    "id": "te-0040",
+    "working_days_ago": 8,
+    "person_id": "p3",
+    "project_id": "pr-lesna",
+    "minutes": 150,
+    "billable_minutes": 150,
+    "note": "Nastavenie VR scén",
+    "invoiced": true
+  },
+  {
+    "id": "te-0041",
+    "working_days_ago": 8,
+    "person_id": "p3",
+    "project_id": "pr-rnd",
+    "minutes": 60,
+    "billable_minutes": 0,
+    "note": "Príprava knižnice assetov",
+    "invoiced": false
+  },
+  {
+    "id": "te-0042",
+    "working_days_ago": 8,
+    "person_id": "p4",
+    "project_id": "pr-lesna",
+    "minutes": 120,
+    "billable_minutes": 120,
+    "note": "Modelovanie exteriéru",
+    "invoiced": true
+  },
+  {
+    "id": "te-0043",
+    "working_days_ago": 8,
+    "person_id": "p4",
+    "project_id": "pr-rnd",
+    "minutes": 390,
+    "billable_minutes": 0,
+    "note": "Interná porada",
+    "invoiced": false
+  },
+  {
+    "id": "te-0044",
+    "working_days_ago": 8,
+    "person_id": "p5",
+    "project_id": "pr-hradna",
+    "minutes": 150,
+    "billable_minutes": 150,
+    "note": "Postprodukcia vizualizácií",
+    "invoiced": true
+  },
+  {
+    "id": "te-0045",
+    "working_days_ago": 8,
+    "person_id": "p5",
+    "project_id": "pr-rnd",
+    "minutes": 270,
+    "billable_minutes": 0,
+    "note": "Školenie Unreal Engine",
+    "invoiced": false
+  },
+  {
+    "id": "te-0046",
+    "working_days_ago": 8,
+    "person_id": "p6",
+    "project_id": "pr-riverside",
+    "minutes": 483,
+    "billable_minutes": 483,
+    "note": "Frontend, galéria bytov",
+    "invoiced": true
+  },
+  {
+    "id": "te-0047",
+    "working_days_ago": 8,
+    "person_id": "p7",
+    "project_id": "pr-hradna",
+    "minutes": 127,
+    "billable_minutes": 127,
+    "note": "Rendering obývačky",
+    "invoiced": true
+  },
+  {
+    "id": "te-0048",
+    "working_days_ago": 8,
+    "person_id": "p7",
+    "project_id": "pr-lesna",
+    "minutes": 231,
+    "billable_minutes": 231,
+    "note": null,
+    "invoiced": true
+  },
+  {
+    "id": "te-0049",
+    "working_days_ago": 8,
+    "person_id": "p7",
+    "project_id": "pr-rnd",
+    "minutes": 92,
+    "billable_minutes": 0,
+    "note": "Príprava knižnice assetov",
+    "invoiced": false
+  },
+  {
+    "id": "te-0050",
+    "working_days_ago": 8,
+    "person_id": "p8",
+    "project_id": "pr-hr",
+    "minutes": 80,
+    "billable_minutes": 80,
+    "note": "Storyboard",
+    "invoiced": true
+  },
+  {
+    "id": "te-0051",
+    "working_days_ago": 8,
+    "person_id": "p8",
+    "project_id": "pr-rnd",
+    "minutes": 370,
+    "billable_minutes": 0,
+    "note": "Príprava knižnice assetov",
+    "invoiced": false
+  },
+  {
+    "id": "te-0052",
+    "working_days_ago": 7,
+    "person_id": "p1",
+    "project_id": "pr-lesna",
+    "minutes": 480,
+    "billable_minutes": 480,
+    "note": "Textúry a materiály",
+    "invoiced": true
+  },
+  {
+    "id": "te-0053",
+    "working_days_ago": 7,
+    "person_id": "p2",
+    "project_id": "pr-riverside",
+    "minutes": 360,
+    "billable_minutes": 360,
+    "note": "Frontend, galéria bytov",
+    "invoiced": true
+  },
+  {
+    "id": "te-0054",
+    "working_days_ago": 7,
+    "person_id": "p2",
+    "project_id": "pr-rnd",
+    "minutes": 90,
+    "billable_minutes": 0,
+    "note": "Školenie Unreal Engine",
+    "invoiced": false
+  },
+  {
+    "id": "te-0055",
+    "working_days_ago": 7,
+    "person_id": "p3",
+    "project_id": "pr-hradna",
+    "minutes": 240,
+    "billable_minutes": 240,
+    "note": "Rendering obývačky",
+    "invoiced": true
+  },
+  {
+    "id": "te-0056",
+    "working_days_ago": 7,
+    "person_id": "p3",
+    "project_id": "pr-lesna",
+    "minutes": 90,
+    "billable_minutes": 90,
+    "note": "Testovanie prehliadky v headsete",
+    "invoiced": true
+  },
+  {
+    "id": "te-0057",
+    "working_days_ago": 7,
+    "person_id": "p3",
+    "project_id": "pr-rnd",
+    "minutes": 150,
+    "billable_minutes": 0,
+    "note": "Testovanie nového renderera",
+    "invoiced": false
+  },
+  {
+    "id": "te-0058",
+    "working_days_ago": 7,
+    "person_id": "p4",
+    "project_id": "pr-lesna",
+    "minutes": 81,
+    "billable_minutes": 81,
+    "note": "Nastavenie VR scén",
+    "invoiced": true
+  },
+  {
+    "id": "te-0059",
+    "working_days_ago": 7,
+    "person_id": "p4",
+    "project_id": "pr-rnd",
+    "minutes": 399,
+    "billable_minutes": 0,
+    "note": "Interná porada",
+    "invoiced": false
+  },
+  {
+    "id": "te-0060",
+    "working_days_ago": 7,
+    "person_id": "p5",
+    "project_id": "pr-rnd",
+    "minutes": 450,
+    "billable_minutes": 0,
+    "note": "Testovanie nového renderera",
+    "invoiced": false
+  },
+  {
+    "id": "te-0061",
+    "working_days_ago": 7,
+    "person_id": "p6",
+    "project_id": "pr-riverside",
+    "minutes": 303,
+    "billable_minutes": 303,
+    "note": "Frontend, galéria bytov",
+    "invoiced": true
+  },
+  {
+    "id": "te-0062",
+    "working_days_ago": 7,
+    "person_id": "p6",
+    "project_id": "pr-rnd",
+    "minutes": 207,
+    "billable_minutes": 0,
+    "note": "Testovanie nového renderera",
+    "invoiced": false
+  },
+  {
+    "id": "te-0063",
+    "working_days_ago": 7,
+    "person_id": "p7",
+    "project_id": "pr-hradna",
+    "minutes": 277,
+    "billable_minutes": 277,
+    "note": "Úpravy podľa pripomienok klienta",
+    "invoiced": true
+  },
+  {
+    "id": "te-0064",
+    "working_days_ago": 7,
+    "person_id": "p7",
+    "project_id": "pr-rnd",
+    "minutes": 233,
+    "billable_minutes": 0,
+    "note": "Interná porada",
+    "invoiced": false
+  },
+  {
+    "id": "te-0065",
+    "working_days_ago": 7,
+    "person_id": "p8",
+    "project_id": "pr-hr",
+    "minutes": 80,
+    "billable_minutes": 80,
+    "note": "Storyboard",
+    "invoiced": true
+  },
+  {
+    "id": "te-0066",
+    "working_days_ago": 7,
+    "person_id": "p8",
+    "project_id": "pr-rnd",
+    "minutes": 430,
+    "billable_minutes": 0,
+    "note": "Testovanie nového renderera",
+    "invoiced": false
+  },
+  {
+    "id": "te-0067",
+    "working_days_ago": 6,
+    "person_id": "p1",
+    "project_id": "pr-lesna",
+    "minutes": 210,
+    "billable_minutes": 210,
+    "note": "Nastavenie VR scén",
+    "invoiced": true
+  },
+  {
+    "id": "te-0068",
+    "working_days_ago": 6,
+    "person_id": "p1",
+    "project_id": "pr-riverside",
+    "minutes": 243,
+    "billable_minutes": 243,
+    "note": "Responzívny layout",
+    "invoiced": true
+  },
+  {
+    "id": "te-0069",
+    "working_days_ago": 6,
+    "person_id": "p1",
+    "project_id": "pr-rnd",
+    "minutes": 57,
+    "billable_minutes": 0,
+    "note": "Interná porada",
+    "invoiced": false
+  },
+  {
+    "id": "te-0070",
+    "working_days_ago": 6,
+    "person_id": "p3",
+    "project_id": "pr-hradna",
+    "minutes": 157,
+    "billable_minutes": 157,
+    "note": "Rendering obývačky",
+    "invoiced": true
+  },
+  {
+    "id": "te-0071",
+    "working_days_ago": 6,
+    "person_id": "p3",
+    "project_id": "pr-rnd",
+    "minutes": 293,
+    "billable_minutes": 0,
+    "note": "Príprava knižnice assetov",
+    "invoiced": false
+  },
+  {
+    "id": "te-0072",
+    "working_days_ago": 6,
+    "person_id": "p4",
+    "project_id": "pr-lesna",
+    "minutes": 150,
+    "billable_minutes": 150,
+    "note": "Modelovanie exteriéru",
+    "invoiced": true
+  },
+  {
+    "id": "te-0073",
+    "working_days_ago": 6,
+    "person_id": "p4",
+    "project_id": "pr-rnd",
+    "minutes": 330,
+    "billable_minutes": 0,
+    "note": "Školenie Unreal Engine",
+    "invoiced": false
+  },
+  {
+    "id": "te-0074",
+    "working_days_ago": 6,
+    "person_id": "p5",
+    "project_id": "pr-hradna",
+    "minutes": 90,
+    "billable_minutes": 90,
+    "note": "Modelovanie interiéru",
+    "invoiced": true
+  },
+  {
+    "id": "te-0075",
+    "working_days_ago": 6,
+    "person_id": "p5",
+    "project_id": "pr-rnd",
+    "minutes": 390,
+    "billable_minutes": 0,
+    "note": "Školenie Unreal Engine",
+    "invoiced": false
+  },
+  {
+    "id": "te-0076",
+    "working_days_ago": 6,
+    "person_id": "p6",
+    "project_id": "pr-riverside",
+    "minutes": 420,
+    "billable_minutes": 420,
+    "note": "Frontend, galéria bytov",
+    "invoiced": true
+  },
+  {
+    "id": "te-0077",
+    "working_days_ago": 6,
+    "person_id": "p7",
+    "project_id": "pr-lesna",
+    "minutes": 291,
+    "billable_minutes": 291,
+    "note": "Modelovanie exteriéru",
+    "invoiced": true
+  },
+  {
+    "id": "te-0078",
+    "working_days_ago": 6,
+    "person_id": "p7",
+    "project_id": "pr-rnd",
+    "minutes": 219,
+    "billable_minutes": 0,
+    "note": "Školenie Unreal Engine",
+    "invoiced": false
+  },
+  {
+    "id": "te-0079",
+    "working_days_ago": 6,
+    "person_id": "p8",
+    "project_id": "pr-hr",
+    "minutes": 80,
+    "billable_minutes": 80,
+    "note": "Animácia úvodnej scény",
+    "invoiced": true
+  },
+  {
+    "id": "te-0080",
+    "working_days_ago": 6,
+    "person_id": "p8",
+    "project_id": "pr-hradna",
+    "minutes": 270,
+    "billable_minutes": 270,
+    "note": "Postprodukcia vizualizácií",
+    "invoiced": true
+  },
+  {
+    "id": "te-0081",
+    "working_days_ago": 6,
+    "person_id": "p8",
+    "project_id": "pr-rnd",
+    "minutes": 70,
+    "billable_minutes": 0,
+    "note": "Interná porada",
+    "invoiced": false
+  },
+  {
+    "id": "te-0082",
+    "working_days_ago": 5,
+    "person_id": "p1",
+    "project_id": "pr-lesna",
+    "minutes": 300,
+    "billable_minutes": 300,
+    "note": "Modelovanie exteriéru",
+    "invoiced": false
+  },
+  {
+    "id": "te-0083",
+    "working_days_ago": 5,
+    "person_id": "p1",
+    "project_id": "pr-rnd",
+    "minutes": 180,
+    "billable_minutes": 0,
+    "note": "Príprava knižnice assetov",
+    "invoiced": false
+  },
+  {
+    "id": "te-0084",
+    "working_days_ago": 5,
+    "person_id": "p2",
+    "project_id": "pr-riverside",
+    "minutes": 333,
+    "billable_minutes": 333,
+    "note": "Responzívny layout",
+    "invoiced": false
+  },
+  {
+    "id": "te-0085",
+    "working_days_ago": 5,
+    "person_id": "p2",
+    "project_id": "pr-rnd",
+    "minutes": 117,
+    "billable_minutes": 0,
+    "note": "Interná porada",
+    "invoiced": false
+  },
+  {
+    "id": "te-0086",
+    "working_days_ago": 5,
+    "person_id": "p3",
+    "project_id": "pr-hradna",
+    "minutes": 247,
+    "billable_minutes": 247,
+    "note": "Postprodukcia vizualizácií",
+    "invoiced": false
+  },
+  {
+    "id": "te-0087",
+    "working_days_ago": 5,
+    "person_id": "p3",
+    "project_id": "pr-lesna",
+    "minutes": 150,
+    "billable_minutes": 150,
+    "note": "Testovanie prehliadky v headsete",
+    "invoiced": false
+  },
+  {
+    "id": "te-0088",
+    "working_days_ago": 5,
+    "person_id": "p3",
+    "project_id": "pr-rnd",
+    "minutes": 53,
+    "billable_minutes": 0,
+    "note": "Testovanie nového renderera",
+    "invoiced": false
+  },
+  {
+    "id": "te-0089",
+    "working_days_ago": 5,
+    "person_id": "p4",
+    "project_id": "pr-lesna",
+    "minutes": 60,
+    "billable_minutes": 60,
+    "note": "Textúry a materiály",
+    "invoiced": false
+  },
+  {
+    "id": "te-0090",
+    "working_days_ago": 5,
+    "person_id": "p4",
+    "project_id": "pr-rnd",
+    "minutes": 420,
+    "billable_minutes": 0,
+    "note": "Testovanie nového renderera",
+    "invoiced": false
+  },
+  {
+    "id": "te-0091",
+    "working_days_ago": 5,
+    "person_id": "p5",
+    "project_id": "pr-rnd",
+    "minutes": 510,
+    "billable_minutes": 0,
+    "note": "Interná porada",
+    "invoiced": false
+  },
+  {
+    "id": "te-0092",
+    "working_days_ago": 5,
+    "person_id": "p6",
+    "project_id": "pr-riverside",
+    "minutes": 330,
+    "billable_minutes": 330,
+    "note": "Frontend, galéria bytov",
+    "invoiced": false
+  },
+  {
+    "id": "te-0093",
+    "working_days_ago": 5,
+    "person_id": "p6",
+    "project_id": "pr-rnd",
+    "minutes": 180,
+    "billable_minutes": 0,
+    "note": "Testovanie nového renderera",
+    "invoiced": false
+  },
+  {
+    "id": "te-0094",
+    "working_days_ago": 5,
+    "person_id": "p7",
+    "project_id": "pr-hradna",
+    "minutes": 150,
+    "billable_minutes": 150,
+    "note": "Postprodukcia vizualizácií",
+    "invoiced": false
+  },
+  {
+    "id": "te-0095",
+    "working_days_ago": 5,
+    "person_id": "p7",
+    "project_id": "pr-lesna",
+    "minutes": 141,
+    "billable_minutes": 141,
+    "note": "Testovanie prehliadky v headsete",
+    "invoiced": false
+  },
+  {
+    "id": "te-0096",
+    "working_days_ago": 5,
+    "person_id": "p7",
+    "project_id": "pr-rnd",
+    "minutes": 189,
+    "billable_minutes": 0,
+    "note": "Školenie Unreal Engine",
+    "invoiced": false
+  },
+  {
+    "id": "te-0097",
+    "working_days_ago": 5,
+    "person_id": "p8",
+    "project_id": "pr-hr",
+    "minutes": 80,
+    "billable_minutes": 80,
+    "note": "Animácia úvodnej scény",
+    "invoiced": false
+  },
+  {
+    "id": "te-0098",
+    "working_days_ago": 5,
+    "person_id": "p8",
+    "project_id": "pr-hradna",
+    "minutes": 120,
+    "billable_minutes": 120,
+    "note": null,
+    "invoiced": false
+  },
+  {
+    "id": "te-0099",
+    "working_days_ago": 5,
+    "person_id": "p8",
+    "project_id": "pr-rnd",
+    "minutes": 220,
+    "billable_minutes": 0,
+    "note": "Školenie Unreal Engine",
+    "invoiced": false
+  },
+  {
+    "id": "te-0100",
+    "working_days_ago": 4,
+    "person_id": "p1",
+    "project_id": "pr-riverside",
+    "minutes": 210,
+    "billable_minutes": 210,
+    "note": "Frontend, galéria bytov",
+    "invoiced": false
+  },
+  {
+    "id": "te-0101",
+    "working_days_ago": 4,
+    "person_id": "p1",
+    "project_id": "pr-rnd",
+    "minutes": 270,
+    "billable_minutes": 0,
+    "note": "Príprava knižnice assetov",
+    "invoiced": false
+  },
+  {
+    "id": "te-0102",
+    "working_days_ago": 4,
+    "person_id": "p2",
+    "project_id": "pr-riverside",
+    "minutes": 214,
+    "billable_minutes": 214,
+    "note": "Opravy po review",
+    "invoiced": false
+  },
+  {
+    "id": "te-0103",
+    "working_days_ago": 4,
+    "person_id": "p2",
+    "project_id": "pr-rnd",
+    "minutes": 266,
+    "billable_minutes": 0,
+    "note": "Školenie Unreal Engine",
+    "invoiced": false
+  },
+  {
+    "id": "te-0104",
+    "working_days_ago": 4,
+    "person_id": "p3",
+    "project_id": "pr-lesna",
+    "minutes": 210,
+    "billable_minutes": 210,
+    "note": "Textúry a materiály",
+    "invoiced": false
+  },
+  {
+    "id": "te-0105",
+    "working_days_ago": 4,
+    "person_id": "p3",
+    "project_id": "pr-rnd",
+    "minutes": 240,
+    "billable_minutes": 0,
+    "note": "Interná porada",
+    "invoiced": false
+  },
+  {
+    "id": "te-0106",
+    "working_days_ago": 4,
+    "person_id": "p4",
+    "project_id": "pr-lesna",
+    "minutes": 240,
+    "billable_minutes": 240,
+    "note": "Testovanie prehliadky v headsete",
+    "invoiced": false
+  },
+  {
+    "id": "te-0107",
+    "working_days_ago": 4,
+    "person_id": "p4",
+    "project_id": "pr-rnd",
+    "minutes": 180,
+    "billable_minutes": 0,
+    "note": "Školenie Unreal Engine",
+    "invoiced": false
+  },
+  {
+    "id": "te-0108",
+    "working_days_ago": 4,
+    "person_id": "p5",
+    "project_id": "pr-hr",
+    "minutes": 80,
+    "billable_minutes": 80,
+    "note": "Kompozícia",
+    "invoiced": false
+  },
+  {
+    "id": "te-0109",
+    "working_days_ago": 4,
+    "person_id": "p5",
+    "project_id": "pr-hradna",
+    "minutes": 120,
+    "billable_minutes": 120,
+    "note": "Postprodukcia vizualizácií",
+    "invoiced": false
+  },
+  {
+    "id": "te-0110",
+    "working_days_ago": 4,
+    "person_id": "p5",
+    "project_id": "pr-rnd",
+    "minutes": 310,
+    "billable_minutes": 0,
+    "note": "Testovanie nového renderera",
+    "invoiced": false
+  },
+  {
+    "id": "te-0111",
+    "working_days_ago": 4,
+    "person_id": "p6",
+    "project_id": "pr-riverside",
+    "minutes": 240,
+    "billable_minutes": 240,
+    "note": "Responzívny layout",
+    "invoiced": false
+  },
+  {
+    "id": "te-0112",
+    "working_days_ago": 4,
+    "person_id": "p6",
+    "project_id": "pr-rnd",
+    "minutes": 180,
+    "billable_minutes": 0,
+    "note": "Testovanie nového renderera",
+    "invoiced": false
+  },
+  {
+    "id": "te-0113",
+    "working_days_ago": 4,
+    "person_id": "p7",
+    "project_id": "pr-hradna",
+    "minutes": 218,
+    "billable_minutes": 218,
+    "note": "Modelovanie interiéru",
+    "invoiced": false
+  },
+  {
+    "id": "te-0114",
+    "working_days_ago": 4,
+    "person_id": "p7",
+    "project_id": "pr-lesna",
+    "minutes": 202,
+    "billable_minutes": 202,
+    "note": "Textúry a materiály",
+    "invoiced": false
+  },
+  {
+    "id": "te-0115",
+    "working_days_ago": 4,
+    "person_id": "p8",
+    "project_id": "pr-hradna",
+    "minutes": 180,
+    "billable_minutes": 180,
+    "note": "Postprodukcia vizualizácií",
+    "invoiced": false
+  },
+  {
+    "id": "te-0116",
+    "working_days_ago": 4,
+    "person_id": "p8",
+    "project_id": "pr-rnd",
+    "minutes": 240,
+    "billable_minutes": 0,
+    "note": "Interná porada",
+    "invoiced": false
+  },
+  {
+    "id": "te-0117",
+    "working_days_ago": 3,
+    "person_id": "p1",
+    "project_id": "pr-lesna",
+    "minutes": 202,
+    "billable_minutes": 202,
+    "note": "Modelovanie exteriéru",
+    "invoiced": false
+  },
+  {
+    "id": "te-0118",
+    "working_days_ago": 3,
+    "person_id": "p1",
+    "project_id": "pr-riverside",
+    "minutes": 308,
+    "billable_minutes": 308,
+    "note": "Opravy po review",
+    "invoiced": false
+  },
+  {
+    "id": "te-0119",
+    "working_days_ago": 3,
+    "person_id": "p2",
+    "project_id": "pr-riverside",
+    "minutes": 356,
+    "billable_minutes": 356,
+    "note": "Responzívny layout",
+    "invoiced": false
+  },
+  {
+    "id": "te-0120",
+    "working_days_ago": 3,
+    "person_id": "p2",
+    "project_id": "pr-rnd",
+    "minutes": 154,
+    "billable_minutes": 0,
+    "note": "Školenie Unreal Engine",
+    "invoiced": false
+  },
+  {
+    "id": "te-0121",
+    "working_days_ago": 3,
+    "person_id": "p3",
+    "project_id": "pr-hradna",
+    "minutes": 60,
+    "billable_minutes": 60,
+    "note": "Modelovanie interiéru",
+    "invoiced": false
+  },
+  {
+    "id": "te-0122",
+    "working_days_ago": 3,
+    "person_id": "p3",
+    "project_id": "pr-lesna",
+    "minutes": 330,
+    "billable_minutes": 330,
+    "note": "Textúry a materiály",
+    "invoiced": false
+  },
+  {
+    "id": "te-0123",
+    "working_days_ago": 3,
+    "person_id": "p3",
+    "project_id": "pr-rnd",
+    "minutes": 120,
+    "billable_minutes": 0,
+    "note": "Príprava knižnice assetov",
+    "invoiced": false
+  },
+  {
+    "id": "te-0124",
+    "working_days_ago": 3,
+    "person_id": "p4",
+    "project_id": "pr-rnd",
+    "minutes": 420,
+    "billable_minutes": 0,
+    "note": "Školenie Unreal Engine",
+    "invoiced": false
+  },
+  {
+    "id": "te-0125",
+    "working_days_ago": 3,
+    "person_id": "p5",
+    "project_id": "pr-hr",
+    "minutes": 80,
+    "billable_minutes": 80,
+    "note": "Animácia úvodnej scény",
+    "invoiced": false
+  },
+  {
+    "id": "te-0126",
+    "working_days_ago": 3,
+    "person_id": "p5",
+    "project_id": "pr-hradna",
+    "minutes": 120,
+    "billable_minutes": 120,
+    "note": "Postprodukcia vizualizácií",
+    "invoiced": false
+  },
+  {
+    "id": "te-0127",
+    "working_days_ago": 3,
+    "person_id": "p5",
+    "project_id": "pr-rnd",
+    "minutes": 250,
+    "billable_minutes": 0,
+    "note": "Školenie Unreal Engine",
+    "invoiced": false
+  },
+  {
+    "id": "te-0128",
+    "working_days_ago": 3,
+    "person_id": "p7",
+    "project_id": "pr-hradna",
+    "minutes": 98,
+    "billable_minutes": 98,
+    "note": "Úpravy podľa pripomienok klienta",
+    "invoiced": false
+  },
+  {
+    "id": "te-0129",
+    "working_days_ago": 3,
+    "person_id": "p7",
+    "project_id": "pr-lesna",
+    "minutes": 120,
+    "billable_minutes": 120,
+    "note": "Testovanie prehliadky v headsete",
+    "invoiced": false
+  },
+  {
+    "id": "te-0130",
+    "working_days_ago": 3,
+    "person_id": "p7",
+    "project_id": "pr-rnd",
+    "minutes": 292,
+    "billable_minutes": 0,
+    "note": null,
+    "invoiced": false
+  },
+  {
+    "id": "te-0131",
+    "working_days_ago": 3,
+    "person_id": "p8",
+    "project_id": "pr-hradna",
+    "minutes": 240,
+    "billable_minutes": 240,
+    "note": "Modelovanie interiéru",
+    "invoiced": false
+  },
+  {
+    "id": "te-0132",
+    "working_days_ago": 3,
+    "person_id": "p8",
+    "project_id": "pr-rnd",
+    "minutes": 240,
+    "billable_minutes": 0,
+    "note": "Interná porada",
+    "invoiced": false
+  },
+  {
+    "id": "te-0133",
+    "working_days_ago": 2,
+    "person_id": "p1",
+    "project_id": "pr-lesna",
+    "minutes": 180,
+    "billable_minutes": 180,
+    "note": "Testovanie prehliadky v headsete",
+    "invoiced": false
+  },
+  {
+    "id": "te-0134",
+    "working_days_ago": 2,
+    "person_id": "p1",
+    "project_id": "pr-riverside",
+    "minutes": 300,
+    "billable_minutes": 300,
+    "note": "Opravy po review",
+    "invoiced": false
+  },
+  {
+    "id": "te-0135",
+    "working_days_ago": 2,
+    "person_id": "p2",
+    "project_id": "pr-riverside",
+    "minutes": 94,
+    "billable_minutes": 94,
+    "note": "Responzívny layout",
+    "invoiced": false
+  },
+  {
+    "id": "te-0136",
+    "working_days_ago": 2,
+    "person_id": "p2",
+    "project_id": "pr-rnd",
+    "minutes": 416,
+    "billable_minutes": 0,
+    "note": "Interná porada",
+    "invoiced": false
+  },
+  {
+    "id": "te-0137",
+    "working_days_ago": 2,
+    "person_id": "p3",
+    "project_id": "pr-hradna",
+    "minutes": 180,
+    "billable_minutes": 180,
+    "note": "Úpravy podľa pripomienok klienta",
+    "invoiced": false
+  },
+  {
+    "id": "te-0138",
+    "working_days_ago": 2,
+    "person_id": "p3",
+    "project_id": "pr-rnd",
+    "minutes": 270,
+    "billable_minutes": 0,
+    "note": "Školenie Unreal Engine",
+    "invoiced": false
+  },
+  {
+    "id": "te-0139",
+    "working_days_ago": 2,
+    "person_id": "p4",
+    "project_id": "pr-lesna",
+    "minutes": 270,
+    "billable_minutes": 270,
+    "note": "Testovanie prehliadky v headsete",
+    "invoiced": false
+  },
+  {
+    "id": "te-0140",
+    "working_days_ago": 2,
+    "person_id": "p4",
+    "project_id": "pr-rnd",
+    "minutes": 240,
+    "billable_minutes": 0,
+    "note": "Interná porada",
+    "invoiced": false
+  },
+  {
+    "id": "te-0141",
+    "working_days_ago": 2,
+    "person_id": "p5",
+    "project_id": "pr-hradna",
+    "minutes": 120,
+    "billable_minutes": 120,
+    "note": null,
+    "invoiced": false
+  },
+  {
+    "id": "te-0142",
+    "working_days_ago": 2,
+    "person_id": "p5",
+    "project_id": "pr-rnd",
+    "minutes": 390,
+    "billable_minutes": 0,
+    "note": "Príprava knižnice assetov",
+    "invoiced": false
+  },
+  {
+    "id": "te-0143",
+    "working_days_ago": 2,
+    "person_id": "p6",
+    "project_id": "pr-riverside",
+    "minutes": 270,
+    "billable_minutes": 270,
+    "note": "Frontend, galéria bytov",
+    "invoiced": false
+  },
+  {
+    "id": "te-0144",
+    "working_days_ago": 2,
+    "person_id": "p6",
+    "project_id": "pr-rnd",
+    "minutes": 210,
+    "billable_minutes": 0,
+    "note": "Testovanie nového renderera",
+    "invoiced": false
+  },
+  {
+    "id": "te-0145",
+    "working_days_ago": 2,
+    "person_id": "p7",
+    "project_id": "pr-hradna",
+    "minutes": 180,
+    "billable_minutes": 180,
+    "note": "Modelovanie interiéru",
+    "invoiced": false
+  },
+  {
+    "id": "te-0146",
+    "working_days_ago": 2,
+    "person_id": "p7",
+    "project_id": "pr-lesna",
+    "minutes": 202,
+    "billable_minutes": 202,
+    "note": "Modelovanie exteriéru",
+    "invoiced": false
+  },
+  {
+    "id": "te-0147",
+    "working_days_ago": 2,
+    "person_id": "p7",
+    "project_id": "pr-rnd",
+    "minutes": 98,
+    "billable_minutes": 0,
+    "note": "Testovanie nového renderera",
+    "invoiced": false
+  },
+  {
+    "id": "te-0148",
+    "working_days_ago": 2,
+    "person_id": "p8",
+    "project_id": "pr-hr",
+    "minutes": 80,
+    "billable_minutes": 80,
+    "note": "Storyboard",
+    "invoiced": false
+  },
+  {
+    "id": "te-0149",
+    "working_days_ago": 2,
+    "person_id": "p8",
+    "project_id": "pr-hradna",
+    "minutes": 38,
+    "billable_minutes": 38,
+    "note": "Úpravy podľa pripomienok klienta",
+    "invoiced": false
+  },
+  {
+    "id": "te-0150",
+    "working_days_ago": 2,
+    "person_id": "p8",
+    "project_id": "pr-rnd",
+    "minutes": 332,
+    "billable_minutes": 0,
+    "note": null,
+    "invoiced": false
+  },
+  {
+    "id": "te-0151",
+    "working_days_ago": 1,
+    "person_id": "p2",
+    "project_id": "pr-riverside",
+    "minutes": 210,
+    "billable_minutes": 210,
+    "note": "Responzívny layout",
+    "invoiced": false
+  },
+  {
+    "id": "te-0152",
+    "working_days_ago": 1,
+    "person_id": "p3",
+    "project_id": "pr-hradna",
+    "minutes": 180,
+    "billable_minutes": 180,
+    "note": null,
+    "invoiced": false
+  },
+  {
+    "id": "te-0153",
+    "working_days_ago": 1,
+    "person_id": "p3",
+    "project_id": "pr-hradna",
+    "minutes": 150,
+    "billable_minutes": 150,
+    "note": null,
+    "invoiced": false
+  },
+  {
+    "id": "te-0154",
+    "working_days_ago": 1,
+    "person_id": "p3",
+    "project_id": "pr-lesna",
+    "minutes": 150,
+    "billable_minutes": 150,
+    "note": null,
+    "invoiced": false
+  },
+  {
+    "id": "te-0155",
+    "working_days_ago": 1,
+    "person_id": "p4",
+    "project_id": "pr-lesna",
+    "minutes": 300,
+    "billable_minutes": 300,
+    "note": "Nastavenie VR scén",
+    "invoiced": false
+  },
+  {
+    "id": "te-0156",
+    "working_days_ago": 1,
+    "person_id": "p4",
+    "project_id": "pr-rnd",
+    "minutes": 150,
+    "billable_minutes": 0,
+    "note": "Interná porada",
+    "invoiced": false
+  },
+  {
+    "id": "te-0157",
+    "working_days_ago": 1,
+    "person_id": "p5",
+    "project_id": "pr-hr",
+    "minutes": 240,
+    "billable_minutes": 240,
+    "note": "Animácia úvodnej scény",
+    "invoiced": false
+  },
+  {
+    "id": "te-0158",
+    "working_days_ago": 1,
+    "person_id": "p5",
+    "project_id": "pr-hradna",
+    "minutes": 240,
+    "billable_minutes": 240,
+    "note": "Rendering obývačky",
+    "invoiced": false
+  },
+  {
+    "id": "te-0159",
+    "working_days_ago": 1,
+    "person_id": "p6",
+    "project_id": "pr-riverside",
+    "minutes": 300,
+    "billable_minutes": 300,
+    "note": "Napojenie na CMS",
+    "invoiced": false
+  },
+  {
+    "id": "te-0160",
+    "working_days_ago": 1,
+    "person_id": "p6",
+    "project_id": "pr-rnd",
+    "minutes": 120,
+    "billable_minutes": 0,
+    "note": "Interná porada",
+    "invoiced": false
+  },
+  {
+    "id": "te-0161",
+    "working_days_ago": 1,
+    "person_id": "p7",
+    "project_id": "pr-hradna",
+    "minutes": 150,
+    "billable_minutes": 150,
+    "note": "Postprodukcia vizualizácií",
+    "invoiced": false
+  },
+  {
+    "id": "te-0162",
+    "working_days_ago": 1,
+    "person_id": "p7",
+    "project_id": "pr-lesna",
+    "minutes": 240,
+    "billable_minutes": 240,
+    "note": "Textúry a materiály",
+    "invoiced": false
+  },
+  {
+    "id": "te-0163",
+    "working_days_ago": 1,
+    "person_id": "p8",
+    "project_id": "pr-hr",
+    "minutes": 120,
+    "billable_minutes": 120,
+    "note": "Kompozícia",
+    "invoiced": false
+  },
+  {
+    "id": "te-0164",
+    "working_days_ago": 1,
+    "person_id": "p8",
+    "project_id": "pr-rnd",
+    "minutes": 240,
+    "billable_minutes": 0,
+    "note": "Testovanie nového renderera",
+    "invoiced": false
+  }
+]
