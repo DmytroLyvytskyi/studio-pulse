@@ -14,6 +14,7 @@ dependencies = [
 ]
 
 [project.scripts]
+studio-pulse = "studio_pulse.report:main"
 studio-pulse-mcp = "studio_pulse.mcp_server:main"
 
 [build-system]
