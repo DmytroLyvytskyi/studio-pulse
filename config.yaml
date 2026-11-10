@@ -1,0 +1,5 @@
+# Studio Pulse thresholds. Secrets go to .env, never here.
+min_hours_per_day: 6
+budget_warning_percent: 80
+low_billable_percent: 70
+timezone: Europe/Bratislava
