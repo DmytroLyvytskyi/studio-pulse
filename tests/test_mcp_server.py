@@ -183,10 +183,10 @@ def test_project_budget_status_one_project(caplog: pytest.LogCaptureFixture) -> 
         "Lesná Brána, VR prehliadka",
         "warning",
         91.0,
-        10.8,
+        16.2,
     )
     [hradna] = project_budget_status("HRADNA")
-    assert (hradna.status, hradna.used_percent, hradna.remaining_hours) == ("over", 112.0, -9.6)
+    assert (hradna.status, hradna.used_percent, hradna.remaining_hours) == ("over", 112.0, -15.6)
 
 
 # hours_summary

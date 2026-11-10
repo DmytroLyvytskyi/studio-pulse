@@ -315,8 +315,8 @@ def test_mock_report_budget_alerts(mock_report: ReportData) -> None:
         (a.project, a.status, a.used_percent, a.remaining_hours) for a in mock_report.budget_alerts
     ]
     assert alerts == [
-        ("Rezidencia Hradná, vizualizácie", "over", 112.0, -9.6),
-        ("Lesná Brána, VR prehliadka", "warning", 91.0, 10.8),
+        ("Rezidencia Hradná, vizualizácie", "over", 112.0, -15.6),
+        ("Lesná Brána, VR prehliadka", "warning", 91.0, 16.2),
     ]
 
 

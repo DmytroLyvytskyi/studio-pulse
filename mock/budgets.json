@@ -1,19 +1,19 @@
 [
   {
     "project_id": "pr-lesna",
-    "budget_minutes": 7200
+    "budget_minutes": 10800
   },
   {
     "project_id": "pr-hradna",
-    "budget_minutes": 4800
+    "budget_minutes": 7800
   },
   {
     "project_id": "pr-riverside",
-    "budget_minutes": 12000
+    "budget_minutes": 18000
   },
   {
     "project_id": "pr-hr",
-    "budget_minutes": 3600
+    "budget_minutes": 7200
   },
   {
     "project_id": "pr-rnd",

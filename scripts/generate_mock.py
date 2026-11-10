@@ -38,19 +38,21 @@ PEOPLE = [
 
 INTERNAL = "pr-rnd"
 PROJECTS = [
-    ("pr-lesna", "Lesná Brána, VR prehliadka", "Lesná Brána Development", "VR", 120),
-    ("pr-hradna", "Rezidencia Hradná, vizualizácie", "Hradná Invest", "3D", 80),
-    ("pr-riverside", "Riverside Lofts, web", "Riverside Lofts", "WEB", 200),
-    ("pr-hr", "HR kampaň, video", "Nordica HR", "CGI", 60),
+    ("pr-lesna", "Lesná Brána, VR prehliadka", "Lesná Brána Development", "VR", 180),
+    ("pr-hradna", "Rezidencia Hradná, vizualizácie", "Hradná Invest", "3D", 130),
+    ("pr-riverside", "Riverside Lofts, web", "Riverside Lofts", "WEB", 300),
+    ("pr-hr", "HR kampaň, video", "Nordica HR", "CGI", 120),
     (INTERNAL, "Interné R&D", "Studio", "INTERNAL", None),
 ]
 
 # Total minutes logged per client project over all mock days (budget scenarios).
+# Budgets are sized so that client work fills most of the team's days and the remaining
+# capacity, logged as internal R&D, is about 15 % of all hours.
 TARGET_MINUTES = {
-    "pr-lesna": 6552,  # 109.2 h of 120 h = 91 %, warning (10.8 h left)
-    "pr-hradna": 5376,  # 89.6 h of 80 h = 112 %, over (by 9.6 h)
-    "pr-riverside": 6480,  # 108 h of 200 h = 54 %, ok
-    "pr-hr": 1080,  # 18 h of 60 h = 30 %, ok
+    "pr-lesna": 9828,  # 163.8 h of 180 h = 91 %, warning (16.2 h left)
+    "pr-hradna": 8736,  # 145.6 h of 130 h = 112 %, over (by 15.6 h)
+    "pr-riverside": 9720,  # 162 h of 300 h = 54 %, ok
+    "pr-hr": 2160,  # 36 h of 120 h = 30 %, ok
 }
 
 TEAMS = {
@@ -117,23 +119,34 @@ def _email(name: str) -> str:
     return ascii_name.lower().replace(" ", ".") + "@studio-pulse.example"
 
 
-def _older_day_rows(rng: random.Random, days_ago: int, quotas: dict[str, int]) -> list[Row]:
-    """Spread each project's quota for one day over its team, fill the rest with internal work."""
+def _older_day_rows(
+    rng: random.Random, days_ago: int, quotas: dict[str, int]
+) -> tuple[list[Row], dict[str, int]]:
+    """Spread each project's quota for one day over its team, fill the rest with internal work.
+
+    Returns the rows and the minutes per project the team had no capacity for that day.
+    """
     capacity = {
         person_id: 0 if rng.random() < DAY_OFF_PROBABILITY else rng.choice(DAILY_CAPACITY_MINUTES)
         for person_id, _ in PEOPLE
     }
     allocated: dict[tuple[str, str], int] = defaultdict(int)
-    for project_id, quota in quotas.items():
-        while quota > 0:
-            available = [p for p in TEAMS[project_id] if capacity[p] > 0]
-            if not available:
-                raise RuntimeError(f"Team of {project_id} has no capacity left on day {days_ago}")
-            person_id = rng.choice(available)
-            chunk = min(rng.choice(CHUNK_MINUTES), quota, capacity[person_id])
-            allocated[person_id, project_id] += chunk
-            capacity[person_id] -= chunk
-            quota -= chunk
+    left = {project_id: quota for project_id, quota in quotas.items() if quota > 0}
+    unallocated: dict[str, int] = {}
+    while left:
+        project_id = max(left, key=lambda pid: _pressure(left[pid], TEAMS[pid], capacity))
+        available = [p for p in TEAMS[project_id] if capacity[p] > 0]
+        if not available:
+            unallocated[project_id] = left.pop(project_id)
+            continue
+        rng.shuffle(available)  # random tie-break
+        person_id = max(available, key=capacity.__getitem__)  # spread load evenly
+        chunk = min(rng.choice(CHUNK_MINUTES), left[project_id], capacity[person_id])
+        allocated[person_id, project_id] += chunk
+        capacity[person_id] -= chunk
+        left[project_id] -= chunk
+        if not left[project_id]:
+            del left[project_id]
 
     rows: list[Row] = []
     for person_id, _ in PEOPLE:
@@ -143,7 +156,13 @@ def _older_day_rows(rng: random.Random, days_ago: int, quotas: dict[str, int]) -
                 rows.append((days_ago, person_id, project_id, minutes, _note(rng, project_id)))
         if capacity[person_id] >= 30:
             rows.append((days_ago, person_id, INTERNAL, capacity[person_id], _note(rng, INTERNAL)))
-    return rows
+    return rows, unallocated
+
+
+def _pressure(quota: int, team: list[str], capacity: dict[str, int]) -> float:
+    """Share of the team's free capacity a quota still needs; the highest is served first."""
+    free = sum(capacity[person_id] for person_id in team)
+    return quota / free if free else float("inf")
 
 
 def _note(rng: random.Random, project_id: str) -> str | None:
@@ -167,7 +186,12 @@ def _time_entry_rows(rng: random.Random) -> list[Row]:
             quotas = dict(remaining)
         for project_id, quota in quotas.items():
             remaining[project_id] -= quota
-        rows.extend(_older_day_rows(rng, days_ago, quotas))
+        day_rows, unallocated = _older_day_rows(rng, days_ago, quotas)
+        if unallocated and days_left == 1:
+            raise RuntimeError(f"No capacity left for {unallocated} on day {days_ago}")
+        for project_id, minutes in unallocated.items():
+            remaining[project_id] += minutes  # carried over to the following days
+        rows.extend(day_rows)
     return sorted(rows, key=lambda row: (-row[0], row[1], row[2]))
 
 

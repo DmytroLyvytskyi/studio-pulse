@@ -113,6 +113,21 @@ def test_monday_and_weekend_map_previous_day_to_friday(today: date) -> None:
     assert sum(minutes_by_person(source, friday).values()) == 2790
 
 
+def test_internal_work_is_about_15_percent_of_all_hours(source: MockSource) -> None:
+    entries = source.time_entries(*ALL_TIME)
+    internal = sum(e.minutes for e in entries if e.project_id == "pr-rnd")
+    assert 0.13 <= internal / sum(e.minutes for e in entries) <= 0.17
+
+
+def test_older_days_are_fully_logged(source: MockSource) -> None:
+    last = previous_working_day(TUESDAY)
+    minutes: Counter[tuple[str, date]] = Counter()
+    for entry in source.time_entries(*ALL_TIME):
+        if entry.date != last:
+            minutes[entry.person_id, entry.date] += entry.minutes
+    assert min(minutes.values()) >= 6 * 60  # internal work fills the day, nobody is under-logged
+
+
 def test_billable_and_invoiced_flags(source: MockSource) -> None:
     entries = source.time_entries(*ALL_TIME)
     internal = [e for e in entries if e.project_id == "pr-rnd"]
