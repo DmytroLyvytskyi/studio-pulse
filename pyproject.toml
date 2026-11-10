@@ -22,7 +22,13 @@ line-length = 100
 target-version = "py312"
 
 [tool.ruff.lint]
-select = ["E", "F", "W", "I", "N", "UP", "B", "SIM", "RUF"]
+select = ["E", "F", "W", "I", "N", "UP", "B", "SIM", "RUF", "T20"]
+
+[tool.ruff.lint.per-file-ignores]
+# print is allowed only in user-facing output code (see CLAUDE.md)
+"src/studio_pulse/report.py" = ["T20"]
+"src/studio_pulse/delivery/console.py" = ["T20"]
+"scripts/**" = ["T20"]
 
 [tool.ruff.format]
 exclude = ["*.md"]
