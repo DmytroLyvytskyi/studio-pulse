@@ -140,7 +140,7 @@ Requires a **paid Microsoft 365 / Teams plan** and a **standard** (not private) 
 3. Copy the URL the wizard shows.
 4. Set `TEAMS_WEBHOOK_URL=<url>` and test with `uv run studio-pulse report --channel teams`.
 
-To check the card without sending it, run `uv run studio-pulse report --dry-run --show-payload` and paste the card's `content` object into the [Adaptive Cards Designer](https://adaptivecards.io/designer/).
+To check the card without sending it, run `uv run studio-pulse report --dry-run --show-payload` and paste the card's `content` object into the [Adaptive Cards Designer](https://adaptivecards.microsoft.com/designer).
 
 ### GitHub Actions
 
