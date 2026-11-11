@@ -6,7 +6,7 @@ Guidance for coding agents working in this repository. This file is self-suffici
 
 **Studio Pulse** reads time tracking and budget data from Productive (productive.io) for a creative agency and provides:
 
-1. an **MCP server** (FastMCP, stdio, entry point `studio-pulse-mcp`) so project managers can ask Claude questions such as "Who didn't log their time yesterday?";
+1. an **MCP server** (`MCPServer`, stdio, entry point `studio-pulse-mcp`) so project managers can ask Claude questions such as "Who didn't log their time yesterday?";
 2. a **daily report** CLI (`studio-pulse report`, Typer) posted every working morning to Microsoft Teams (Workflows webhook) and/or Discord.
 
 The project's own code never calls an LLM. Claude is only a client of the MCP server.
@@ -41,7 +41,7 @@ Run all three checks (`pytest`, `ruff check`, `ruff format --check`) before decl
 | HTTP | httpx | timeouts, retry on 429 |
 | Models and settings | Pydantic v2, pydantic-settings[yaml] | `.env` for secrets, `config.yaml` for thresholds |
 | Time zones | zoneinfo + tzdata | tzdata needed on Windows |
-| MCP | official Python SDK `mcp` (FastMCP), v2.x | stdio transport; check the current API in its docs, do not rely on older examples |
+| MCP | official Python SDK `mcp` (`MCPServer`), v2.x | stdio transport; check the current API in its docs, do not rely on older examples |
 | CLI | Typer | |
 | Tests | pytest, respx | |
 | Lint and format | ruff | Markdown excluded from formatting |
@@ -71,11 +71,15 @@ studio-pulse/
 │   │   ├── teams.py         # build_adaptive_card(report) -> dict
 │   │   └── discord.py
 │   ├── report.py            # CLI
-│   └── mcp_server.py        # FastMCP server
+│   └── mcp_server.py        # MCP server (MCPServer)
 ├── mock/                    # generated JSON, fixed seed
-├── scripts/generate_mock.py
-├── skills/studio-pulse-pm/SKILL.md
+├── scripts/
+│   ├── generate_mock.py
+│   ├── explore_productive.py       # answers open API questions against a real account
+│   └── save_productive_fixtures.py # saves raw API responses as test fixtures
+├── skills/studio-pulse-pm/SKILL.md  # planned
 ├── tests/
+│   └── fixtures/productive/        # raw JSON:API responses, emails redacted
 ├── .github/workflows/       # ci.yml, daily-report.yml
 ├── config.yaml
 ├── .env.example
@@ -101,6 +105,12 @@ Not every file exists yet; the project is built milestone by milestone.
 
 - **Never invent Productive API fields or filters.** Verify them in the official docs (https://developer.productive.io). If the docs are unclear, write a minimal exploratory script and ask the user to run it against a real account.
 - JSON:API format, pagination via `page[number]` / `page[size]`, rate limit 100 requests per 10 s (`429` → retry with backoff).
+- Verified on a trial account (the docs say otherwise or are silent):
+  - `time`, `billable_time` and `budgeted_time` are **minutes**, although the docs call the last two hours.
+  - Relationship linkage is returned only for relationships listed in `include`.
+  - Time entry notes are HTML (or null).
+  - "Save as draft" in the UI does not mark entries as drafts in the API (`draft: false, submitted: false`); unsubmitted and draft entries both count as logged time.
+  - A budget is a deal with `budget: true`; its limit is the sum of its services' `budgeted_time`.
 
 ## Testing
 
