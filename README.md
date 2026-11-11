@@ -4,6 +4,8 @@
 
 Time tracking and budget insights from [Productive](https://productive.io) for the project managers of a creative agency (3D visualizations, VR tours, web, CGI).
 
+Works with a real Productive account (verified on a trial account with test data) and with built-in mock data that needs no account.
+
 Project managers usually piece together the daily picture by hand: who forgot to log time, which project is about to blow its budget, how much billable work has not been invoiced yet. Studio Pulse gives them two things:
 
 1. **An MCP server** that lets Claude answer questions such as *"Who didn't log their time yesterday?"*, *"How is the budget of the VR tour project doing?"* or *"How many billable hours of Hradná Invest are not invoiced yet?"*.
@@ -121,6 +123,23 @@ All tools are read only. Person, project and client names match case-insensitive
 | `hours_summary` | How many hours did we log per project, person or client last week? |
 | `unbilled_hours` | How many billable hours of a client are not invoiced yet? |
 
+## Productive setup
+
+1. In Productive open **Settings → API integrations → Generate new token** and choose the access level **Read only**. The organization id is on the same page. It is also the number after `app.productive.io/` in the URL.
+2. In `.env` (copy `.env.example`) set:
+
+   ```bash
+   DATA_SOURCE=productive
+   PRODUCTIVE_API_TOKEN=<token>
+   PRODUCTIVE_ORG_ID=<organization id>
+   ```
+
+3. Check the connection: `uv run studio-pulse report --dry-run`.
+4. Claude Desktop: use `"env": { "DATA_SOURCE": "productive" }` in the config above. The token and the organization id are read from `.env` in the repository.
+5. GitHub Actions: set the `DATA_SOURCE` variable to `productive` and add the `PRODUCTIVE_API_TOKEN` and `PRODUCTIVE_ORG_ID` secrets (see [GitHub Actions](#github-actions)).
+
+How the data is mapped: a budget is a deal with `budget: true`, its limit is the sum of the budgeted time of its services tracked in hours, and a time entry reaches its project through service → deal → project. Records marked as sample data are ignored.
+
 ## Delivery channels
 
 A channel is enabled when its webhook URL is set, locally in `.env` (copy `.env.example`) or as a GitHub Actions secret. Webhook URLs are secrets: anyone with the URL can post to the channel.
@@ -180,39 +199,45 @@ Budget status: `ok` below the warning percent, `warning` from the warning percen
 ## Architecture
 
 ```text
-                 ┌─────────────────────────┐
-                 │ DataSource (Protocol)    │
-                 │   mock    │  productive  │
-                 └────────────┬────────────┘
-                              │ models (Pydantic)
-                              ▼
-                 ┌─────────────────────────┐
-                 │ analyze.py               │  pure functions, no I/O
-                 └──────┬───────────┬──────┘
-                        │           │
-                        ▼           ▼
-          ┌──────────────────┐  ┌──────────────────────┐
-          │ mcp_server.py     │  │ report.py (CLI)       │
-          │ FastMCP, stdio    │  │ ReportData            │
-          │ client: Claude    │  │ → delivery adapters   │
-          └──────────────────┘  │   console/teams/discord│
-                                 └──────────────────────┘
+                 ┌──────────────────────────────┐
+                 │ DataSource (Protocol)        │
+                 │ mock  │ productive           │
+                 └──────────────┬───────────────┘
+                                │ models (Pydantic)
+                                ▼
+                 ┌──────────────────────────────┐
+                 │ analyze.py                   │  pure functions, no I/O
+                 └───────┬──────────────┬───────┘
+                         │              │
+                         ▼              ▼
+          ┌───────────────────┐  ┌─────────────────────────┐
+          │ mcp_server.py     │  │ report.py (CLI)         │
+          │ MCP SDK, stdio    │  │ ReportData              │
+          │ client: Claude    │  │ → delivery adapters     │
+          └───────────────────┘  │   console/teams/discord │
+                                 └─────────────────────────┘
 ```
 
 **Numbers are computed by code, not by an LLM.** Every sum, percentage and threshold lives in plain, unit-tested Python in `analyze.py`, and each number is computed in exactly one place. The MCP server and the daily report call the same functions, so Claude and the morning report always show the same figures. Claude only picks a tool and phrases the answer; the project itself never calls an LLM.
 
 Key modules in `src/studio_pulse/`:
 
-- `sources/`: the `DataSource` interface (`people`, `projects`, `budgets`, `time_entries`), the mock implementation and the Productive implementation (`productive.py`, a read-only JSON:API client holding all response mapping). In Productive a time entry belongs to a service, the service to a budget (a deal with `budget: true`) and the budget to a project; a project's time budget is the sum of its services' budgeted time.
+- `sources/`: the `DataSource` interface (`people`, `projects`, `budgets`, `time_entries`) and the mock implementation.
+- `sources/productive.py`: read-only JSON:API client for Productive: pagination, retry on 429, all response mapping in one file.
 - `analyze.py`: missing logs, budget status, hours summaries, billable ratio, unbilled hours, the report data.
 - `mcp_server.py`: the six MCP tools, thin wrappers around `analyze.py`.
 - `report.py` and `delivery/`: the CLI and the console, Teams and Discord adapters.
+
+Scripts in `scripts/` for a real Productive account (read only, need the `.env` settings above):
+
+- `explore_productive.py`: prints the fields the API docs leave unclear (drafts, units, linkage), without emails or the token.
+- `save_productive_fixtures.py`: saves raw API responses to `tests/fixtures/productive/` with every email replaced.
 
 Durations are stored in minutes and rounded to 0.1 h only for output.
 
 ## Known limitations
 
-- **Drafts count as logged time.** Productive time entries count whether or not they are drafts, submitted or approved: for a project manager a draft still means the person logged the hours, so "missing logs" flags people who logged nothing, not people who have not submitted their timesheet. Unsubmitted time can still change.
+- **Unsubmitted and draft entries count as logged time.** Productive time entries count whether or not they are drafts, submitted or approved. For a project manager a draft still means the person logged the hours, so "missing logs" flags people who logged nothing, not people who have not submitted their timesheet. Unsubmitted time can still change.
 - **Productive has no project kind.** Projects marked internal in Productive show as `INTERNAL`; every other Productive project shows as `OTHER` instead of 3D, VR, WEB or CGI.
 - **Time off is not counted.** Productive time off entries belong to no project, so they are skipped, and a person on leave appears in "missing logs".
 - **Only hour-based budgets.** A project's budget counts services tracked in hours; services tracked in days or pieces add no limit, and a budget without any hour limit shows as `no_budget`.
@@ -231,5 +256,7 @@ uv run pytest                 # tests (no test makes a network call)
 uv run ruff check .           # lint
 uv run ruff format --check .  # format check
 ```
+
+Productive tests run against responses saved from a trial account in `tests/fixtures/productive/`, with emails replaced. They still make no network calls.
 
 Studio Pulse is built with [Claude Code](https://claude.com/claude-code). [`CLAUDE.md`](CLAUDE.md) holds the rules the coding agent follows: principles, tech stack, domain rules, testing and code conventions. The work is done in small milestones, and every change is reviewed and tested (pytest, ruff) before it is committed.
