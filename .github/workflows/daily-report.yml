@@ -1,0 +1,40 @@
+name: Daily report
+
+on:
+  # 07:30 UTC on weekdays = 08:30 in Bratislava in winter (CET), 09:30 in summer (CEST).
+  # GitHub cron runs in UTC and scheduled runs may start several minutes late.
+  schedule:
+    - cron: "30 7 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: daily-report
+  cancel-in-progress: false
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: astral-sh/setup-uv@v10
+        with:
+          enable-cache: true
+
+      - name: Install dependencies
+        run: uv sync --locked --no-dev
+
+      # A webhook channel is used only when its secret is set; an unset secret is an
+      # empty string, which the settings ignore.
+      - name: Send report
+        run: uv run --no-dev studio-pulse report
+        env:
+          DATA_SOURCE: ${{ vars.DATA_SOURCE || 'mock' }}
+          PRODUCTIVE_API_TOKEN: ${{ secrets.PRODUCTIVE_API_TOKEN }}
+          PRODUCTIVE_ORG_ID: ${{ secrets.PRODUCTIVE_ORG_ID }}
+          TEAMS_WEBHOOK_URL: ${{ secrets.TEAMS_WEBHOOK_URL }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
