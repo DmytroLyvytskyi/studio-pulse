@@ -1,0 +1,3478 @@
+[
+  {
+    "data": [
+      {
+        "id": "170938245",
+        "type": "time_entries",
+        "attributes": {
+          "draft": false,
+          "date": "2026-11-09",
+          "created_at": "2026-11-11T12:32:54.934+01:00",
+          "time": 180,
+          "billable_time": 0,
+          "recognized_time": 0,
+          "note": "<ul><li><p>Príprava materiálov</p></li></ul>",
+          "track_method_id": 1,
+          "started_at": null,
+          "timer_started_at": null,
+          "timer_stopped_at": null,
+          "approved": true,
+          "approved_at": "2026-11-11T12:32:54.000+01:00",
+          "updated_at": "2026-11-11T12:33:06.387+01:00",
+          "calendar_event_id": null,
+          "calendar_event_recurring_id": null,
+          "invoice_attribution_id": null,
+          "invoiced": false,
+          "overhead": true,
+          "overtime": false,
+          "overtime_cost_multiplier": "1.0",
+          "rejected": false,
+          "rejected_reason": null,
+          "rejected_at": null,
+          "last_activity_at": "2026-11-11T12:32:54.934+01:00",
+          "submitted": false,
+          "currency": "EUR",
+          "currency_default": "USD",
+          "currency_normalized": "EUR",
+          "cost": 7500,
+          "cost_default": 8374,
+          "cost_normalized": 7500,
+          "work_cost": 7500,
+          "work_cost_default": 8374,
+          "work_cost_normalized": 7500,
+          "overhead_cost": 0,
+          "overhead_cost_default": 0,
+          "overhead_cost_normalized": 0,
+          "internal_overhead_cost": 0,
+          "internal_overhead_cost_default": 0,
+          "internal_overhead_cost_normalized": 0,
+          "facility_overhead_cost": 0,
+          "facility_overhead_cost_default": 0,
+          "facility_overhead_cost_normalized": 0
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "person": {
+            "data": {
+              "type": "people",
+              "id": "1521831"
+            }
+          },
+          "service": {
+            "data": {
+              "type": "services",
+              "id": "18155034"
+            }
+          },
+          "task": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approver": {
+            "meta": {
+              "included": false
+            }
+          },
+          "updater": {
+            "meta": {
+              "included": false
+            }
+          },
+          "rejecter": {
+            "meta": {
+              "included": false
+            }
+          },
+          "creator": {
+            "meta": {
+              "included": false
+            }
+          },
+          "last_actor": {
+            "meta": {
+              "included": false
+            }
+          },
+          "person_subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "deal_subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "timesheet": {
+            "meta": {
+              "included": false
+            }
+          },
+          "invoice_attribution": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approval_statuses": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      },
+      {
+        "id": "170938232",
+        "type": "time_entries",
+        "attributes": {
+          "draft": false,
+          "date": "2026-11-09",
+          "created_at": "2026-11-11T12:32:40.187+01:00",
+          "time": 210,
+          "billable_time": 210,
+          "recognized_time": 210,
+          "note": "<ul><li><p>Postprodukcia vizualizácií</p></li></ul>",
+          "track_method_id": 1,
+          "started_at": null,
+          "timer_started_at": null,
+          "timer_stopped_at": null,
+          "approved": true,
+          "approved_at": "2026-11-11T12:32:40.000+01:00",
+          "updated_at": "2026-11-11T12:32:54.000+01:00",
+          "calendar_event_id": null,
+          "calendar_event_recurring_id": null,
+          "invoice_attribution_id": null,
+          "invoiced": false,
+          "overhead": true,
+          "overtime": false,
+          "overtime_cost_multiplier": "1.0",
+          "rejected": false,
+          "rejected_reason": null,
+          "rejected_at": null,
+          "last_activity_at": "2026-11-11T12:32:40.187+01:00",
+          "submitted": false,
+          "currency": "EUR",
+          "currency_default": "USD",
+          "currency_normalized": "EUR",
+          "cost": 8750,
+          "cost_default": 9769,
+          "cost_normalized": 8750,
+          "work_cost": 8750,
+          "work_cost_default": 9769,
+          "work_cost_normalized": 8750,
+          "overhead_cost": 0,
+          "overhead_cost_default": 0,
+          "overhead_cost_normalized": 0,
+          "internal_overhead_cost": 0,
+          "internal_overhead_cost_default": 0,
+          "internal_overhead_cost_normalized": 0,
+          "facility_overhead_cost": 0,
+          "facility_overhead_cost_default": 0,
+          "facility_overhead_cost_normalized": 0
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "person": {
+            "data": {
+              "type": "people",
+              "id": "1521831"
+            }
+          },
+          "service": {
+            "data": {
+              "type": "services",
+              "id": "18154666"
+            }
+          },
+          "task": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approver": {
+            "meta": {
+              "included": false
+            }
+          },
+          "updater": {
+            "meta": {
+              "included": false
+            }
+          },
+          "rejecter": {
+            "meta": {
+              "included": false
+            }
+          },
+          "creator": {
+            "meta": {
+              "included": false
+            }
+          },
+          "last_actor": {
+            "meta": {
+              "included": false
+            }
+          },
+          "person_subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "deal_subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "timesheet": {
+            "meta": {
+              "included": false
+            }
+          },
+          "invoice_attribution": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approval_statuses": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      },
+      {
+        "id": "170938200",
+        "type": "time_entries",
+        "attributes": {
+          "draft": false,
+          "date": "2026-11-06",
+          "created_at": "2026-11-11T12:32:20.940+01:00",
+          "time": 180,
+          "billable_time": 0,
+          "recognized_time": 0,
+          "note": "<ul><li><p>Test nového renderera</p></li></ul>",
+          "track_method_id": 1,
+          "started_at": null,
+          "timer_started_at": null,
+          "timer_stopped_at": null,
+          "approved": true,
+          "approved_at": "2026-11-11T12:32:20.000+01:00",
+          "updated_at": "2026-11-11T12:32:32.545+01:00",
+          "calendar_event_id": null,
+          "calendar_event_recurring_id": null,
+          "invoice_attribution_id": null,
+          "invoiced": false,
+          "overhead": true,
+          "overtime": false,
+          "overtime_cost_multiplier": "1.0",
+          "rejected": false,
+          "rejected_reason": null,
+          "rejected_at": null,
+          "last_activity_at": "2026-11-11T12:32:20.940+01:00",
+          "submitted": false,
+          "currency": "EUR",
+          "currency_default": "USD",
+          "currency_normalized": "EUR",
+          "cost": 7500,
+          "cost_default": 8418,
+          "cost_normalized": 7500,
+          "work_cost": 7500,
+          "work_cost_default": 8418,
+          "work_cost_normalized": 7500,
+          "overhead_cost": 0,
+          "overhead_cost_default": 0,
+          "overhead_cost_normalized": 0,
+          "internal_overhead_cost": 0,
+          "internal_overhead_cost_default": 0,
+          "internal_overhead_cost_normalized": 0,
+          "facility_overhead_cost": 0,
+          "facility_overhead_cost_default": 0,
+          "facility_overhead_cost_normalized": 0
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "person": {
+            "data": {
+              "type": "people",
+              "id": "1521831"
+            }
+          },
+          "service": {
+            "data": {
+              "type": "services",
+              "id": "18155034"
+            }
+          },
+          "task": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approver": {
+            "meta": {
+              "included": false
+            }
+          },
+          "updater": {
+            "meta": {
+              "included": false
+            }
+          },
+          "rejecter": {
+            "meta": {
+              "included": false
+            }
+          },
+          "creator": {
+            "meta": {
+              "included": false
+            }
+          },
+          "last_actor": {
+            "meta": {
+              "included": false
+            }
+          },
+          "person_subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "deal_subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "timesheet": {
+            "meta": {
+              "included": false
+            }
+          },
+          "invoice_attribution": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approval_statuses": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      },
+      {
+        "id": "170938182",
+        "type": "time_entries",
+        "attributes": {
+          "draft": false,
+          "date": "2026-11-06",
+          "created_at": "2026-11-11T12:32:12.817+01:00",
+          "time": 240,
+          "billable_time": 240,
+          "recognized_time": 240,
+          "note": "<ul><li><p>Rendering obývačky</p></li></ul>",
+          "track_method_id": 1,
+          "started_at": null,
+          "timer_started_at": null,
+          "timer_stopped_at": null,
+          "approved": true,
+          "approved_at": "2026-11-11T12:32:12.000+01:00",
+          "updated_at": "2026-11-11T12:32:25.347+01:00",
+          "calendar_event_id": null,
+          "calendar_event_recurring_id": null,
+          "invoice_attribution_id": null,
+          "invoiced": false,
+          "overhead": true,
+          "overtime": false,
+          "overtime_cost_multiplier": "1.0",
+          "rejected": false,
+          "rejected_reason": null,
+          "rejected_at": null,
+          "last_activity_at": "2026-11-11T12:32:12.817+01:00",
+          "submitted": false,
+          "currency": "EUR",
+          "currency_default": "USD",
+          "currency_normalized": "EUR",
+          "cost": 10000,
+          "cost_default": 11224,
+          "cost_normalized": 10000,
+          "work_cost": 10000,
+          "work_cost_default": 11224,
+          "work_cost_normalized": 10000,
+          "overhead_cost": 0,
+          "overhead_cost_default": 0,
+          "overhead_cost_normalized": 0,
+          "internal_overhead_cost": 0,
+          "internal_overhead_cost_default": 0,
+          "internal_overhead_cost_normalized": 0,
+          "facility_overhead_cost": 0,
+          "facility_overhead_cost_default": 0,
+          "facility_overhead_cost_normalized": 0
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "person": {
+            "data": {
+              "type": "people",
+              "id": "1521831"
+            }
+          },
+          "service": {
+            "data": {
+              "type": "services",
+              "id": "18154666"
+            }
+          },
+          "task": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approver": {
+            "meta": {
+              "included": false
+            }
+          },
+          "updater": {
+            "meta": {
+              "included": false
+            }
+          },
+          "rejecter": {
+            "meta": {
+              "included": false
+            }
+          },
+          "creator": {
+            "meta": {
+              "included": false
+            }
+          },
+          "last_actor": {
+            "meta": {
+              "included": false
+            }
+          },
+          "person_subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "deal_subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "timesheet": {
+            "meta": {
+              "included": false
+            }
+          },
+          "invoice_attribution": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approval_statuses": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      },
+      {
+        "id": "170938163",
+        "type": "time_entries",
+        "attributes": {
+          "draft": false,
+          "date": "2026-11-10",
+          "created_at": "2026-11-11T12:31:43.430+01:00",
+          "time": 90,
+          "billable_time": 0,
+          "recognized_time": 0,
+          "note": "<ul><li><p>Code review</p></li></ul>",
+          "track_method_id": 1,
+          "started_at": null,
+          "timer_started_at": null,
+          "timer_stopped_at": null,
+          "approved": true,
+          "approved_at": "2026-11-11T12:31:43.000+01:00",
+          "updated_at": "2026-11-11T12:31:56.622+01:00",
+          "calendar_event_id": null,
+          "calendar_event_recurring_id": null,
+          "invoice_attribution_id": null,
+          "invoiced": false,
+          "overhead": true,
+          "overtime": false,
+          "overtime_cost_multiplier": "1.0",
+          "rejected": false,
+          "rejected_reason": null,
+          "rejected_at": null,
+          "last_activity_at": "2026-11-11T12:31:43.430+01:00",
+          "submitted": false,
+          "currency": "EUR",
+          "currency_default": "USD",
+          "currency_normalized": "EUR",
+          "cost": 3750,
+          "cost_default": 4197,
+          "cost_normalized": 3750,
+          "work_cost": 3750,
+          "work_cost_default": 4197,
+          "work_cost_normalized": 3750,
+          "overhead_cost": 0,
+          "overhead_cost_default": 0,
+          "overhead_cost_normalized": 0,
+          "internal_overhead_cost": 0,
+          "internal_overhead_cost_default": 0,
+          "internal_overhead_cost_normalized": 0,
+          "facility_overhead_cost": 0,
+          "facility_overhead_cost_default": 0,
+          "facility_overhead_cost_normalized": 0
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "person": {
+            "data": {
+              "type": "people",
+              "id": "1521833"
+            }
+          },
+          "service": {
+            "data": {
+              "type": "services",
+              "id": "18155034"
+            }
+          },
+          "task": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approver": {
+            "meta": {
+              "included": false
+            }
+          },
+          "updater": {
+            "meta": {
+              "included": false
+            }
+          },
+          "rejecter": {
+            "meta": {
+              "included": false
+            }
+          },
+          "creator": {
+            "meta": {
+              "included": false
+            }
+          },
+          "last_actor": {
+            "meta": {
+              "included": false
+            }
+          },
+          "person_subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "deal_subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "timesheet": {
+            "meta": {
+              "included": false
+            }
+          },
+          "invoice_attribution": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approval_statuses": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      },
+      {
+        "id": "170938144",
+        "type": "time_entries",
+        "attributes": {
+          "draft": false,
+          "date": "2026-11-10",
+          "created_at": "2026-11-11T12:31:28.085+01:00",
+          "time": 120,
+          "billable_time": 120,
+          "recognized_time": 120,
+          "note": "<ul><li><p>Oprava formulára</p></li></ul>",
+          "track_method_id": 1,
+          "started_at": null,
+          "timer_started_at": null,
+          "timer_stopped_at": null,
+          "approved": true,
+          "approved_at": "2026-11-11T12:31:28.000+01:00",
+          "updated_at": "2026-11-11T12:31:40.794+01:00",
+          "calendar_event_id": null,
+          "calendar_event_recurring_id": null,
+          "invoice_attribution_id": null,
+          "invoiced": false,
+          "overhead": true,
+          "overtime": false,
+          "overtime_cost_multiplier": "1.0",
+          "rejected": false,
+          "rejected_reason": null,
+          "rejected_at": null,
+          "last_activity_at": "2026-11-11T12:31:28.085+01:00",
+          "submitted": false,
+          "currency": "EUR",
+          "currency_default": "USD",
+          "currency_normalized": "EUR",
+          "cost": 5000,
+          "cost_default": 5596,
+          "cost_normalized": 5000,
+          "work_cost": 5000,
+          "work_cost_default": 5596,
+          "work_cost_normalized": 5000,
+          "overhead_cost": 0,
+          "overhead_cost_default": 0,
+          "overhead_cost_normalized": 0,
+          "internal_overhead_cost": 0,
+          "internal_overhead_cost_default": 0,
+          "internal_overhead_cost_normalized": 0,
+          "facility_overhead_cost": 0,
+          "facility_overhead_cost_default": 0,
+          "facility_overhead_cost_normalized": 0
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "person": {
+            "data": {
+              "type": "people",
+              "id": "1521833"
+            }
+          },
+          "service": {
+            "data": {
+              "type": "services",
+              "id": "18154682"
+            }
+          },
+          "task": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approver": {
+            "meta": {
+              "included": false
+            }
+          },
+          "updater": {
+            "meta": {
+              "included": false
+            }
+          },
+          "rejecter": {
+            "meta": {
+              "included": false
+            }
+          },
+          "creator": {
+            "meta": {
+              "included": false
+            }
+          },
+          "last_actor": {
+            "meta": {
+              "included": false
+            }
+          },
+          "person_subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "deal_subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "timesheet": {
+            "meta": {
+              "included": false
+            }
+          },
+          "invoice_attribution": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approval_statuses": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      },
+      {
+        "id": "170938111",
+        "type": "time_entries",
+        "attributes": {
+          "draft": false,
+          "date": "2026-11-09",
+          "created_at": "2026-11-11T12:31:17.509+01:00",
+          "time": 240,
+          "billable_time": 240,
+          "recognized_time": 240,
+          "note": "<ul><li><p>Testovanie prehliadky v headsete</p></li></ul>",
+          "track_method_id": 1,
+          "started_at": null,
+          "timer_started_at": null,
+          "timer_stopped_at": null,
+          "approved": true,
+          "approved_at": "2026-11-11T12:31:17.000+01:00",
+          "updated_at": "2026-11-11T12:31:30.049+01:00",
+          "calendar_event_id": null,
+          "calendar_event_recurring_id": null,
+          "invoice_attribution_id": null,
+          "invoiced": false,
+          "overhead": true,
+          "overtime": false,
+          "overtime_cost_multiplier": "1.0",
+          "rejected": false,
+          "rejected_reason": null,
+          "rejected_at": null,
+          "last_activity_at": "2026-11-11T12:31:17.509+01:00",
+          "submitted": false,
+          "currency": "EUR",
+          "currency_default": "USD",
+          "currency_normalized": "EUR",
+          "cost": 10000,
+          "cost_default": 11165,
+          "cost_normalized": 10000,
+          "work_cost": 10000,
+          "work_cost_default": 11165,
+          "work_cost_normalized": 10000,
+          "overhead_cost": 0,
+          "overhead_cost_default": 0,
+          "overhead_cost_normalized": 0,
+          "internal_overhead_cost": 0,
+          "internal_overhead_cost_default": 0,
+          "internal_overhead_cost_normalized": 0,
+          "facility_overhead_cost": 0,
+          "facility_overhead_cost_default": 0,
+          "facility_overhead_cost_normalized": 0
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "person": {
+            "data": {
+              "type": "people",
+              "id": "1521833"
+            }
+          },
+          "service": {
+            "data": {
+              "type": "services",
+              "id": "18154501"
+            }
+          },
+          "task": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approver": {
+            "meta": {
+              "included": false
+            }
+          },
+          "updater": {
+            "meta": {
+              "included": false
+            }
+          },
+          "rejecter": {
+            "meta": {
+              "included": false
+            }
+          },
+          "creator": {
+            "meta": {
+              "included": false
+            }
+          },
+          "last_actor": {
+            "meta": {
+              "included": false
+            }
+          },
+          "person_subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "deal_subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "timesheet": {
+            "meta": {
+              "included": false
+            }
+          },
+          "invoice_attribution": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approval_statuses": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      },
+      {
+        "id": "170938095",
+        "type": "time_entries",
+        "attributes": {
+          "draft": false,
+          "date": "2026-11-09",
+          "created_at": "2026-11-11T12:31:06.365+01:00",
+          "time": 240,
+          "billable_time": 240,
+          "recognized_time": 240,
+          "note": "<ul><li><p>Responzívny layout</p></li></ul>",
+          "track_method_id": 1,
+          "started_at": null,
+          "timer_started_at": null,
+          "timer_stopped_at": null,
+          "approved": true,
+          "approved_at": "2026-11-11T12:31:06.000+01:00",
+          "updated_at": "2026-11-11T12:31:19.000+01:00",
+          "calendar_event_id": null,
+          "calendar_event_recurring_id": null,
+          "invoice_attribution_id": null,
+          "invoiced": false,
+          "overhead": true,
+          "overtime": false,
+          "overtime_cost_multiplier": "1.0",
+          "rejected": false,
+          "rejected_reason": null,
+          "rejected_at": null,
+          "last_activity_at": "2026-11-11T12:31:06.365+01:00",
+          "submitted": false,
+          "currency": "EUR",
+          "currency_default": "USD",
+          "currency_normalized": "EUR",
+          "cost": 10000,
+          "cost_default": 11165,
+          "cost_normalized": 10000,
+          "work_cost": 10000,
+          "work_cost_default": 11165,
+          "work_cost_normalized": 10000,
+          "overhead_cost": 0,
+          "overhead_cost_default": 0,
+          "overhead_cost_normalized": 0,
+          "internal_overhead_cost": 0,
+          "internal_overhead_cost_default": 0,
+          "internal_overhead_cost_normalized": 0,
+          "facility_overhead_cost": 0,
+          "facility_overhead_cost_default": 0,
+          "facility_overhead_cost_normalized": 0
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "person": {
+            "data": {
+              "type": "people",
+              "id": "1521833"
+            }
+          },
+          "service": {
+            "data": {
+              "type": "services",
+              "id": "18154682"
+            }
+          },
+          "task": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approver": {
+            "meta": {
+              "included": false
+            }
+          },
+          "updater": {
+            "meta": {
+              "included": false
+            }
+          },
+          "rejecter": {
+            "meta": {
+              "included": false
+            }
+          },
+          "creator": {
+            "meta": {
+              "included": false
+            }
+          },
+          "last_actor": {
+            "meta": {
+              "included": false
+            }
+          },
+          "person_subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "deal_subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "timesheet": {
+            "meta": {
+              "included": false
+            }
+          },
+          "invoice_attribution": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approval_statuses": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      },
+      {
+        "id": "170938079",
+        "type": "time_entries",
+        "attributes": {
+          "draft": false,
+          "date": "2026-11-06",
+          "created_at": "2026-11-11T12:30:52.230+01:00",
+          "time": 240,
+          "billable_time": 240,
+          "recognized_time": 240,
+          "note": "<p>Textúry a materiály</p>",
+          "track_method_id": 1,
+          "started_at": null,
+          "timer_started_at": null,
+          "timer_stopped_at": null,
+          "approved": true,
+          "approved_at": "2026-11-11T12:30:52.000+01:00",
+          "updated_at": "2026-11-11T12:31:03.084+01:00",
+          "calendar_event_id": null,
+          "calendar_event_recurring_id": null,
+          "invoice_attribution_id": null,
+          "invoiced": false,
+          "overhead": true,
+          "overtime": false,
+          "overtime_cost_multiplier": "1.0",
+          "rejected": false,
+          "rejected_reason": null,
+          "rejected_at": null,
+          "last_activity_at": "2026-11-11T12:30:52.230+01:00",
+          "submitted": false,
+          "currency": "EUR",
+          "currency_default": "USD",
+          "currency_normalized": "EUR",
+          "cost": 10000,
+          "cost_default": 11224,
+          "cost_normalized": 10000,
+          "work_cost": 10000,
+          "work_cost_default": 11224,
+          "work_cost_normalized": 10000,
+          "overhead_cost": 0,
+          "overhead_cost_default": 0,
+          "overhead_cost_normalized": 0,
+          "internal_overhead_cost": 0,
+          "internal_overhead_cost_default": 0,
+          "internal_overhead_cost_normalized": 0,
+          "facility_overhead_cost": 0,
+          "facility_overhead_cost_default": 0,
+          "facility_overhead_cost_normalized": 0
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "person": {
+            "data": {
+              "type": "people",
+              "id": "1521833"
+            }
+          },
+          "service": {
+            "data": {
+              "type": "services",
+              "id": "18154501"
+            }
+          },
+          "task": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approver": {
+            "meta": {
+              "included": false
+            }
+          },
+          "updater": {
+            "meta": {
+              "included": false
+            }
+          },
+          "rejecter": {
+            "meta": {
+              "included": false
+            }
+          },
+          "creator": {
+            "meta": {
+              "included": false
+            }
+          },
+          "last_actor": {
+            "meta": {
+              "included": false
+            }
+          },
+          "person_subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "deal_subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "timesheet": {
+            "meta": {
+              "included": false
+            }
+          },
+          "invoice_attribution": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approval_statuses": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      },
+      {
+        "id": "170938065",
+        "type": "time_entries",
+        "attributes": {
+          "draft": false,
+          "date": "2026-11-06",
+          "created_at": "2026-11-11T12:30:41.864+01:00",
+          "time": 240,
+          "billable_time": 240,
+          "recognized_time": 240,
+          "note": "<ul><li><p>Frontend, galéria bytov</p></li></ul>",
+          "track_method_id": 1,
+          "started_at": null,
+          "timer_started_at": null,
+          "timer_stopped_at": null,
+          "approved": true,
+          "approved_at": "2026-11-11T12:30:41.000+01:00",
+          "updated_at": "2026-11-11T12:30:52.777+01:00",
+          "calendar_event_id": null,
+          "calendar_event_recurring_id": null,
+          "invoice_attribution_id": null,
+          "invoiced": false,
+          "overhead": true,
+          "overtime": false,
+          "overtime_cost_multiplier": "1.0",
+          "rejected": false,
+          "rejected_reason": null,
+          "rejected_at": null,
+          "last_activity_at": "2026-11-11T12:30:41.864+01:00",
+          "submitted": false,
+          "currency": "EUR",
+          "currency_default": "USD",
+          "currency_normalized": "EUR",
+          "cost": 10000,
+          "cost_default": 11224,
+          "cost_normalized": 10000,
+          "work_cost": 10000,
+          "work_cost_default": 11224,
+          "work_cost_normalized": 10000,
+          "overhead_cost": 0,
+          "overhead_cost_default": 0,
+          "overhead_cost_normalized": 0,
+          "internal_overhead_cost": 0,
+          "internal_overhead_cost_default": 0,
+          "internal_overhead_cost_normalized": 0,
+          "facility_overhead_cost": 0,
+          "facility_overhead_cost_default": 0,
+          "facility_overhead_cost_normalized": 0
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "person": {
+            "data": {
+              "type": "people",
+              "id": "1521833"
+            }
+          },
+          "service": {
+            "data": {
+              "type": "services",
+              "id": "18154682"
+            }
+          },
+          "task": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approver": {
+            "meta": {
+              "included": false
+            }
+          },
+          "updater": {
+            "meta": {
+              "included": false
+            }
+          },
+          "rejecter": {
+            "meta": {
+              "included": false
+            }
+          },
+          "creator": {
+            "meta": {
+              "included": false
+            }
+          },
+          "last_actor": {
+            "meta": {
+              "included": false
+            }
+          },
+          "person_subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "deal_subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "timesheet": {
+            "meta": {
+              "included": false
+            }
+          },
+          "invoice_attribution": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approval_statuses": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      },
+      {
+        "id": "170937966",
+        "type": "time_entries",
+        "attributes": {
+          "draft": false,
+          "date": "2026-11-10",
+          "created_at": "2026-11-11T12:30:05.099+01:00",
+          "time": 180,
+          "billable_time": 0,
+          "recognized_time": 0,
+          "note": "<ul><li><p>Príprava šablón</p></li></ul>",
+          "track_method_id": 1,
+          "started_at": null,
+          "timer_started_at": null,
+          "timer_stopped_at": null,
+          "approved": true,
+          "approved_at": "2026-11-11T12:30:05.000+01:00",
+          "updated_at": "2026-11-11T12:30:30.464+01:00",
+          "calendar_event_id": null,
+          "calendar_event_recurring_id": null,
+          "invoice_attribution_id": null,
+          "invoiced": false,
+          "overhead": true,
+          "overtime": false,
+          "overtime_cost_multiplier": "1.0",
+          "rejected": false,
+          "rejected_reason": null,
+          "rejected_at": null,
+          "last_activity_at": "2026-11-11T12:30:05.099+01:00",
+          "submitted": false,
+          "currency": "EUR",
+          "currency_default": "USD",
+          "currency_normalized": "EUR",
+          "cost": 7500,
+          "cost_default": 8395,
+          "cost_normalized": 7500,
+          "work_cost": 7500,
+          "work_cost_default": 8395,
+          "work_cost_normalized": 7500,
+          "overhead_cost": 0,
+          "overhead_cost_default": 0,
+          "overhead_cost_normalized": 0,
+          "internal_overhead_cost": 0,
+          "internal_overhead_cost_default": 0,
+          "internal_overhead_cost_normalized": 0,
+          "facility_overhead_cost": 0,
+          "facility_overhead_cost_default": 0,
+          "facility_overhead_cost_normalized": 0
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "person": {
+            "data": {
+              "type": "people",
+              "id": "1521819"
+            }
+          },
+          "service": {
+            "data": {
+              "type": "services",
+              "id": "18155034"
+            }
+          },
+          "task": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approver": {
+            "meta": {
+              "included": false
+            }
+          },
+          "updater": {
+            "meta": {
+              "included": false
+            }
+          },
+          "rejecter": {
+            "meta": {
+              "included": false
+            }
+          },
+          "creator": {
+            "meta": {
+              "included": false
+            }
+          },
+          "last_actor": {
+            "meta": {
+              "included": false
+            }
+          },
+          "person_subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "deal_subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "timesheet": {
+            "meta": {
+              "included": false
+            }
+          },
+          "invoice_attribution": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approval_statuses": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      },
+      {
+        "id": "170937949",
+        "type": "time_entries",
+        "attributes": {
+          "draft": false,
+          "date": "2026-11-10",
+          "created_at": "2026-11-11T12:29:48.893+01:00",
+          "time": 120,
+          "billable_time": 120,
+          "recognized_time": 120,
+          "note": null,
+          "track_method_id": 1,
+          "started_at": null,
+          "timer_started_at": null,
+          "timer_stopped_at": null,
+          "approved": true,
+          "approved_at": "2026-11-11T12:29:48.000+01:00",
+          "updated_at": "2026-11-11T12:30:22.095+01:00",
+          "calendar_event_id": null,
+          "calendar_event_recurring_id": null,
+          "invoice_attribution_id": null,
+          "invoiced": false,
+          "overhead": true,
+          "overtime": false,
+          "overtime_cost_multiplier": "1.0",
+          "rejected": false,
+          "rejected_reason": null,
+          "rejected_at": null,
+          "last_activity_at": "2026-11-11T12:29:48.893+01:00",
+          "submitted": false,
+          "currency": "EUR",
+          "currency_default": "USD",
+          "currency_normalized": "EUR",
+          "cost": 5000,
+          "cost_default": 5596,
+          "cost_normalized": 5000,
+          "work_cost": 5000,
+          "work_cost_default": 5596,
+          "work_cost_normalized": 5000,
+          "overhead_cost": 0,
+          "overhead_cost_default": 0,
+          "overhead_cost_normalized": 0,
+          "internal_overhead_cost": 0,
+          "internal_overhead_cost_default": 0,
+          "internal_overhead_cost_normalized": 0,
+          "facility_overhead_cost": 0,
+          "facility_overhead_cost_default": 0,
+          "facility_overhead_cost_normalized": 0
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "person": {
+            "data": {
+              "type": "people",
+              "id": "1521819"
+            }
+          },
+          "service": {
+            "data": {
+              "type": "services",
+              "id": "18154681"
+            }
+          },
+          "task": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approver": {
+            "meta": {
+              "included": false
+            }
+          },
+          "updater": {
+            "meta": {
+              "included": false
+            }
+          },
+          "rejecter": {
+            "meta": {
+              "included": false
+            }
+          },
+          "creator": {
+            "meta": {
+              "included": false
+            }
+          },
+          "last_actor": {
+            "meta": {
+              "included": false
+            }
+          },
+          "person_subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "deal_subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "timesheet": {
+            "meta": {
+              "included": false
+            }
+          },
+          "invoice_attribution": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approval_statuses": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      },
+      {
+        "id": "170937917",
+        "type": "time_entries",
+        "attributes": {
+          "draft": false,
+          "date": "2026-11-10",
+          "created_at": "2026-11-11T12:29:35.044+01:00",
+          "time": 120,
+          "billable_time": 120,
+          "recognized_time": 120,
+          "note": null,
+          "track_method_id": 1,
+          "started_at": null,
+          "timer_started_at": null,
+          "timer_stopped_at": null,
+          "approved": true,
+          "approved_at": "2026-11-11T12:29:35.000+01:00",
+          "updated_at": "2026-11-11T12:30:16.658+01:00",
+          "calendar_event_id": null,
+          "calendar_event_recurring_id": null,
+          "invoice_attribution_id": null,
+          "invoiced": false,
+          "overhead": true,
+          "overtime": false,
+          "overtime_cost_multiplier": "1.0",
+          "rejected": false,
+          "rejected_reason": null,
+          "rejected_at": null,
+          "last_activity_at": "2026-11-11T12:29:35.044+01:00",
+          "submitted": false,
+          "currency": "EUR",
+          "currency_default": "USD",
+          "currency_normalized": "EUR",
+          "cost": 5000,
+          "cost_default": 5596,
+          "cost_normalized": 5000,
+          "work_cost": 5000,
+          "work_cost_default": 5596,
+          "work_cost_normalized": 5000,
+          "overhead_cost": 0,
+          "overhead_cost_default": 0,
+          "overhead_cost_normalized": 0,
+          "internal_overhead_cost": 0,
+          "internal_overhead_cost_default": 0,
+          "internal_overhead_cost_normalized": 0,
+          "facility_overhead_cost": 0,
+          "facility_overhead_cost_default": 0,
+          "facility_overhead_cost_normalized": 0
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "person": {
+            "data": {
+              "type": "people",
+              "id": "1521819"
+            }
+          },
+          "service": {
+            "data": {
+              "type": "services",
+              "id": "18154665"
+            }
+          },
+          "task": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approver": {
+            "meta": {
+              "included": false
+            }
+          },
+          "updater": {
+            "meta": {
+              "included": false
+            }
+          },
+          "rejecter": {
+            "meta": {
+              "included": false
+            }
+          },
+          "creator": {
+            "meta": {
+              "included": false
+            }
+          },
+          "last_actor": {
+            "meta": {
+              "included": false
+            }
+          },
+          "person_subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "deal_subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "timesheet": {
+            "meta": {
+              "included": false
+            }
+          },
+          "invoice_attribution": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approval_statuses": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      },
+      {
+        "id": "170937869",
+        "type": "time_entries",
+        "attributes": {
+          "draft": false,
+          "date": "2026-11-09",
+          "created_at": "2026-11-11T12:29:09.298+01:00",
+          "time": 120,
+          "billable_time": 0,
+          "recognized_time": 0,
+          "note": "<ul><li><p>Interné školenie</p></li></ul>",
+          "track_method_id": 1,
+          "started_at": null,
+          "timer_started_at": null,
+          "timer_stopped_at": null,
+          "approved": true,
+          "approved_at": "2026-11-11T12:29:09.000+01:00",
+          "updated_at": "2026-11-11T12:30:05.277+01:00",
+          "calendar_event_id": null,
+          "calendar_event_recurring_id": null,
+          "invoice_attribution_id": null,
+          "invoiced": false,
+          "overhead": true,
+          "overtime": false,
+          "overtime_cost_multiplier": "1.0",
+          "rejected": false,
+          "rejected_reason": null,
+          "rejected_at": null,
+          "last_activity_at": "2026-11-11T12:29:09.298+01:00",
+          "submitted": false,
+          "currency": "EUR",
+          "currency_default": "USD",
+          "currency_normalized": "EUR",
+          "cost": 5000,
+          "cost_default": 5583,
+          "cost_normalized": 5000,
+          "work_cost": 5000,
+          "work_cost_default": 5583,
+          "work_cost_normalized": 5000,
+          "overhead_cost": 0,
+          "overhead_cost_default": 0,
+          "overhead_cost_normalized": 0,
+          "internal_overhead_cost": 0,
+          "internal_overhead_cost_default": 0,
+          "internal_overhead_cost_normalized": 0,
+          "facility_overhead_cost": 0,
+          "facility_overhead_cost_default": 0,
+          "facility_overhead_cost_normalized": 0
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "person": {
+            "data": {
+              "type": "people",
+              "id": "1521819"
+            }
+          },
+          "service": {
+            "data": {
+              "type": "services",
+              "id": "18155034"
+            }
+          },
+          "task": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approver": {
+            "meta": {
+              "included": false
+            }
+          },
+          "updater": {
+            "meta": {
+              "included": false
+            }
+          },
+          "rejecter": {
+            "meta": {
+              "included": false
+            }
+          },
+          "creator": {
+            "meta": {
+              "included": false
+            }
+          },
+          "last_actor": {
+            "meta": {
+              "included": false
+            }
+          },
+          "person_subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "deal_subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "timesheet": {
+            "meta": {
+              "included": false
+            }
+          },
+          "invoice_attribution": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approval_statuses": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      },
+      {
+        "id": "170936207",
+        "type": "time_entries",
+        "attributes": {
+          "draft": false,
+          "date": "2026-11-09",
+          "created_at": "2026-11-11T12:16:14.463+01:00",
+          "time": 300,
+          "billable_time": 300,
+          "recognized_time": 300,
+          "note": "<ul><li><p>Nastavenie VR scén</p></li></ul>",
+          "track_method_id": 1,
+          "started_at": null,
+          "timer_started_at": null,
+          "timer_stopped_at": null,
+          "approved": true,
+          "approved_at": "2026-11-11T12:16:14.000+01:00",
+          "updated_at": "2026-11-11T12:16:24.744+01:00",
+          "calendar_event_id": null,
+          "calendar_event_recurring_id": null,
+          "invoice_attribution_id": null,
+          "invoiced": false,
+          "overhead": true,
+          "overtime": false,
+          "overtime_cost_multiplier": "1.0",
+          "rejected": false,
+          "rejected_reason": null,
+          "rejected_at": null,
+          "last_activity_at": "2026-11-11T12:16:14.463+01:00",
+          "submitted": false,
+          "currency": "EUR",
+          "currency_default": "USD",
+          "currency_normalized": "EUR",
+          "cost": 12500,
+          "cost_default": 13956,
+          "cost_normalized": 12500,
+          "work_cost": 12500,
+          "work_cost_default": 13956,
+          "work_cost_normalized": 12500,
+          "overhead_cost": 0,
+          "overhead_cost_default": 0,
+          "overhead_cost_normalized": 0,
+          "internal_overhead_cost": 0,
+          "internal_overhead_cost_default": 0,
+          "internal_overhead_cost_normalized": 0,
+          "facility_overhead_cost": 0,
+          "facility_overhead_cost_default": 0,
+          "facility_overhead_cost_normalized": 0
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "person": {
+            "data": {
+              "type": "people",
+              "id": "1521819"
+            }
+          },
+          "service": {
+            "data": {
+              "type": "services",
+              "id": "18154500"
+            }
+          },
+          "task": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approver": {
+            "meta": {
+              "included": false
+            }
+          },
+          "updater": {
+            "meta": {
+              "included": false
+            }
+          },
+          "rejecter": {
+            "meta": {
+              "included": false
+            }
+          },
+          "creator": {
+            "meta": {
+              "included": false
+            }
+          },
+          "last_actor": {
+            "meta": {
+              "included": false
+            }
+          },
+          "person_subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "deal_subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "timesheet": {
+            "meta": {
+              "included": false
+            }
+          },
+          "invoice_attribution": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approval_statuses": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      },
+      {
+        "id": "170936180",
+        "type": "time_entries",
+        "attributes": {
+          "draft": false,
+          "date": "2026-11-06",
+          "created_at": "2026-11-11T12:15:51.260+01:00",
+          "time": 240,
+          "billable_time": 240,
+          "recognized_time": 240,
+          "note": "<ul><li><p>Modelovanie interiéru</p></li></ul>",
+          "track_method_id": 1,
+          "started_at": null,
+          "timer_started_at": null,
+          "timer_stopped_at": null,
+          "approved": true,
+          "approved_at": "2026-11-11T12:15:51.000+01:00",
+          "updated_at": "2026-11-11T12:16:07.000+01:00",
+          "calendar_event_id": null,
+          "calendar_event_recurring_id": null,
+          "invoice_attribution_id": null,
+          "invoiced": false,
+          "overhead": true,
+          "overtime": false,
+          "overtime_cost_multiplier": "1.0",
+          "rejected": false,
+          "rejected_reason": null,
+          "rejected_at": null,
+          "last_activity_at": "2026-11-11T12:15:51.260+01:00",
+          "submitted": false,
+          "currency": "EUR",
+          "currency_default": "USD",
+          "currency_normalized": "EUR",
+          "cost": 10000,
+          "cost_default": 11224,
+          "cost_normalized": 10000,
+          "work_cost": 10000,
+          "work_cost_default": 11224,
+          "work_cost_normalized": 10000,
+          "overhead_cost": 0,
+          "overhead_cost_default": 0,
+          "overhead_cost_normalized": 0,
+          "internal_overhead_cost": 0,
+          "internal_overhead_cost_default": 0,
+          "internal_overhead_cost_normalized": 0,
+          "facility_overhead_cost": 0,
+          "facility_overhead_cost_default": 0,
+          "facility_overhead_cost_normalized": 0
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "person": {
+            "data": {
+              "type": "people",
+              "id": "1521819"
+            }
+          },
+          "service": {
+            "data": {
+              "type": "services",
+              "id": "18154665"
+            }
+          },
+          "task": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approver": {
+            "meta": {
+              "included": false
+            }
+          },
+          "updater": {
+            "meta": {
+              "included": false
+            }
+          },
+          "rejecter": {
+            "meta": {
+              "included": false
+            }
+          },
+          "creator": {
+            "meta": {
+              "included": false
+            }
+          },
+          "last_actor": {
+            "meta": {
+              "included": false
+            }
+          },
+          "person_subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "deal_subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "timesheet": {
+            "meta": {
+              "included": false
+            }
+          },
+          "invoice_attribution": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approval_statuses": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      },
+      {
+        "id": "170936127",
+        "type": "time_entries",
+        "attributes": {
+          "draft": false,
+          "date": "2026-11-06",
+          "created_at": "2026-11-11T12:15:28.641+01:00",
+          "time": 240,
+          "billable_time": 240,
+          "recognized_time": 240,
+          "note": "<ul><li><p>Modelovanie exteriéru</p></li></ul>",
+          "track_method_id": 1,
+          "started_at": null,
+          "timer_started_at": null,
+          "timer_stopped_at": null,
+          "approved": true,
+          "approved_at": "2026-11-11T12:15:28.000+01:00",
+          "updated_at": "2026-11-11T12:15:39.751+01:00",
+          "calendar_event_id": null,
+          "calendar_event_recurring_id": null,
+          "invoice_attribution_id": null,
+          "invoiced": false,
+          "overhead": true,
+          "overtime": false,
+          "overtime_cost_multiplier": "1.0",
+          "rejected": false,
+          "rejected_reason": null,
+          "rejected_at": null,
+          "last_activity_at": "2026-11-11T12:15:28.641+01:00",
+          "submitted": false,
+          "currency": "EUR",
+          "currency_default": "USD",
+          "currency_normalized": "EUR",
+          "cost": 10000,
+          "cost_default": 11224,
+          "cost_normalized": 10000,
+          "work_cost": 10000,
+          "work_cost_default": 11224,
+          "work_cost_normalized": 10000,
+          "overhead_cost": 0,
+          "overhead_cost_default": 0,
+          "overhead_cost_normalized": 0,
+          "internal_overhead_cost": 0,
+          "internal_overhead_cost_default": 0,
+          "internal_overhead_cost_normalized": 0,
+          "facility_overhead_cost": 0,
+          "facility_overhead_cost_default": 0,
+          "facility_overhead_cost_normalized": 0
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "person": {
+            "data": {
+              "type": "people",
+              "id": "1521819"
+            }
+          },
+          "service": {
+            "data": {
+              "type": "services",
+              "id": "18154500"
+            }
+          },
+          "task": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approver": {
+            "meta": {
+              "included": false
+            }
+          },
+          "updater": {
+            "meta": {
+              "included": false
+            }
+          },
+          "rejecter": {
+            "meta": {
+              "included": false
+            }
+          },
+          "creator": {
+            "meta": {
+              "included": false
+            }
+          },
+          "last_actor": {
+            "meta": {
+              "included": false
+            }
+          },
+          "person_subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "deal_subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "timesheet": {
+            "meta": {
+              "included": false
+            }
+          },
+          "invoice_attribution": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approval_statuses": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      }
+    ],
+    "included": [
+      {
+        "id": "1521831",
+        "type": "people",
+        "attributes": {
+          "agent": false,
+          "avatar_url": null,
+          "contact": {},
+          "deactivated_at": null,
+          "email": "jana.novakova@studio-pulse.example",
+          "first_name": "Jana",
+          "last_name": "Nováková",
+          "nickname": null,
+          "original_avatar_url": null,
+          "role_id": 3,
+          "status_emoji": null,
+          "status_expires_at": null,
+          "status_text": null,
+          "time_off_status_sync": true,
+          "title": "",
+          "archived_at": null,
+          "autotracking": false,
+          "joined_at": "2026-11-11T11:40:12.000+01:00",
+          "last_seen_at": "2026-11-11T12:11:03.045+01:00",
+          "invited_at": "2026-11-11T11:38:36.000+01:00",
+          "is_user": true,
+          "user_id": 311696,
+          "tag_list": [],
+          "virtual": false,
+          "custom_fields": null,
+          "created_at": "2026-11-11T11:38:35.785+01:00",
+          "placeholder": false,
+          "color_id": null,
+          "sample_data": false,
+          "time_unlocked": false,
+          "time_unlocked_on": null,
+          "time_unlocked_start_date": null,
+          "time_unlocked_end_date": null,
+          "time_unlocked_period_id": null,
+          "time_unlocked_interval": null,
+          "last_activity_at": "2026-11-11T12:23:20.022+01:00",
+          "two_factor_auth": false,
+          "availabilities": "[[\"2026-11-01\", null, [8, 8, 8, 8, 8, 0, 0, 8, 8, 8, 8, 8, 0, 0], 67103]]",
+          "external_id": null,
+          "external_sync": false,
+          "hrm_type_id": 1,
+          "champion": false,
+          "timesheet_submission_disabled": false,
+          "offboarding_status": "not_initiated",
+          "offboarding_id": null,
+          "time_tracking_policy_id": null
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "company": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_role": {
+            "meta": {
+              "included": false
+            }
+          },
+          "import": {
+            "meta": {
+              "included": false
+            }
+          },
+          "manager": {
+            "meta": {
+              "included": false
+            }
+          },
+          "subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "job_role": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approval_policy_assignment": {
+            "meta": {
+              "included": false
+            }
+          },
+          "person_session": {
+            "meta": {
+              "included": false
+            }
+          },
+          "teams": {
+            "meta": {
+              "included": false
+            }
+          },
+          "service_types": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_people": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_attachments": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      },
+      {
+        "id": "18155034",
+        "type": "services",
+        "attributes": {
+          "name": "Business Development",
+          "position": 1,
+          "deleted_at": null,
+          "external_id": null,
+          "billable": false,
+          "description": null,
+          "time_tracking_enabled": true,
+          "expense_tracking_enabled": false,
+          "booking_tracking_enabled": true,
+          "origin_service_id": null,
+          "initial_service_id": 18155034,
+          "budget_cap_enabled": false,
+          "editor_config": {
+            "unit_id": "1",
+            "quantity": 0,
+            "hourly_rate": 0,
+            "service_type_id": "474660",
+            "override_editor_service_type": false
+          },
+          "custom_fields": null,
+          "billing_type_id": 3,
+          "billing_method": "service",
+          "worked_time": 750,
+          "overtime_time": 0,
+          "billable_time": 0,
+          "estimated_time": 0,
+          "budgeted_time": 0,
+          "profit_margin": 0.0,
+          "booked_time": 0,
+          "unit_id": 1,
+          "future_booked_time": 0,
+          "tentative_booked_time": 0,
+          "future_tentative_booked_time": 0,
+          "markup": null,
+          "discount": "0.0",
+          "discount_type": "percentage",
+          "quantity": "0.0",
+          "currency": "EUR",
+          "currency_default": "USD",
+          "currency_normalized": "EUR",
+          "profit": -31250.0,
+          "profit_default": -34912.495321725626,
+          "profit_normalized": -31250.0,
+          "work_cost": 31250.0,
+          "work_cost_default": 34912.495321725626,
+          "work_cost_normalized": 31250.0,
+          "future_cost": 0.0,
+          "future_cost_default": 0.0,
+          "future_cost_normalized": 0.0,
+          "cost": 31250.0,
+          "cost_default": 34912.495321725626,
+          "cost_normalized": 31250.0,
+          "price": 0.0,
+          "price_default": 0.0,
+          "price_normalized": 0.0,
+          "estimated_cost": 0.0,
+          "estimated_cost_default": 0.0,
+          "estimated_cost_normalized": 0.0,
+          "revenue": 0.0,
+          "revenue_default": 0.0,
+          "revenue_normalized": 0.0,
+          "projected_revenue": 0.0,
+          "projected_revenue_default": 0.0,
+          "projected_revenue_normalized": 0.0,
+          "expense_amount": 0.0,
+          "expense_amount_default": 0.0,
+          "expense_amount_normalized": 0.0,
+          "expense_billable_amount": 0.0,
+          "expense_billable_amount_default": 0.0,
+          "expense_billable_amount_normalized": 0.0,
+          "budget_total": 0.0,
+          "budget_total_default": 0.0,
+          "budget_total_normalized": 0.0,
+          "budget_used": 0.0,
+          "budget_used_default": 0.0,
+          "budget_used_normalized": 0.0,
+          "future_revenue": 0.0,
+          "future_revenue_default": 0.0,
+          "future_revenue_normalized": 0.0,
+          "future_budget_used": 0.0,
+          "future_budget_used_default": 0.0,
+          "future_budget_used_normalized": 0.0,
+          "discount_amount": 0.0,
+          "discount_amount_default": 0.0,
+          "discount_amount_normalized": 0.0,
+          "markup_amount": 0.0,
+          "markup_amount_default": 0.0,
+          "markup_amount_normalized": 0.0
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "service_type": {
+            "meta": {
+              "included": false
+            }
+          },
+          "deal": {
+            "meta": {
+              "included": false
+            }
+          },
+          "person": {
+            "meta": {
+              "included": false
+            }
+          },
+          "section": {
+            "meta": {
+              "included": false
+            }
+          },
+          "import": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_people": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_attachments": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      },
+      {
+        "id": "18154666",
+        "type": "services",
+        "attributes": {
+          "name": "Jana Nováková",
+          "position": 1,
+          "deleted_at": null,
+          "external_id": null,
+          "billable": true,
+          "description": null,
+          "time_tracking_enabled": true,
+          "expense_tracking_enabled": false,
+          "booking_tracking_enabled": true,
+          "origin_service_id": null,
+          "initial_service_id": 18154666,
+          "budget_cap_enabled": false,
+          "editor_config": {
+            "unit_id": "1",
+            "billable": true,
+            "person_id": "1521831",
+            "hourly_rate": 5000,
+            "estimated_hours": 360,
+            "service_type_id": "474613",
+            "override_editor_service_type": false
+          },
+          "custom_fields": null,
+          "billing_type_id": 2,
+          "billing_method": "service",
+          "worked_time": 450,
+          "overtime_time": 0,
+          "billable_time": 450,
+          "estimated_time": 360,
+          "budgeted_time": 360,
+          "profit_margin": "50.0",
+          "booked_time": 0,
+          "unit_id": 1,
+          "future_booked_time": 0,
+          "tentative_booked_time": 0,
+          "future_tentative_booked_time": 0,
+          "markup": null,
+          "discount": "0.0",
+          "discount_type": "percentage",
+          "quantity": "6.0",
+          "currency": "EUR",
+          "currency_default": "USD",
+          "currency_normalized": "EUR",
+          "profit": 18750.0,
+          "profit_default": 20947.497193035375,
+          "profit_normalized": 18750.0,
+          "work_cost": 18750.0,
+          "work_cost_default": 20947.497193035375,
+          "work_cost_normalized": 18750.0,
+          "future_cost": 0.0,
+          "future_cost_default": 0.0,
+          "future_cost_normalized": 0.0,
+          "cost": 18750.0,
+          "cost_default": 20947.497193035375,
+          "cost_normalized": 18750.0,
+          "price": 5000.0,
+          "price_default": 5585.9992514761,
+          "price_normalized": 5000.0,
+          "estimated_cost": 0.0,
+          "estimated_cost_default": 0.0,
+          "estimated_cost_normalized": 0.0,
+          "revenue": 37500.0,
+          "revenue_default": 41894.99438607075,
+          "revenue_normalized": 37500.0,
+          "projected_revenue": 0.0,
+          "projected_revenue_default": 0.0,
+          "projected_revenue_normalized": 0.0,
+          "expense_amount": 0.0,
+          "expense_amount_default": 0.0,
+          "expense_amount_normalized": 0.0,
+          "expense_billable_amount": 0.0,
+          "expense_billable_amount_default": 0.0,
+          "expense_billable_amount_normalized": 0.0,
+          "budget_total": 30000.0,
+          "budget_total_default": 33515.9955088566,
+          "budget_total_normalized": 30000.0,
+          "budget_used": 37500.0,
+          "budget_used_default": 41894.99438607075,
+          "budget_used_normalized": 37500.0,
+          "future_revenue": 0.0,
+          "future_revenue_default": 0.0,
+          "future_revenue_normalized": 0.0,
+          "future_budget_used": 0.0,
+          "future_budget_used_default": 0.0,
+          "future_budget_used_normalized": 0.0,
+          "discount_amount": 0.0,
+          "discount_amount_default": 0.0,
+          "discount_amount_normalized": 0.0,
+          "markup_amount": 0.0,
+          "markup_amount_default": 0.0,
+          "markup_amount_normalized": 0.0
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "service_type": {
+            "meta": {
+              "included": false
+            }
+          },
+          "deal": {
+            "meta": {
+              "included": false
+            }
+          },
+          "person": {
+            "meta": {
+              "included": false
+            }
+          },
+          "section": {
+            "meta": {
+              "included": false
+            }
+          },
+          "import": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_people": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_attachments": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      },
+      {
+        "id": "1521833",
+        "type": "people",
+        "attributes": {
+          "agent": false,
+          "avatar_url": null,
+          "contact": {},
+          "deactivated_at": null,
+          "email": "martin.horak@studio-pulse.example",
+          "first_name": "Martin",
+          "last_name": "Horák",
+          "nickname": null,
+          "original_avatar_url": null,
+          "role_id": 3,
+          "status_emoji": null,
+          "status_expires_at": null,
+          "status_text": null,
+          "time_off_status_sync": true,
+          "title": null,
+          "archived_at": null,
+          "autotracking": false,
+          "joined_at": "2026-11-11T11:40:36.000+01:00",
+          "last_seen_at": "2026-11-11T11:40:36.704+01:00",
+          "invited_at": "2026-11-11T11:39:25.000+01:00",
+          "is_user": true,
+          "user_id": 311698,
+          "tag_list": [],
+          "virtual": false,
+          "custom_fields": null,
+          "created_at": "2026-11-11T11:39:25.387+01:00",
+          "placeholder": false,
+          "color_id": null,
+          "sample_data": false,
+          "time_unlocked": false,
+          "time_unlocked_on": null,
+          "time_unlocked_start_date": null,
+          "time_unlocked_end_date": null,
+          "time_unlocked_period_id": null,
+          "time_unlocked_interval": null,
+          "last_activity_at": "2026-11-11T12:23:57.506+01:00",
+          "two_factor_auth": false,
+          "availabilities": "[[\"2026-11-01\", null, [8, 8, 8, 8, 8, 0, 0, 8, 8, 8, 8, 8, 0, 0], 67103]]",
+          "external_id": null,
+          "external_sync": false,
+          "hrm_type_id": 1,
+          "champion": false,
+          "timesheet_submission_disabled": false,
+          "offboarding_status": "not_initiated",
+          "offboarding_id": null,
+          "time_tracking_policy_id": null
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "company": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_role": {
+            "meta": {
+              "included": false
+            }
+          },
+          "import": {
+            "meta": {
+              "included": false
+            }
+          },
+          "manager": {
+            "meta": {
+              "included": false
+            }
+          },
+          "subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "job_role": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approval_policy_assignment": {
+            "meta": {
+              "included": false
+            }
+          },
+          "person_session": {
+            "meta": {
+              "included": false
+            }
+          },
+          "teams": {
+            "meta": {
+              "included": false
+            }
+          },
+          "service_types": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_people": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_attachments": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      },
+      {
+        "id": "18154682",
+        "type": "services",
+        "attributes": {
+          "name": "Martin Horák",
+          "position": 1,
+          "deleted_at": null,
+          "external_id": null,
+          "billable": true,
+          "description": null,
+          "time_tracking_enabled": true,
+          "expense_tracking_enabled": false,
+          "booking_tracking_enabled": true,
+          "origin_service_id": null,
+          "initial_service_id": 18154682,
+          "budget_cap_enabled": false,
+          "editor_config": {
+            "unit_id": "1",
+            "billable": true,
+            "person_id": "1521833",
+            "hourly_rate": 5000,
+            "estimated_hours": 1800,
+            "service_type_id": "474613",
+            "override_editor_service_type": false
+          },
+          "custom_fields": null,
+          "billing_type_id": 2,
+          "billing_method": "service",
+          "worked_time": 600,
+          "overtime_time": 0,
+          "billable_time": 600,
+          "estimated_time": 1800,
+          "budgeted_time": 1800,
+          "profit_margin": "50.0",
+          "booked_time": 0,
+          "unit_id": 1,
+          "future_booked_time": 0,
+          "tentative_booked_time": 0,
+          "future_tentative_booked_time": 0,
+          "markup": null,
+          "discount": "0.0",
+          "discount_type": "percentage",
+          "quantity": "30.0",
+          "currency": "EUR",
+          "currency_default": "USD",
+          "currency_normalized": "EUR",
+          "profit": 25000.0,
+          "profit_default": 27929.9962573805,
+          "profit_normalized": 25000.0,
+          "work_cost": 25000.0,
+          "work_cost_default": 27929.9962573805,
+          "work_cost_normalized": 25000.0,
+          "future_cost": 0.0,
+          "future_cost_default": 0.0,
+          "future_cost_normalized": 0.0,
+          "cost": 25000.0,
+          "cost_default": 27929.9962573805,
+          "cost_normalized": 25000.0,
+          "price": 5000.0,
+          "price_default": 5585.9992514761,
+          "price_normalized": 5000.0,
+          "estimated_cost": 0.0,
+          "estimated_cost_default": 0.0,
+          "estimated_cost_normalized": 0.0,
+          "revenue": 50000.0,
+          "revenue_default": 55859.992514761,
+          "revenue_normalized": 50000.0,
+          "projected_revenue": 0.0,
+          "projected_revenue_default": 0.0,
+          "projected_revenue_normalized": 0.0,
+          "expense_amount": 0.0,
+          "expense_amount_default": 0.0,
+          "expense_amount_normalized": 0.0,
+          "expense_billable_amount": 0.0,
+          "expense_billable_amount_default": 0.0,
+          "expense_billable_amount_normalized": 0.0,
+          "budget_total": 150000.0,
+          "budget_total_default": 167579.977544283,
+          "budget_total_normalized": 150000.0,
+          "budget_used": 50000.0,
+          "budget_used_default": 55859.992514761,
+          "budget_used_normalized": 50000.0,
+          "future_revenue": 0.0,
+          "future_revenue_default": 0.0,
+          "future_revenue_normalized": 0.0,
+          "future_budget_used": 0.0,
+          "future_budget_used_default": 0.0,
+          "future_budget_used_normalized": 0.0,
+          "discount_amount": 0.0,
+          "discount_amount_default": 0.0,
+          "discount_amount_normalized": 0.0,
+          "markup_amount": 0.0,
+          "markup_amount_default": 0.0,
+          "markup_amount_normalized": 0.0
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "service_type": {
+            "meta": {
+              "included": false
+            }
+          },
+          "deal": {
+            "meta": {
+              "included": false
+            }
+          },
+          "person": {
+            "meta": {
+              "included": false
+            }
+          },
+          "section": {
+            "meta": {
+              "included": false
+            }
+          },
+          "import": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_people": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_attachments": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      },
+      {
+        "id": "18154501",
+        "type": "services",
+        "attributes": {
+          "name": "Martin Horák",
+          "position": 1,
+          "deleted_at": null,
+          "external_id": null,
+          "billable": true,
+          "description": null,
+          "time_tracking_enabled": true,
+          "expense_tracking_enabled": false,
+          "booking_tracking_enabled": true,
+          "origin_service_id": null,
+          "initial_service_id": 18154501,
+          "budget_cap_enabled": false,
+          "editor_config": {
+            "unit_id": "1",
+            "billable": true,
+            "person_id": "1521833",
+            "hourly_rate": 5000,
+            "estimated_hours": 480,
+            "service_type_id": "474613",
+            "override_editor_service_type": false
+          },
+          "custom_fields": null,
+          "billing_type_id": 2,
+          "billing_method": "service",
+          "worked_time": 480,
+          "overtime_time": 0,
+          "billable_time": 480,
+          "estimated_time": 480,
+          "budgeted_time": 480,
+          "profit_margin": "50.0",
+          "booked_time": 0,
+          "unit_id": 1,
+          "future_booked_time": 0,
+          "tentative_booked_time": 0,
+          "future_tentative_booked_time": 0,
+          "markup": null,
+          "discount": "0.0",
+          "discount_type": "percentage",
+          "quantity": "8.0",
+          "currency": "EUR",
+          "currency_default": "USD",
+          "currency_normalized": "EUR",
+          "profit": 20000.0,
+          "profit_default": 22343.9970059044,
+          "profit_normalized": 20000.0,
+          "work_cost": 20000.0,
+          "work_cost_default": 22343.9970059044,
+          "work_cost_normalized": 20000.0,
+          "future_cost": 0.0,
+          "future_cost_default": 0.0,
+          "future_cost_normalized": 0.0,
+          "cost": 20000.0,
+          "cost_default": 22343.9970059044,
+          "cost_normalized": 20000.0,
+          "price": 5000.0,
+          "price_default": 5585.9992514761,
+          "price_normalized": 5000.0,
+          "estimated_cost": 0.0,
+          "estimated_cost_default": 0.0,
+          "estimated_cost_normalized": 0.0,
+          "revenue": 40000.0,
+          "revenue_default": 44687.9940118088,
+          "revenue_normalized": 40000.0,
+          "projected_revenue": 0.0,
+          "projected_revenue_default": 0.0,
+          "projected_revenue_normalized": 0.0,
+          "expense_amount": 0.0,
+          "expense_amount_default": 0.0,
+          "expense_amount_normalized": 0.0,
+          "expense_billable_amount": 0.0,
+          "expense_billable_amount_default": 0.0,
+          "expense_billable_amount_normalized": 0.0,
+          "budget_total": 40000.0,
+          "budget_total_default": 44687.9940118088,
+          "budget_total_normalized": 40000.0,
+          "budget_used": 40000.0,
+          "budget_used_default": 44687.9940118088,
+          "budget_used_normalized": 40000.0,
+          "future_revenue": 0.0,
+          "future_revenue_default": 0.0,
+          "future_revenue_normalized": 0.0,
+          "future_budget_used": 0.0,
+          "future_budget_used_default": 0.0,
+          "future_budget_used_normalized": 0.0,
+          "discount_amount": 0.0,
+          "discount_amount_default": 0.0,
+          "discount_amount_normalized": 0.0,
+          "markup_amount": 0.0,
+          "markup_amount_default": 0.0,
+          "markup_amount_normalized": 0.0
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "service_type": {
+            "meta": {
+              "included": false
+            }
+          },
+          "deal": {
+            "meta": {
+              "included": false
+            }
+          },
+          "person": {
+            "meta": {
+              "included": false
+            }
+          },
+          "section": {
+            "meta": {
+              "included": false
+            }
+          },
+          "import": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_people": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_attachments": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      },
+      {
+        "id": "1521819",
+        "type": "people",
+        "attributes": {
+          "agent": false,
+          "avatar_url": null,
+          "contact": {},
+          "deactivated_at": null,
+          "email": "peter.kovac@studio-pulse.example",
+          "first_name": "Peter",
+          "last_name": "Kováč",
+          "nickname": null,
+          "original_avatar_url": null,
+          "role_id": 1,
+          "status_emoji": null,
+          "status_expires_at": null,
+          "status_text": null,
+          "time_off_status_sync": true,
+          "title": null,
+          "archived_at": null,
+          "autotracking": false,
+          "joined_at": "2026-11-11T11:33:41.000+01:00",
+          "last_seen_at": "2026-11-11T12:53:17.292+01:00",
+          "invited_at": null,
+          "is_user": true,
+          "user_id": 311694,
+          "tag_list": [],
+          "virtual": false,
+          "ai_assistant_instructions": null,
+          "ai_assistant_name": null,
+          "ai_assistant_avatar_url": null,
+          "custom_fields": null,
+          "created_at": "2026-11-11T11:33:04.778+01:00",
+          "placeholder": false,
+          "color_id": null,
+          "sample_data": false,
+          "time_unlocked": false,
+          "time_unlocked_on": null,
+          "time_unlocked_start_date": null,
+          "time_unlocked_end_date": null,
+          "time_unlocked_period_id": null,
+          "time_unlocked_interval": null,
+          "last_activity_at": "2026-11-11T12:09:38.467+01:00",
+          "two_factor_auth": false,
+          "availabilities": "[[\"2026-11-01\", null, [8, 8, 8, 8, 8, 0, 0, 8, 8, 8, 8, 8, 0, 0], 67103]]",
+          "external_id": null,
+          "external_sync": false,
+          "hrm_type_id": 1,
+          "champion": false,
+          "timesheet_submission_disabled": false,
+          "offboarding_status": "not_initiated",
+          "offboarding_id": null,
+          "time_tracking_policy_id": null
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "company": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_role": {
+            "meta": {
+              "included": false
+            }
+          },
+          "import": {
+            "meta": {
+              "included": false
+            }
+          },
+          "manager": {
+            "meta": {
+              "included": false
+            }
+          },
+          "subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "job_role": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approval_policy_assignment": {
+            "meta": {
+              "included": false
+            }
+          },
+          "person_session": {
+            "meta": {
+              "included": false
+            }
+          },
+          "teams": {
+            "meta": {
+              "included": false
+            }
+          },
+          "service_types": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_people": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_attachments": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      },
+      {
+        "id": "18154681",
+        "type": "services",
+        "attributes": {
+          "name": "Peter Kováč",
+          "position": 1,
+          "deleted_at": null,
+          "external_id": null,
+          "billable": true,
+          "description": null,
+          "time_tracking_enabled": true,
+          "expense_tracking_enabled": false,
+          "booking_tracking_enabled": true,
+          "origin_service_id": null,
+          "initial_service_id": 18154681,
+          "budget_cap_enabled": false,
+          "editor_config": {
+            "unit_id": "1",
+            "billable": true,
+            "person_id": "1521819",
+            "hourly_rate": 5000,
+            "estimated_hours": 600,
+            "service_type_id": "474613",
+            "override_editor_service_type": false
+          },
+          "custom_fields": null,
+          "billing_type_id": 2,
+          "billing_method": "service",
+          "worked_time": 120,
+          "overtime_time": 0,
+          "billable_time": 120,
+          "estimated_time": 600,
+          "budgeted_time": 600,
+          "profit_margin": "50.0",
+          "booked_time": 0,
+          "unit_id": 1,
+          "future_booked_time": 0,
+          "tentative_booked_time": 0,
+          "future_tentative_booked_time": 0,
+          "markup": null,
+          "discount": "0.0",
+          "discount_type": "percentage",
+          "quantity": "10.0",
+          "currency": "EUR",
+          "currency_default": "USD",
+          "currency_normalized": "EUR",
+          "profit": 5000.0,
+          "profit_default": 5585.9992514761,
+          "profit_normalized": 5000.0,
+          "work_cost": 5000.0,
+          "work_cost_default": 5585.9992514761,
+          "work_cost_normalized": 5000.0,
+          "future_cost": 0.0,
+          "future_cost_default": 0.0,
+          "future_cost_normalized": 0.0,
+          "cost": 5000.0,
+          "cost_default": 5585.9992514761,
+          "cost_normalized": 5000.0,
+          "price": 5000.0,
+          "price_default": 5585.9992514761,
+          "price_normalized": 5000.0,
+          "estimated_cost": 0.0,
+          "estimated_cost_default": 0.0,
+          "estimated_cost_normalized": 0.0,
+          "revenue": 10000.0,
+          "revenue_default": 11171.9985029522,
+          "revenue_normalized": 10000.0,
+          "projected_revenue": 0.0,
+          "projected_revenue_default": 0.0,
+          "projected_revenue_normalized": 0.0,
+          "expense_amount": 0.0,
+          "expense_amount_default": 0.0,
+          "expense_amount_normalized": 0.0,
+          "expense_billable_amount": 0.0,
+          "expense_billable_amount_default": 0.0,
+          "expense_billable_amount_normalized": 0.0,
+          "budget_total": 50000.0,
+          "budget_total_default": 55859.992514761,
+          "budget_total_normalized": 50000.0,
+          "budget_used": 10000.0,
+          "budget_used_default": 11171.9985029522,
+          "budget_used_normalized": 10000.0,
+          "future_revenue": 0.0,
+          "future_revenue_default": 0.0,
+          "future_revenue_normalized": 0.0,
+          "future_budget_used": 0.0,
+          "future_budget_used_default": 0.0,
+          "future_budget_used_normalized": 0.0,
+          "discount_amount": 0.0,
+          "discount_amount_default": 0.0,
+          "discount_amount_normalized": 0.0,
+          "markup_amount": 0.0,
+          "markup_amount_default": 0.0,
+          "markup_amount_normalized": 0.0
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "service_type": {
+            "meta": {
+              "included": false
+            }
+          },
+          "deal": {
+            "meta": {
+              "included": false
+            }
+          },
+          "person": {
+            "meta": {
+              "included": false
+            }
+          },
+          "section": {
+            "meta": {
+              "included": false
+            }
+          },
+          "import": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_people": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_attachments": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      },
+      {
+        "id": "18154665",
+        "type": "services",
+        "attributes": {
+          "name": "Peter Kováč",
+          "position": 1,
+          "deleted_at": null,
+          "external_id": null,
+          "billable": true,
+          "description": null,
+          "time_tracking_enabled": true,
+          "expense_tracking_enabled": false,
+          "booking_tracking_enabled": true,
+          "origin_service_id": null,
+          "initial_service_id": 18154665,
+          "budget_cap_enabled": false,
+          "editor_config": {
+            "unit_id": "1",
+            "billable": true,
+            "person_id": "1521819",
+            "hourly_rate": 5000,
+            "estimated_hours": 360,
+            "service_type_id": "474613",
+            "override_editor_service_type": false
+          },
+          "custom_fields": null,
+          "billing_type_id": 2,
+          "billing_method": "service",
+          "worked_time": 360,
+          "overtime_time": 0,
+          "billable_time": 360,
+          "estimated_time": 360,
+          "budgeted_time": 360,
+          "profit_margin": "50.0",
+          "booked_time": 0,
+          "unit_id": 1,
+          "future_booked_time": 0,
+          "tentative_booked_time": 0,
+          "future_tentative_booked_time": 0,
+          "markup": null,
+          "discount": "0.0",
+          "discount_type": "percentage",
+          "quantity": "6.0",
+          "currency": "EUR",
+          "currency_default": "USD",
+          "currency_normalized": "EUR",
+          "profit": 15000.0,
+          "profit_default": 16757.9977544283,
+          "profit_normalized": 15000.0,
+          "work_cost": 15000.0,
+          "work_cost_default": 16757.9977544283,
+          "work_cost_normalized": 15000.0,
+          "future_cost": 0.0,
+          "future_cost_default": 0.0,
+          "future_cost_normalized": 0.0,
+          "cost": 15000.0,
+          "cost_default": 16757.9977544283,
+          "cost_normalized": 15000.0,
+          "price": 5000.0,
+          "price_default": 5585.9992514761,
+          "price_normalized": 5000.0,
+          "estimated_cost": 0.0,
+          "estimated_cost_default": 0.0,
+          "estimated_cost_normalized": 0.0,
+          "revenue": 30000.0,
+          "revenue_default": 33515.9955088566,
+          "revenue_normalized": 30000.0,
+          "projected_revenue": 0.0,
+          "projected_revenue_default": 0.0,
+          "projected_revenue_normalized": 0.0,
+          "expense_amount": 0.0,
+          "expense_amount_default": 0.0,
+          "expense_amount_normalized": 0.0,
+          "expense_billable_amount": 0.0,
+          "expense_billable_amount_default": 0.0,
+          "expense_billable_amount_normalized": 0.0,
+          "budget_total": 30000.0,
+          "budget_total_default": 33515.9955088566,
+          "budget_total_normalized": 30000.0,
+          "budget_used": 30000.0,
+          "budget_used_default": 33515.9955088566,
+          "budget_used_normalized": 30000.0,
+          "future_revenue": 0.0,
+          "future_revenue_default": 0.0,
+          "future_revenue_normalized": 0.0,
+          "future_budget_used": 0.0,
+          "future_budget_used_default": 0.0,
+          "future_budget_used_normalized": 0.0,
+          "discount_amount": 0.0,
+          "discount_amount_default": 0.0,
+          "discount_amount_normalized": 0.0,
+          "markup_amount": 0.0,
+          "markup_amount_default": 0.0,
+          "markup_amount_normalized": 0.0
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "service_type": {
+            "meta": {
+              "included": false
+            }
+          },
+          "deal": {
+            "meta": {
+              "included": false
+            }
+          },
+          "person": {
+            "meta": {
+              "included": false
+            }
+          },
+          "section": {
+            "meta": {
+              "included": false
+            }
+          },
+          "import": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_people": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_attachments": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      },
+      {
+        "id": "18154500",
+        "type": "services",
+        "attributes": {
+          "name": "Peter Kováč",
+          "position": 1,
+          "deleted_at": null,
+          "external_id": null,
+          "billable": true,
+          "description": null,
+          "time_tracking_enabled": true,
+          "expense_tracking_enabled": false,
+          "booking_tracking_enabled": true,
+          "origin_service_id": null,
+          "initial_service_id": 18154500,
+          "budget_cap_enabled": false,
+          "editor_config": {
+            "unit_id": "1",
+            "billable": true,
+            "person_id": "1521819",
+            "hourly_rate": 5000,
+            "estimated_hours": 600,
+            "service_type_id": "474613",
+            "override_editor_service_type": false
+          },
+          "custom_fields": null,
+          "billing_type_id": 2,
+          "billing_method": "service",
+          "worked_time": 540,
+          "overtime_time": 0,
+          "billable_time": 540,
+          "estimated_time": 600,
+          "budgeted_time": 600,
+          "profit_margin": "50.0",
+          "booked_time": 0,
+          "unit_id": 1,
+          "future_booked_time": 0,
+          "tentative_booked_time": 0,
+          "future_tentative_booked_time": 0,
+          "markup": null,
+          "discount": "0.0",
+          "discount_type": "percentage",
+          "quantity": "10.0",
+          "currency": "EUR",
+          "currency_default": "USD",
+          "currency_normalized": "EUR",
+          "profit": 22500.0,
+          "profit_default": 25136.99663164245,
+          "profit_normalized": 22500.0,
+          "work_cost": 22500.0,
+          "work_cost_default": 25136.99663164245,
+          "work_cost_normalized": 22500.0,
+          "future_cost": 0.0,
+          "future_cost_default": 0.0,
+          "future_cost_normalized": 0.0,
+          "cost": 22500.0,
+          "cost_default": 25136.99663164245,
+          "cost_normalized": 22500.0,
+          "price": 5000.0,
+          "price_default": 5585.9992514761,
+          "price_normalized": 5000.0,
+          "estimated_cost": 0.0,
+          "estimated_cost_default": 0.0,
+          "estimated_cost_normalized": 0.0,
+          "revenue": 45000.0,
+          "revenue_default": 50273.9932632849,
+          "revenue_normalized": 45000.0,
+          "projected_revenue": 0.0,
+          "projected_revenue_default": 0.0,
+          "projected_revenue_normalized": 0.0,
+          "expense_amount": 0.0,
+          "expense_amount_default": 0.0,
+          "expense_amount_normalized": 0.0,
+          "expense_billable_amount": 0.0,
+          "expense_billable_amount_default": 0.0,
+          "expense_billable_amount_normalized": 0.0,
+          "budget_total": 50000.0,
+          "budget_total_default": 55859.992514761,
+          "budget_total_normalized": 50000.0,
+          "budget_used": 45000.0,
+          "budget_used_default": 50273.9932632849,
+          "budget_used_normalized": 45000.0,
+          "future_revenue": 0.0,
+          "future_revenue_default": 0.0,
+          "future_revenue_normalized": 0.0,
+          "future_budget_used": 0.0,
+          "future_budget_used_default": 0.0,
+          "future_budget_used_normalized": 0.0,
+          "discount_amount": 0.0,
+          "discount_amount_default": 0.0,
+          "discount_amount_normalized": 0.0,
+          "markup_amount": 0.0,
+          "markup_amount_default": 0.0,
+          "markup_amount_normalized": 0.0
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "service_type": {
+            "meta": {
+              "included": false
+            }
+          },
+          "deal": {
+            "meta": {
+              "included": false
+            }
+          },
+          "person": {
+            "meta": {
+              "included": false
+            }
+          },
+          "section": {
+            "meta": {
+              "included": false
+            }
+          },
+          "import": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_people": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_attachments": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      }
+    ],
+    "links": {
+      "first": "https://api.productive.io/api/v2/time_entries?filter%5Bdate%5D%5Bgt_eq%5D=2000-01-01&filter%5Bdate%5D%5Blt_eq%5D=2026-11-10&filter%5Bwith_draft%5D=true&include=person%2Cservice&page%5Bnumber%5D=1&page%5Bsize%5D=200",
+      "last": "https://api.productive.io/api/v2/time_entries?filter%5Bdate%5D%5Bgt_eq%5D=2000-01-01&filter%5Bdate%5D%5Blt_eq%5D=2026-11-10&filter%5Bwith_draft%5D=true&include=person%2Cservice&page%5Bnumber%5D=1&page%5Bsize%5D=200"
+    },
+    "meta": {
+      "current_page": 1,
+      "total_pages": 1,
+      "total_count": 17,
+      "page_size": 200,
+      "max_page_size": 200
+    }
+  }
+]

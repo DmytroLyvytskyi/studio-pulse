@@ -1,0 +1,380 @@
+[
+  {
+    "data": [
+      {
+        "id": "1521831",
+        "type": "people",
+        "attributes": {
+          "agent": false,
+          "avatar_url": null,
+          "contact": {},
+          "deactivated_at": null,
+          "email": "jana.novakova@studio-pulse.example",
+          "first_name": "Jana",
+          "last_name": "Nováková",
+          "nickname": null,
+          "original_avatar_url": null,
+          "role_id": 3,
+          "status_emoji": null,
+          "status_expires_at": null,
+          "status_text": null,
+          "time_off_status_sync": true,
+          "title": "",
+          "archived_at": null,
+          "autotracking": false,
+          "joined_at": "2026-11-11T11:40:12.000+01:00",
+          "last_seen_at": "2026-11-11T12:11:03.045+01:00",
+          "invited_at": "2026-11-11T11:38:36.000+01:00",
+          "is_user": true,
+          "user_id": 311696,
+          "tag_list": [],
+          "virtual": false,
+          "custom_fields": null,
+          "created_at": "2026-11-11T11:38:35.785+01:00",
+          "placeholder": false,
+          "color_id": null,
+          "sample_data": false,
+          "time_unlocked": false,
+          "time_unlocked_on": null,
+          "time_unlocked_start_date": null,
+          "time_unlocked_end_date": null,
+          "time_unlocked_period_id": null,
+          "time_unlocked_interval": null,
+          "last_activity_at": "2026-11-11T12:23:20.022+01:00",
+          "two_factor_auth": false,
+          "availabilities": "[[\"2026-11-01\", null, [8, 8, 8, 8, 8, 0, 0, 8, 8, 8, 8, 8, 0, 0], 67103]]",
+          "external_id": null,
+          "external_sync": false,
+          "hrm_type_id": 1,
+          "champion": false,
+          "timesheet_submission_disabled": false,
+          "offboarding_status": "not_initiated",
+          "offboarding_id": null,
+          "time_tracking_policy_id": null
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "company": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_role": {
+            "meta": {
+              "included": false
+            }
+          },
+          "import": {
+            "meta": {
+              "included": false
+            }
+          },
+          "manager": {
+            "meta": {
+              "included": false
+            }
+          },
+          "subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "job_role": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approval_policy_assignment": {
+            "meta": {
+              "included": false
+            }
+          },
+          "person_session": {
+            "meta": {
+              "included": false
+            }
+          },
+          "teams": {
+            "meta": {
+              "included": false
+            }
+          },
+          "service_types": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_people": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_attachments": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      },
+      {
+        "id": "1521833",
+        "type": "people",
+        "attributes": {
+          "agent": false,
+          "avatar_url": null,
+          "contact": {},
+          "deactivated_at": null,
+          "email": "martin.horak@studio-pulse.example",
+          "first_name": "Martin",
+          "last_name": "Horák",
+          "nickname": null,
+          "original_avatar_url": null,
+          "role_id": 3,
+          "status_emoji": null,
+          "status_expires_at": null,
+          "status_text": null,
+          "time_off_status_sync": true,
+          "title": null,
+          "archived_at": null,
+          "autotracking": false,
+          "joined_at": "2026-11-11T11:40:36.000+01:00",
+          "last_seen_at": "2026-11-11T11:40:36.704+01:00",
+          "invited_at": "2026-11-11T11:39:25.000+01:00",
+          "is_user": true,
+          "user_id": 311698,
+          "tag_list": [],
+          "virtual": false,
+          "custom_fields": null,
+          "created_at": "2026-11-11T11:39:25.387+01:00",
+          "placeholder": false,
+          "color_id": null,
+          "sample_data": false,
+          "time_unlocked": false,
+          "time_unlocked_on": null,
+          "time_unlocked_start_date": null,
+          "time_unlocked_end_date": null,
+          "time_unlocked_period_id": null,
+          "time_unlocked_interval": null,
+          "last_activity_at": "2026-11-11T12:23:57.506+01:00",
+          "two_factor_auth": false,
+          "availabilities": "[[\"2026-11-01\", null, [8, 8, 8, 8, 8, 0, 0, 8, 8, 8, 8, 8, 0, 0], 67103]]",
+          "external_id": null,
+          "external_sync": false,
+          "hrm_type_id": 1,
+          "champion": false,
+          "timesheet_submission_disabled": false,
+          "offboarding_status": "not_initiated",
+          "offboarding_id": null,
+          "time_tracking_policy_id": null
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "company": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_role": {
+            "meta": {
+              "included": false
+            }
+          },
+          "import": {
+            "meta": {
+              "included": false
+            }
+          },
+          "manager": {
+            "meta": {
+              "included": false
+            }
+          },
+          "subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "job_role": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approval_policy_assignment": {
+            "meta": {
+              "included": false
+            }
+          },
+          "person_session": {
+            "meta": {
+              "included": false
+            }
+          },
+          "teams": {
+            "meta": {
+              "included": false
+            }
+          },
+          "service_types": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_people": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_attachments": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      },
+      {
+        "id": "1521819",
+        "type": "people",
+        "attributes": {
+          "agent": false,
+          "avatar_url": null,
+          "contact": {},
+          "deactivated_at": null,
+          "email": "peter.kovac@studio-pulse.example",
+          "first_name": "Peter",
+          "last_name": "Kováč",
+          "nickname": null,
+          "original_avatar_url": null,
+          "role_id": 1,
+          "status_emoji": null,
+          "status_expires_at": null,
+          "status_text": null,
+          "time_off_status_sync": true,
+          "title": null,
+          "archived_at": null,
+          "autotracking": false,
+          "joined_at": "2026-11-11T11:33:41.000+01:00",
+          "last_seen_at": "2026-11-11T12:53:17.292+01:00",
+          "invited_at": null,
+          "is_user": true,
+          "user_id": 311694,
+          "tag_list": [],
+          "virtual": false,
+          "ai_assistant_instructions": null,
+          "ai_assistant_name": null,
+          "ai_assistant_avatar_url": null,
+          "custom_fields": null,
+          "created_at": "2026-11-11T11:33:04.778+01:00",
+          "placeholder": false,
+          "color_id": null,
+          "sample_data": false,
+          "time_unlocked": false,
+          "time_unlocked_on": null,
+          "time_unlocked_start_date": null,
+          "time_unlocked_end_date": null,
+          "time_unlocked_period_id": null,
+          "time_unlocked_interval": null,
+          "last_activity_at": "2026-11-11T12:09:38.467+01:00",
+          "two_factor_auth": false,
+          "availabilities": "[[\"2026-11-01\", null, [8, 8, 8, 8, 8, 0, 0, 8, 8, 8, 8, 8, 0, 0], 67103]]",
+          "external_id": null,
+          "external_sync": false,
+          "hrm_type_id": 1,
+          "champion": false,
+          "timesheet_submission_disabled": false,
+          "offboarding_status": "not_initiated",
+          "offboarding_id": null,
+          "time_tracking_policy_id": null
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "company": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_role": {
+            "meta": {
+              "included": false
+            }
+          },
+          "import": {
+            "meta": {
+              "included": false
+            }
+          },
+          "manager": {
+            "meta": {
+              "included": false
+            }
+          },
+          "subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "job_role": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approval_policy_assignment": {
+            "meta": {
+              "included": false
+            }
+          },
+          "person_session": {
+            "meta": {
+              "included": false
+            }
+          },
+          "teams": {
+            "meta": {
+              "included": false
+            }
+          },
+          "service_types": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_people": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_attachments": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      }
+    ],
+    "links": {
+      "first": "https://api.productive.io/api/v2/people?page%5Bnumber%5D=1&page%5Bsize%5D=200",
+      "last": "https://api.productive.io/api/v2/people?page%5Bnumber%5D=1&page%5Bsize%5D=200"
+    },
+    "meta": {
+      "current_page": 1,
+      "total_pages": 1,
+      "total_count": 3,
+      "page_size": 200,
+      "max_page_size": 200
+    }
+  }
+]

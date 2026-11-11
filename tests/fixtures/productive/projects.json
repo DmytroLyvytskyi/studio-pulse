@@ -1,0 +1,803 @@
+[
+  {
+    "data": [
+      {
+        "id": "1108949",
+        "type": "projects",
+        "attributes": {
+          "name": "Interné R&D",
+          "number": "9",
+          "preferences": {
+            "navigation_order": [
+              "4155048-project-tasks",
+              "4155050-project-budgets",
+              "4155049-project-docs",
+              "time"
+            ]
+          },
+          "project_number": "9",
+          "project_type_id": 1,
+          "project_color_id": 5,
+          "last_activity_at": "2026-11-11T12:02:30.000+01:00",
+          "tag_colors": {},
+          "archived_at": null,
+          "created_at": "2026-11-11T12:02:29.265+01:00",
+          "template": false,
+          "duplication_status": "idle",
+          "custom_fields": null,
+          "task_custom_fields_ids": null,
+          "task_custom_fields_positions": {},
+          "page_custom_fields_ids": null,
+          "page_custom_fields_positions": {},
+          "sample_data": false,
+          "external_deal_id": null,
+          "exported": false,
+          "exported_at": null,
+          "export_id": null,
+          "export_url": null,
+          "export_status": "unexported",
+          "export_error": null
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "company": {
+            "data": {
+              "type": "companies",
+              "id": "1604983"
+            }
+          },
+          "project_manager": {
+            "meta": {
+              "included": false
+            }
+          },
+          "last_actor": {
+            "meta": {
+              "included": false
+            }
+          },
+          "workflow": {
+            "meta": {
+              "included": false
+            }
+          },
+          "import": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_people": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_attachments": {
+            "meta": {
+              "included": false
+            }
+          },
+          "memberships": {
+            "meta": {
+              "included": false
+            }
+          },
+          "template_object": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      },
+      {
+        "id": "1108936",
+        "type": "projects",
+        "attributes": {
+          "name": "Lesná Brána, VR prehliadka",
+          "number": "5",
+          "preferences": {
+            "navigation_order": [
+              "4154943-project-tasks",
+              "4154944-project-budgets",
+              "4154945-project-docs",
+              "time"
+            ]
+          },
+          "project_number": "5",
+          "project_type_id": 2,
+          "project_color_id": 3,
+          "last_activity_at": "2026-11-11T11:47:25.000+01:00",
+          "tag_colors": {},
+          "archived_at": null,
+          "created_at": "2026-11-11T11:47:24.073+01:00",
+          "template": false,
+          "duplication_status": "idle",
+          "custom_fields": null,
+          "task_custom_fields_ids": null,
+          "task_custom_fields_positions": {},
+          "page_custom_fields_ids": null,
+          "page_custom_fields_positions": {},
+          "sample_data": false,
+          "external_deal_id": null,
+          "exported": false,
+          "exported_at": null,
+          "export_id": null,
+          "export_url": null,
+          "export_status": "unexported",
+          "export_error": null
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "company": {
+            "data": {
+              "type": "companies",
+              "id": "1604999"
+            }
+          },
+          "project_manager": {
+            "meta": {
+              "included": false
+            }
+          },
+          "last_actor": {
+            "meta": {
+              "included": false
+            }
+          },
+          "workflow": {
+            "meta": {
+              "included": false
+            }
+          },
+          "import": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_people": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_attachments": {
+            "meta": {
+              "included": false
+            }
+          },
+          "memberships": {
+            "meta": {
+              "included": false
+            }
+          },
+          "template_object": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      },
+      {
+        "id": "1108944",
+        "type": "projects",
+        "attributes": {
+          "name": "Rezidencia Hradná, vizualizácie",
+          "number": "6",
+          "preferences": {
+            "navigation_order": [
+              "4154980-project-tasks",
+              "4154979-project-budgets",
+              "4154981-project-docs",
+              "time"
+            ]
+          },
+          "project_number": "6",
+          "project_type_id": 2,
+          "project_color_id": 1,
+          "last_activity_at": "2026-11-11T11:54:50.000+01:00",
+          "tag_colors": {},
+          "archived_at": null,
+          "created_at": "2026-11-11T11:54:49.940+01:00",
+          "template": false,
+          "duplication_status": "idle",
+          "custom_fields": null,
+          "task_custom_fields_ids": null,
+          "task_custom_fields_positions": {},
+          "page_custom_fields_ids": null,
+          "page_custom_fields_positions": {},
+          "sample_data": false,
+          "external_deal_id": null,
+          "exported": false,
+          "exported_at": null,
+          "export_id": null,
+          "export_url": null,
+          "export_status": "unexported",
+          "export_error": null
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "company": {
+            "data": {
+              "type": "companies",
+              "id": "1605006"
+            }
+          },
+          "project_manager": {
+            "meta": {
+              "included": false
+            }
+          },
+          "last_actor": {
+            "meta": {
+              "included": false
+            }
+          },
+          "workflow": {
+            "meta": {
+              "included": false
+            }
+          },
+          "import": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_people": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_attachments": {
+            "meta": {
+              "included": false
+            }
+          },
+          "memberships": {
+            "meta": {
+              "included": false
+            }
+          },
+          "template_object": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      },
+      {
+        "id": "1108946",
+        "type": "projects",
+        "attributes": {
+          "name": "Riverside Lofts, web",
+          "number": "7",
+          "preferences": {
+            "navigation_order": [
+              "4155031-project-tasks",
+              "4155033-project-budgets",
+              "4155032-project-docs",
+              "time"
+            ]
+          },
+          "project_number": "7",
+          "project_type_id": 2,
+          "project_color_id": 2,
+          "last_activity_at": "2026-11-11T11:57:05.000+01:00",
+          "tag_colors": {},
+          "archived_at": null,
+          "created_at": "2026-11-11T11:57:05.162+01:00",
+          "template": false,
+          "duplication_status": "idle",
+          "custom_fields": null,
+          "task_custom_fields_ids": null,
+          "task_custom_fields_positions": {},
+          "page_custom_fields_ids": null,
+          "page_custom_fields_positions": {},
+          "sample_data": false,
+          "external_deal_id": null,
+          "exported": false,
+          "exported_at": null,
+          "export_id": null,
+          "export_url": null,
+          "export_status": "unexported",
+          "export_error": null
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "company": {
+            "data": {
+              "type": "companies",
+              "id": "1605007"
+            }
+          },
+          "project_manager": {
+            "meta": {
+              "included": false
+            }
+          },
+          "last_actor": {
+            "meta": {
+              "included": false
+            }
+          },
+          "workflow": {
+            "meta": {
+              "included": false
+            }
+          },
+          "import": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_people": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_attachments": {
+            "meta": {
+              "included": false
+            }
+          },
+          "memberships": {
+            "meta": {
+              "included": false
+            }
+          },
+          "template_object": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      },
+      {
+        "id": "1108947",
+        "type": "projects",
+        "attributes": {
+          "name": "TEST",
+          "number": "8",
+          "preferences": {
+            "navigation_order": [
+              "4155038-project-tasks",
+              "4155037-project-budgets",
+              "4155036-project-docs",
+              "time"
+            ]
+          },
+          "project_number": "8",
+          "project_type_id": 1,
+          "project_color_id": 5,
+          "last_activity_at": "2026-11-11T12:54:28.000+01:00",
+          "tag_colors": {},
+          "archived_at": "2026-11-11T12:02:09.000+01:00",
+          "created_at": "2026-11-11T11:58:09.817+01:00",
+          "template": false,
+          "duplication_status": "idle",
+          "custom_fields": null,
+          "task_custom_fields_ids": null,
+          "task_custom_fields_positions": {},
+          "page_custom_fields_ids": null,
+          "page_custom_fields_positions": {},
+          "sample_data": false,
+          "external_deal_id": null,
+          "exported": false,
+          "exported_at": null,
+          "export_id": null,
+          "export_url": null,
+          "export_status": "unexported",
+          "export_error": null
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "company": {
+            "data": {
+              "type": "companies",
+              "id": "1604983"
+            }
+          },
+          "project_manager": {
+            "meta": {
+              "included": false
+            }
+          },
+          "last_actor": {
+            "meta": {
+              "included": false
+            }
+          },
+          "workflow": {
+            "meta": {
+              "included": false
+            }
+          },
+          "import": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_people": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_attachments": {
+            "meta": {
+              "included": false
+            }
+          },
+          "memberships": {
+            "meta": {
+              "included": false
+            }
+          },
+          "template_object": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      }
+    ],
+    "included": [
+      {
+        "id": "1604983",
+        "type": "companies",
+        "attributes": {
+          "name": "Studio Pulse Demo",
+          "billing_name": null,
+          "vat": null,
+          "default_currency": "USD",
+          "created_at": "2026-11-11T11:33:04.752+01:00",
+          "last_activity_at": "2026-11-11T11:33:04.752+01:00",
+          "archived_at": null,
+          "avatar_url": null,
+          "original_avatar_url": null,
+          "invoice_email_recipients": {},
+          "custom_fields": null,
+          "company_code": "STUD",
+          "domains": [],
+          "projectless_budgets": false,
+          "default_subsidiary_id": null,
+          "default_tax_rate_id": null,
+          "default_document_type_id": null,
+          "due_days": null,
+          "payment_terms_type": null,
+          "tag_list": [],
+          "contact": {},
+          "sample_data": false,
+          "settings": {},
+          "external_id": null,
+          "external_sync": false,
+          "parent_company_id": null
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "import": {
+            "meta": {
+              "included": false
+            }
+          },
+          "default_subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "default_tax_rate": {
+            "meta": {
+              "included": false
+            }
+          },
+          "default_document_type": {
+            "data": null
+          },
+          "custom_field_people": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_attachments": {
+            "meta": {
+              "included": false
+            }
+          },
+          "integration_exporter_configuration": {
+            "meta": {
+              "included": false
+            }
+          },
+          "einvoice_identity": {
+            "meta": {
+              "included": false
+            }
+          },
+          "parent_company": {
+            "data": null
+          }
+        }
+      },
+      {
+        "id": "1604999",
+        "type": "companies",
+        "attributes": {
+          "name": "Lesná Brána Development",
+          "billing_name": null,
+          "vat": null,
+          "default_currency": null,
+          "created_at": "2026-11-11T11:47:23.871+01:00",
+          "last_activity_at": "2026-11-11T11:47:23.871+01:00",
+          "archived_at": null,
+          "avatar_url": null,
+          "original_avatar_url": null,
+          "invoice_email_recipients": {},
+          "custom_fields": null,
+          "company_code": "LESN",
+          "domains": [],
+          "projectless_budgets": false,
+          "default_subsidiary_id": null,
+          "default_tax_rate_id": null,
+          "default_document_type_id": null,
+          "due_days": null,
+          "payment_terms_type": null,
+          "tag_list": [],
+          "contact": {},
+          "sample_data": false,
+          "settings": {},
+          "external_id": null,
+          "external_sync": false,
+          "parent_company_id": null
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "import": {
+            "meta": {
+              "included": false
+            }
+          },
+          "default_subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "default_tax_rate": {
+            "meta": {
+              "included": false
+            }
+          },
+          "default_document_type": {
+            "data": null
+          },
+          "custom_field_people": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_attachments": {
+            "meta": {
+              "included": false
+            }
+          },
+          "integration_exporter_configuration": {
+            "meta": {
+              "included": false
+            }
+          },
+          "einvoice_identity": {
+            "meta": {
+              "included": false
+            }
+          },
+          "parent_company": {
+            "data": null
+          }
+        }
+      },
+      {
+        "id": "1605006",
+        "type": "companies",
+        "attributes": {
+          "name": "Hradná Invest",
+          "billing_name": null,
+          "vat": null,
+          "default_currency": null,
+          "created_at": "2026-11-11T11:54:49.806+01:00",
+          "last_activity_at": "2026-11-11T11:54:49.806+01:00",
+          "archived_at": null,
+          "avatar_url": null,
+          "original_avatar_url": null,
+          "invoice_email_recipients": {},
+          "custom_fields": null,
+          "company_code": "HRAD",
+          "domains": [],
+          "projectless_budgets": false,
+          "default_subsidiary_id": null,
+          "default_tax_rate_id": null,
+          "default_document_type_id": null,
+          "due_days": null,
+          "payment_terms_type": null,
+          "tag_list": [],
+          "contact": {},
+          "sample_data": false,
+          "settings": {},
+          "external_id": null,
+          "external_sync": false,
+          "parent_company_id": null
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "import": {
+            "meta": {
+              "included": false
+            }
+          },
+          "default_subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "default_tax_rate": {
+            "meta": {
+              "included": false
+            }
+          },
+          "default_document_type": {
+            "data": null
+          },
+          "custom_field_people": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_attachments": {
+            "meta": {
+              "included": false
+            }
+          },
+          "integration_exporter_configuration": {
+            "meta": {
+              "included": false
+            }
+          },
+          "einvoice_identity": {
+            "meta": {
+              "included": false
+            }
+          },
+          "parent_company": {
+            "data": null
+          }
+        }
+      },
+      {
+        "id": "1605007",
+        "type": "companies",
+        "attributes": {
+          "name": "Riverside Lofts",
+          "billing_name": null,
+          "vat": null,
+          "default_currency": null,
+          "created_at": "2026-11-11T11:57:05.050+01:00",
+          "last_activity_at": "2026-11-11T11:57:05.050+01:00",
+          "archived_at": null,
+          "avatar_url": null,
+          "original_avatar_url": null,
+          "invoice_email_recipients": {},
+          "custom_fields": null,
+          "company_code": "RIVE",
+          "domains": [],
+          "projectless_budgets": false,
+          "default_subsidiary_id": null,
+          "default_tax_rate_id": null,
+          "default_document_type_id": null,
+          "due_days": null,
+          "payment_terms_type": null,
+          "tag_list": [],
+          "contact": {},
+          "sample_data": false,
+          "settings": {},
+          "external_id": null,
+          "external_sync": false,
+          "parent_company_id": null
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "import": {
+            "meta": {
+              "included": false
+            }
+          },
+          "default_subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "default_tax_rate": {
+            "meta": {
+              "included": false
+            }
+          },
+          "default_document_type": {
+            "data": null
+          },
+          "custom_field_people": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_attachments": {
+            "meta": {
+              "included": false
+            }
+          },
+          "integration_exporter_configuration": {
+            "meta": {
+              "included": false
+            }
+          },
+          "einvoice_identity": {
+            "meta": {
+              "included": false
+            }
+          },
+          "parent_company": {
+            "data": null
+          }
+        }
+      }
+    ],
+    "links": {
+      "first": "https://api.productive.io/api/v2/projects?include=company&page%5Bnumber%5D=1&page%5Bsize%5D=200",
+      "last": "https://api.productive.io/api/v2/projects?include=company&page%5Bnumber%5D=1&page%5Bsize%5D=200"
+    },
+    "meta": {
+      "current_page": 1,
+      "total_pages": 1,
+      "total_count": 5,
+      "page_size": 200,
+      "max_page_size": 200
+    }
+  }
+]

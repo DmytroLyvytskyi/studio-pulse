@@ -5,7 +5,8 @@ from typing import Literal
 
 from pydantic import BaseModel, Field
 
-ProjectKind = Literal["3D", "VR", "WEB", "CGI", "INTERNAL"]
+# OTHER: kind unknown (Productive has no project kind field).
+ProjectKind = Literal["3D", "VR", "WEB", "CGI", "INTERNAL", "OTHER"]
 BudgetState = Literal["ok", "warning", "over", "no_budget"]
 GroupBy = Literal["project", "person", "client"]
 

@@ -159,8 +159,3 @@ def test_invalid_mock_file_gives_readable_error(tmp_path: Path) -> None:
 
 def test_get_source_selects_mock() -> None:
     assert isinstance(get_source(Settings(data_source="mock")), MockSource)
-
-
-def test_get_source_productive_not_implemented_yet() -> None:
-    with pytest.raises(StudioPulseError, match="not implemented"):
-        get_source(Settings(data_source="productive"))

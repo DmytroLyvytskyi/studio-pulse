@@ -203,7 +203,7 @@ Budget status: `ok` below the warning percent, `warning` from the warning percen
 
 Key modules in `src/studio_pulse/`:
 
-- `sources/`: the `DataSource` interface (`people`, `projects`, `budgets`, `time_entries`) and its mock implementation.
+- `sources/`: the `DataSource` interface (`people`, `projects`, `budgets`, `time_entries`), the mock implementation and the Productive implementation (`productive.py`, a read-only JSON:API client holding all response mapping). In Productive a time entry belongs to a service, the service to a budget (a deal with `budget: true`) and the budget to a project; a project's time budget is the sum of its services' budgeted time.
 - `analyze.py`: missing logs, budget status, hours summaries, billable ratio, unbilled hours, the report data.
 - `mcp_server.py`: the six MCP tools, thin wrappers around `analyze.py`.
 - `report.py` and `delivery/`: the CLI and the console, Teams and Discord adapters.
@@ -212,12 +212,16 @@ Durations are stored in minutes and rounded to 0.1 h only for output.
 
 ## Known limitations
 
-- **The Productive source is not implemented yet.** Only `DATA_SOURCE=mock` works; `productive` fails with a clear error. The Productive secrets are already wired into the workflow for when it lands.
+- **Drafts count as logged time.** Productive time entries count whether or not they are drafts, submitted or approved: for a project manager a draft still means the person logged the hours, so "missing logs" flags people who logged nothing, not people who have not submitted their timesheet. Unsubmitted time can still change.
+- **Productive has no project kind.** Projects marked internal in Productive show as `INTERNAL`; every other Productive project shows as `OTHER` instead of 3D, VR, WEB or CGI.
+- **Time off is not counted.** Productive time off entries belong to no project, so they are skipped, and a person on leave appears in "missing logs".
+- **Only hour-based budgets.** A project's budget counts services tracked in hours; services tracked in days or pieces add no limit, and a budget without any hour limit shows as `no_budget`.
+- **Archived projects stay listed as inactive.** Their history still counts, so a project archived in Productive keeps its hours in summaries and budgets.
 - **Public holidays are ignored.** On a holiday the report still runs, and the day after a holiday reports the holiday itself, so everybody appears in "missing logs".
 - **The cron shifts with summer time.** GitHub Actions cron runs in UTC: 07:30 UTC is 08:30 in Bratislava in winter (CET) but 09:30 in summer (CEST). Change the cron in `daily-report.yml` twice a year if the exact time matters. Scheduled runs can also start several minutes late.
-- Budget usage and unbilled hours are computed from all time entries; Productive may expose these values directly, to be revisited with the Productive source.
+- Budget usage and unbilled hours are computed from all time entries (the same rules for both sources) rather than taken from Productive's own budget totals.
 
-Planned: the Productive source, a Claude skill for project managers and a static budget dashboard.
+Planned: a Claude skill for project managers and a static budget dashboard.
 
 ## Development
 

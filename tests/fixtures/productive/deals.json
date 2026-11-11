@@ -1,0 +1,1526 @@
+[
+  {
+    "data": [
+      {
+        "id": "4507896",
+        "type": "deals",
+        "attributes": {
+          "name": "Lesná Brána, VR prehliadka - Budget",
+          "date": "2026-11-01",
+          "end_date": null,
+          "number": "5",
+          "deal_number": "5",
+          "suffix": null,
+          "time_approval": false,
+          "expense_approval": false,
+          "proposal_approval": false,
+          "time_entry_requirements": [],
+          "client_access": true,
+          "deal_type_id": 2,
+          "budget": true,
+          "sales_status_updated_at": null,
+          "tag_list": [],
+          "origin_deal_id": null,
+          "profit_margin": "50.0",
+          "profit_margin_normalized": "50.0",
+          "profit_margin_default": "50.0",
+          "applied_scenario_margin": null,
+          "email_key": "18f7f3fd30af62428583cb2cf04f289d",
+          "purchase_order_number": null,
+          "custom_fields": null,
+          "position": null,
+          "service_type_restricted_tracking": false,
+          "tracking_type_id": 1,
+          "editor_config": {
+            "enabled": true,
+            "budget_type": "3",
+            "billing_type": "2",
+            "bill_rate_type": "0"
+          },
+          "discount": null,
+          "man_day_minutes": 480,
+          "rounding_interval_id": null,
+          "rounding_method_id": 1,
+          "validate_expense_when_closing": false,
+          "revenue_distribution_type": "default",
+          "revenue_distribution_start_on": null,
+          "revenue_distribution_end_on": null,
+          "color_id": null,
+          "revenue_distribution_method": null,
+          "revenue_distribution_base": "weighted",
+          "retainer_interval": null,
+          "retainer_interval_count": 1,
+          "deal_value": "0.0",
+          "deal_value_source": "from_services",
+          "deal_value_total": 100000,
+          "deal_value_total_default": 111720,
+          "deal_value_total_normalized": 100000,
+          "billable_time": 1020,
+          "budget_warning": null,
+          "estimated_time": 1200,
+          "budgeted_time": 1200,
+          "worked_time": 1020,
+          "overtime_time": 0,
+          "time_to_close": null,
+          "days_since_created": 0,
+          "days_since_last_activity": 0,
+          "days_in_current_stage": null,
+          "probability": 100,
+          "previous_probability": null,
+          "note_interpolated": null,
+          "proposal_note_interpolated": null,
+          "footer_interpolated": null,
+          "proposal_footer_interpolated": null,
+          "todo_count": 0,
+          "todo_due_date": null,
+          "note": null,
+          "proposal_note": null,
+          "lost_comment": null,
+          "closed_at": null,
+          "delivered_on": null,
+          "last_activity_at": "2026-11-11T11:52:16.000+01:00",
+          "deleted_at": null,
+          "created_at": "2026-11-11T11:47:25.386+01:00",
+          "sales_closed_at": null,
+          "exchange_rate": "1.11719985029522",
+          "exchange_date": "2026-11-01",
+          "sales_closed_on": null,
+          "sample_data": false,
+          "external_id": null,
+          "external_sync": false,
+          "manual_invoicing_status_id": 1,
+          "footer": null,
+          "proposal_footer": null,
+          "access_to_deal": true,
+          "overtime_enabled": false,
+          "currency": "EUR",
+          "currency_default": "USD",
+          "currency_normalized": "EUR",
+          "revenue": 85000,
+          "revenue_default": 94962,
+          "revenue_normalized": 85000,
+          "services_revenue": 85000,
+          "services_revenue_default": 94962,
+          "services_revenue_normalized": 85000,
+          "budget_total": 100000,
+          "budget_total_default": 111720,
+          "budget_total_normalized": 100000,
+          "budget_used": 85000,
+          "budget_used_default": 94962,
+          "budget_used_normalized": 85000,
+          "projected_revenue": 0,
+          "projected_revenue_default": 0,
+          "projected_revenue_normalized": 0,
+          "cost": 42500,
+          "cost_default": 47481,
+          "cost_normalized": 42500,
+          "profit": 42500,
+          "profit_default": 47481,
+          "profit_normalized": 42500,
+          "invoiced": 0,
+          "invoiced_default": 0,
+          "invoiced_normalized": 0,
+          "pending_invoicing": 85000,
+          "pending_invoicing_default": 94962,
+          "pending_invoicing_normalized": 85000,
+          "manually_invoiced": 0,
+          "manually_invoiced_default": 0,
+          "manually_invoiced_normalized": 0,
+          "draft_invoiced": 0,
+          "draft_invoiced_default": 0,
+          "draft_invoiced_normalized": 0,
+          "amount_credited": 0,
+          "amount_credited_default": 0,
+          "amount_credited_normalized": 0,
+          "expense": 0,
+          "expense_default": 0,
+          "expense_normalized": 0,
+          "exported": false,
+          "exported_at": null,
+          "export_id": null,
+          "export_url": null,
+          "export_status": "unexported",
+          "export_error": null
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "creator": {
+            "meta": {
+              "included": false
+            }
+          },
+          "company": {
+            "meta": {
+              "included": false
+            }
+          },
+          "document_type": {
+            "meta": {
+              "included": false
+            }
+          },
+          "proposal_document_type": {
+            "meta": {
+              "included": false
+            }
+          },
+          "responsible": {
+            "meta": {
+              "included": false
+            }
+          },
+          "deal_status": {
+            "meta": {
+              "included": false
+            }
+          },
+          "project": {
+            "data": {
+              "type": "projects",
+              "id": "1108936"
+            }
+          },
+          "lost_reason": {
+            "meta": {
+              "included": false
+            }
+          },
+          "contract": {
+            "meta": {
+              "included": false
+            }
+          },
+          "contact": {
+            "meta": {
+              "included": false
+            }
+          },
+          "subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "template": {
+            "meta": {
+              "included": false
+            }
+          },
+          "tax_rate": {
+            "meta": {
+              "included": false
+            }
+          },
+          "pipeline": {
+            "meta": {
+              "included": false
+            }
+          },
+          "origin_deal": {
+            "meta": {
+              "included": false
+            }
+          },
+          "import": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approval_policy_assignment": {
+            "meta": {
+              "included": false
+            }
+          },
+          "next_todo": {
+            "meta": {
+              "included": false
+            }
+          },
+          "expense_approval_workflow": {
+            "meta": {
+              "included": false
+            }
+          },
+          "time_approval_workflow": {
+            "meta": {
+              "included": false
+            }
+          },
+          "invoice_template": {
+            "meta": {
+              "included": false
+            }
+          },
+          "automatic_invoicing_rule": {
+            "meta": {
+              "included": false
+            }
+          },
+          "primary_contact": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_people": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_attachments": {
+            "meta": {
+              "included": false
+            }
+          },
+          "contacts": {
+            "meta": {
+              "included": false
+            }
+          },
+          "memberships": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      },
+      {
+        "id": "4507933",
+        "type": "deals",
+        "attributes": {
+          "name": "Rezidencia Hradná, vizualizácie - Budget",
+          "date": "2026-11-01",
+          "end_date": null,
+          "number": "6",
+          "deal_number": "6",
+          "suffix": null,
+          "time_approval": false,
+          "expense_approval": false,
+          "proposal_approval": false,
+          "time_entry_requirements": [],
+          "client_access": true,
+          "deal_type_id": 2,
+          "budget": true,
+          "sales_status_updated_at": null,
+          "tag_list": [],
+          "origin_deal_id": null,
+          "profit_margin": "50.0",
+          "profit_margin_normalized": "50.0",
+          "profit_margin_default": "50.0",
+          "applied_scenario_margin": null,
+          "email_key": "8192496ca1975909f2d6a06f9678e5f4",
+          "purchase_order_number": null,
+          "custom_fields": null,
+          "position": null,
+          "service_type_restricted_tracking": false,
+          "tracking_type_id": 1,
+          "editor_config": {
+            "enabled": true,
+            "budget_type": "3",
+            "billing_type": "2",
+            "bill_rate_type": "0"
+          },
+          "discount": null,
+          "man_day_minutes": 480,
+          "rounding_interval_id": null,
+          "rounding_method_id": 1,
+          "validate_expense_when_closing": false,
+          "revenue_distribution_type": "default",
+          "revenue_distribution_start_on": null,
+          "revenue_distribution_end_on": null,
+          "color_id": null,
+          "revenue_distribution_method": null,
+          "revenue_distribution_base": "weighted",
+          "retainer_interval": null,
+          "retainer_interval_count": 1,
+          "deal_value": "0.0",
+          "deal_value_source": "from_services",
+          "deal_value_total": 60000,
+          "deal_value_total_default": 67032,
+          "deal_value_total_normalized": 60000,
+          "billable_time": 810,
+          "budget_warning": null,
+          "estimated_time": 720,
+          "budgeted_time": 720,
+          "worked_time": 810,
+          "overtime_time": 0,
+          "time_to_close": null,
+          "days_since_created": 0,
+          "days_since_last_activity": 0,
+          "days_in_current_stage": null,
+          "probability": 100,
+          "previous_probability": null,
+          "note_interpolated": null,
+          "proposal_note_interpolated": null,
+          "footer_interpolated": null,
+          "proposal_footer_interpolated": null,
+          "todo_count": 0,
+          "todo_due_date": null,
+          "note": null,
+          "proposal_note": null,
+          "lost_comment": null,
+          "closed_at": null,
+          "delivered_on": null,
+          "last_activity_at": "2026-11-11T11:56:18.000+01:00",
+          "deleted_at": null,
+          "created_at": "2026-11-11T11:54:51.136+01:00",
+          "sales_closed_at": null,
+          "exchange_rate": "1.11719985029522",
+          "exchange_date": "2026-11-01",
+          "sales_closed_on": null,
+          "sample_data": false,
+          "external_id": null,
+          "external_sync": false,
+          "manual_invoicing_status_id": 1,
+          "footer": null,
+          "proposal_footer": null,
+          "access_to_deal": true,
+          "overtime_enabled": false,
+          "currency": "EUR",
+          "currency_default": "USD",
+          "currency_normalized": "EUR",
+          "revenue": 67500,
+          "revenue_default": 75411,
+          "revenue_normalized": 67500,
+          "services_revenue": 67500,
+          "services_revenue_default": 75411,
+          "services_revenue_normalized": 67500,
+          "budget_total": 60000,
+          "budget_total_default": 67032,
+          "budget_total_normalized": 60000,
+          "budget_used": 67500,
+          "budget_used_default": 75411,
+          "budget_used_normalized": 67500,
+          "projected_revenue": 0,
+          "projected_revenue_default": 0,
+          "projected_revenue_normalized": 0,
+          "cost": 33750,
+          "cost_default": 37705,
+          "cost_normalized": 33750,
+          "profit": 33750,
+          "profit_default": 37705,
+          "profit_normalized": 33750,
+          "invoiced": 0,
+          "invoiced_default": 0,
+          "invoiced_normalized": 0,
+          "pending_invoicing": 67500,
+          "pending_invoicing_default": 75411,
+          "pending_invoicing_normalized": 67500,
+          "manually_invoiced": 0,
+          "manually_invoiced_default": 0,
+          "manually_invoiced_normalized": 0,
+          "draft_invoiced": 0,
+          "draft_invoiced_default": 0,
+          "draft_invoiced_normalized": 0,
+          "amount_credited": 0,
+          "amount_credited_default": 0,
+          "amount_credited_normalized": 0,
+          "expense": 0,
+          "expense_default": 0,
+          "expense_normalized": 0,
+          "exported": false,
+          "exported_at": null,
+          "export_id": null,
+          "export_url": null,
+          "export_status": "unexported",
+          "export_error": null
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "creator": {
+            "meta": {
+              "included": false
+            }
+          },
+          "company": {
+            "meta": {
+              "included": false
+            }
+          },
+          "document_type": {
+            "meta": {
+              "included": false
+            }
+          },
+          "proposal_document_type": {
+            "meta": {
+              "included": false
+            }
+          },
+          "responsible": {
+            "meta": {
+              "included": false
+            }
+          },
+          "deal_status": {
+            "meta": {
+              "included": false
+            }
+          },
+          "project": {
+            "data": {
+              "type": "projects",
+              "id": "1108944"
+            }
+          },
+          "lost_reason": {
+            "meta": {
+              "included": false
+            }
+          },
+          "contract": {
+            "meta": {
+              "included": false
+            }
+          },
+          "contact": {
+            "meta": {
+              "included": false
+            }
+          },
+          "subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "template": {
+            "meta": {
+              "included": false
+            }
+          },
+          "tax_rate": {
+            "meta": {
+              "included": false
+            }
+          },
+          "pipeline": {
+            "meta": {
+              "included": false
+            }
+          },
+          "origin_deal": {
+            "meta": {
+              "included": false
+            }
+          },
+          "import": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approval_policy_assignment": {
+            "meta": {
+              "included": false
+            }
+          },
+          "next_todo": {
+            "meta": {
+              "included": false
+            }
+          },
+          "expense_approval_workflow": {
+            "meta": {
+              "included": false
+            }
+          },
+          "time_approval_workflow": {
+            "meta": {
+              "included": false
+            }
+          },
+          "invoice_template": {
+            "meta": {
+              "included": false
+            }
+          },
+          "automatic_invoicing_rule": {
+            "meta": {
+              "included": false
+            }
+          },
+          "primary_contact": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_people": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_attachments": {
+            "meta": {
+              "included": false
+            }
+          },
+          "contacts": {
+            "meta": {
+              "included": false
+            }
+          },
+          "memberships": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      },
+      {
+        "id": "4507936",
+        "type": "deals",
+        "attributes": {
+          "name": "Riverside Lofts, web - Budget",
+          "date": "2026-11-01",
+          "end_date": null,
+          "number": "7",
+          "deal_number": "7",
+          "suffix": null,
+          "time_approval": false,
+          "expense_approval": false,
+          "proposal_approval": false,
+          "time_entry_requirements": [],
+          "client_access": true,
+          "deal_type_id": 2,
+          "budget": true,
+          "sales_status_updated_at": null,
+          "tag_list": [],
+          "origin_deal_id": null,
+          "profit_margin": "50.0",
+          "profit_margin_normalized": "50.0",
+          "profit_margin_default": "50.0",
+          "applied_scenario_margin": null,
+          "email_key": "77482e89a2eb271bd5c54754a6793e2b",
+          "purchase_order_number": null,
+          "custom_fields": null,
+          "position": null,
+          "service_type_restricted_tracking": false,
+          "tracking_type_id": 1,
+          "editor_config": {
+            "enabled": true,
+            "budget_type": "3",
+            "billing_type": "2",
+            "bill_rate_type": "0"
+          },
+          "discount": null,
+          "man_day_minutes": 480,
+          "rounding_interval_id": null,
+          "rounding_method_id": 1,
+          "validate_expense_when_closing": false,
+          "revenue_distribution_type": "default",
+          "revenue_distribution_start_on": null,
+          "revenue_distribution_end_on": null,
+          "color_id": null,
+          "revenue_distribution_method": null,
+          "revenue_distribution_base": "weighted",
+          "retainer_interval": null,
+          "retainer_interval_count": 1,
+          "deal_value": "0.0",
+          "deal_value_source": "from_services",
+          "deal_value_total": 200000,
+          "deal_value_total_default": 223440,
+          "deal_value_total_normalized": 200000,
+          "billable_time": 720,
+          "budget_warning": null,
+          "estimated_time": 2400,
+          "budgeted_time": 2400,
+          "worked_time": 720,
+          "overtime_time": 0,
+          "time_to_close": null,
+          "days_since_created": 0,
+          "days_since_last_activity": 0,
+          "days_in_current_stage": null,
+          "probability": 100,
+          "previous_probability": null,
+          "note_interpolated": null,
+          "proposal_note_interpolated": null,
+          "footer_interpolated": null,
+          "proposal_footer_interpolated": null,
+          "todo_count": 0,
+          "todo_due_date": null,
+          "note": null,
+          "proposal_note": null,
+          "lost_comment": null,
+          "closed_at": null,
+          "delivered_on": null,
+          "last_activity_at": "2026-11-11T11:57:39.000+01:00",
+          "deleted_at": null,
+          "created_at": "2026-11-11T11:57:06.087+01:00",
+          "sales_closed_at": null,
+          "exchange_rate": "1.11719985029522",
+          "exchange_date": "2026-11-01",
+          "sales_closed_on": null,
+          "sample_data": false,
+          "external_id": null,
+          "external_sync": false,
+          "manual_invoicing_status_id": 1,
+          "footer": null,
+          "proposal_footer": null,
+          "access_to_deal": true,
+          "overtime_enabled": false,
+          "currency": "EUR",
+          "currency_default": "USD",
+          "currency_normalized": "EUR",
+          "revenue": 60000,
+          "revenue_default": 67032,
+          "revenue_normalized": 60000,
+          "services_revenue": 60000,
+          "services_revenue_default": 67032,
+          "services_revenue_normalized": 60000,
+          "budget_total": 200000,
+          "budget_total_default": 223440,
+          "budget_total_normalized": 200000,
+          "budget_used": 60000,
+          "budget_used_default": 67032,
+          "budget_used_normalized": 60000,
+          "projected_revenue": 0,
+          "projected_revenue_default": 0,
+          "projected_revenue_normalized": 0,
+          "cost": 30000,
+          "cost_default": 33516,
+          "cost_normalized": 30000,
+          "profit": 30000,
+          "profit_default": 33516,
+          "profit_normalized": 30000,
+          "invoiced": 0,
+          "invoiced_default": 0,
+          "invoiced_normalized": 0,
+          "pending_invoicing": 60000,
+          "pending_invoicing_default": 67032,
+          "pending_invoicing_normalized": 60000,
+          "manually_invoiced": 0,
+          "manually_invoiced_default": 0,
+          "manually_invoiced_normalized": 0,
+          "draft_invoiced": 0,
+          "draft_invoiced_default": 0,
+          "draft_invoiced_normalized": 0,
+          "amount_credited": 0,
+          "amount_credited_default": 0,
+          "amount_credited_normalized": 0,
+          "expense": 0,
+          "expense_default": 0,
+          "expense_normalized": 0,
+          "exported": false,
+          "exported_at": null,
+          "export_id": null,
+          "export_url": null,
+          "export_status": "unexported",
+          "export_error": null
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "creator": {
+            "meta": {
+              "included": false
+            }
+          },
+          "company": {
+            "meta": {
+              "included": false
+            }
+          },
+          "document_type": {
+            "meta": {
+              "included": false
+            }
+          },
+          "proposal_document_type": {
+            "meta": {
+              "included": false
+            }
+          },
+          "responsible": {
+            "meta": {
+              "included": false
+            }
+          },
+          "deal_status": {
+            "meta": {
+              "included": false
+            }
+          },
+          "project": {
+            "data": {
+              "type": "projects",
+              "id": "1108946"
+            }
+          },
+          "lost_reason": {
+            "meta": {
+              "included": false
+            }
+          },
+          "contract": {
+            "meta": {
+              "included": false
+            }
+          },
+          "contact": {
+            "meta": {
+              "included": false
+            }
+          },
+          "subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "template": {
+            "meta": {
+              "included": false
+            }
+          },
+          "tax_rate": {
+            "meta": {
+              "included": false
+            }
+          },
+          "pipeline": {
+            "meta": {
+              "included": false
+            }
+          },
+          "origin_deal": {
+            "meta": {
+              "included": false
+            }
+          },
+          "import": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approval_policy_assignment": {
+            "meta": {
+              "included": false
+            }
+          },
+          "next_todo": {
+            "meta": {
+              "included": false
+            }
+          },
+          "expense_approval_workflow": {
+            "meta": {
+              "included": false
+            }
+          },
+          "time_approval_workflow": {
+            "meta": {
+              "included": false
+            }
+          },
+          "invoice_template": {
+            "meta": {
+              "included": false
+            }
+          },
+          "automatic_invoicing_rule": {
+            "meta": {
+              "included": false
+            }
+          },
+          "primary_contact": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_people": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_attachments": {
+            "meta": {
+              "included": false
+            }
+          },
+          "contacts": {
+            "meta": {
+              "included": false
+            }
+          },
+          "memberships": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      },
+      {
+        "id": "4508056",
+        "type": "deals",
+        "attributes": {
+          "name": "Interné R&D",
+          "date": "2026-11-01",
+          "end_date": null,
+          "number": "8",
+          "deal_number": "8",
+          "suffix": null,
+          "time_approval": false,
+          "expense_approval": false,
+          "proposal_approval": false,
+          "time_entry_requirements": [],
+          "client_access": false,
+          "deal_type_id": 1,
+          "budget": true,
+          "sales_status_updated_at": null,
+          "tag_list": [],
+          "origin_deal_id": null,
+          "profit_margin": 0.0,
+          "profit_margin_normalized": 0.0,
+          "profit_margin_default": 0.0,
+          "applied_scenario_margin": null,
+          "email_key": "710fa73423fe022840fcfc561e0c05a2",
+          "purchase_order_number": null,
+          "custom_fields": null,
+          "position": null,
+          "service_type_restricted_tracking": false,
+          "tracking_type_id": 1,
+          "editor_config": {
+            "enabled": true,
+            "budget_type": "5",
+            "billing_type": "3"
+          },
+          "discount": null,
+          "man_day_minutes": 480,
+          "rounding_interval_id": null,
+          "rounding_method_id": 1,
+          "validate_expense_when_closing": false,
+          "revenue_distribution_type": "default",
+          "revenue_distribution_start_on": null,
+          "revenue_distribution_end_on": null,
+          "color_id": 5,
+          "revenue_distribution_method": null,
+          "revenue_distribution_base": "weighted",
+          "retainer_interval": null,
+          "retainer_interval_count": 1,
+          "deal_value": "0.0",
+          "deal_value_source": "from_services",
+          "deal_value_total": 0,
+          "deal_value_total_default": 0,
+          "deal_value_total_normalized": 0,
+          "billable_time": 0,
+          "budget_warning": null,
+          "estimated_time": 0,
+          "budgeted_time": 0,
+          "worked_time": 750,
+          "overtime_time": 0,
+          "time_to_close": null,
+          "days_since_created": 0,
+          "days_since_last_activity": 0,
+          "days_in_current_stage": null,
+          "probability": 100,
+          "previous_probability": null,
+          "note_interpolated": null,
+          "proposal_note_interpolated": null,
+          "footer_interpolated": null,
+          "proposal_footer_interpolated": null,
+          "todo_count": 0,
+          "todo_due_date": null,
+          "note": null,
+          "proposal_note": null,
+          "lost_comment": null,
+          "closed_at": null,
+          "delivered_on": null,
+          "last_activity_at": "2026-11-11T12:19:42.000+01:00",
+          "deleted_at": null,
+          "created_at": "2026-11-11T12:17:34.638+01:00",
+          "sales_closed_at": null,
+          "exchange_rate": "1.11719985029522",
+          "exchange_date": "2026-11-01",
+          "sales_closed_on": null,
+          "sample_data": false,
+          "external_id": null,
+          "external_sync": false,
+          "manual_invoicing_status_id": 1,
+          "footer": null,
+          "proposal_footer": null,
+          "access_to_deal": true,
+          "overtime_enabled": false,
+          "currency": "EUR",
+          "currency_default": "USD",
+          "currency_normalized": "EUR",
+          "revenue": 0,
+          "revenue_default": 0,
+          "revenue_normalized": 0,
+          "services_revenue": 0,
+          "services_revenue_default": 0,
+          "services_revenue_normalized": 0,
+          "budget_total": 0,
+          "budget_total_default": 0,
+          "budget_total_normalized": 0,
+          "budget_used": 0,
+          "budget_used_default": 0,
+          "budget_used_normalized": 0,
+          "projected_revenue": 0,
+          "projected_revenue_default": 0,
+          "projected_revenue_normalized": 0,
+          "cost": 31250,
+          "cost_default": 34912,
+          "cost_normalized": 31250,
+          "profit": -31250,
+          "profit_default": -34912,
+          "profit_normalized": -31250,
+          "invoiced": 0,
+          "invoiced_default": 0,
+          "invoiced_normalized": 0,
+          "pending_invoicing": 0,
+          "pending_invoicing_default": 0,
+          "pending_invoicing_normalized": 0,
+          "manually_invoiced": 0,
+          "manually_invoiced_default": 0,
+          "manually_invoiced_normalized": 0,
+          "draft_invoiced": 0,
+          "draft_invoiced_default": 0,
+          "draft_invoiced_normalized": 0,
+          "amount_credited": 0,
+          "amount_credited_default": 0,
+          "amount_credited_normalized": 0,
+          "expense": 0,
+          "expense_default": 0,
+          "expense_normalized": 0,
+          "exported": false,
+          "exported_at": null,
+          "export_id": null,
+          "export_url": null,
+          "export_status": "unexported",
+          "export_error": null
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "creator": {
+            "meta": {
+              "included": false
+            }
+          },
+          "company": {
+            "meta": {
+              "included": false
+            }
+          },
+          "document_type": {
+            "meta": {
+              "included": false
+            }
+          },
+          "proposal_document_type": {
+            "meta": {
+              "included": false
+            }
+          },
+          "responsible": {
+            "meta": {
+              "included": false
+            }
+          },
+          "deal_status": {
+            "meta": {
+              "included": false
+            }
+          },
+          "project": {
+            "data": {
+              "type": "projects",
+              "id": "1108949"
+            }
+          },
+          "lost_reason": {
+            "meta": {
+              "included": false
+            }
+          },
+          "contract": {
+            "meta": {
+              "included": false
+            }
+          },
+          "contact": {
+            "meta": {
+              "included": false
+            }
+          },
+          "subsidiary": {
+            "meta": {
+              "included": false
+            }
+          },
+          "template": {
+            "meta": {
+              "included": false
+            }
+          },
+          "tax_rate": {
+            "meta": {
+              "included": false
+            }
+          },
+          "pipeline": {
+            "meta": {
+              "included": false
+            }
+          },
+          "origin_deal": {
+            "meta": {
+              "included": false
+            }
+          },
+          "import": {
+            "meta": {
+              "included": false
+            }
+          },
+          "approval_policy_assignment": {
+            "meta": {
+              "included": false
+            }
+          },
+          "next_todo": {
+            "meta": {
+              "included": false
+            }
+          },
+          "expense_approval_workflow": {
+            "meta": {
+              "included": false
+            }
+          },
+          "time_approval_workflow": {
+            "meta": {
+              "included": false
+            }
+          },
+          "invoice_template": {
+            "meta": {
+              "included": false
+            }
+          },
+          "automatic_invoicing_rule": {
+            "meta": {
+              "included": false
+            }
+          },
+          "primary_contact": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_people": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_attachments": {
+            "meta": {
+              "included": false
+            }
+          },
+          "contacts": {
+            "meta": {
+              "included": false
+            }
+          },
+          "memberships": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      }
+    ],
+    "included": [
+      {
+        "id": "1108936",
+        "type": "projects",
+        "attributes": {
+          "name": "Lesná Brána, VR prehliadka",
+          "number": "5",
+          "preferences": {
+            "navigation_order": [
+              "4154943-project-tasks",
+              "4154944-project-budgets",
+              "4154945-project-docs",
+              "time"
+            ]
+          },
+          "project_number": "5",
+          "project_type_id": 2,
+          "project_color_id": 3,
+          "last_activity_at": "2026-11-11T11:47:25.000+01:00",
+          "tag_colors": {},
+          "archived_at": null,
+          "created_at": "2026-11-11T11:47:24.073+01:00",
+          "template": false,
+          "duplication_status": "idle",
+          "custom_fields": null,
+          "task_custom_fields_ids": null,
+          "task_custom_fields_positions": {},
+          "page_custom_fields_ids": null,
+          "page_custom_fields_positions": {},
+          "sample_data": false,
+          "external_deal_id": null,
+          "exported": false,
+          "exported_at": null,
+          "export_id": null,
+          "export_url": null,
+          "export_status": "unexported",
+          "export_error": null
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "company": {
+            "meta": {
+              "included": false
+            }
+          },
+          "project_manager": {
+            "meta": {
+              "included": false
+            }
+          },
+          "last_actor": {
+            "meta": {
+              "included": false
+            }
+          },
+          "workflow": {
+            "meta": {
+              "included": false
+            }
+          },
+          "import": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_people": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_attachments": {
+            "meta": {
+              "included": false
+            }
+          },
+          "memberships": {
+            "meta": {
+              "included": false
+            }
+          },
+          "template_object": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      },
+      {
+        "id": "1108944",
+        "type": "projects",
+        "attributes": {
+          "name": "Rezidencia Hradná, vizualizácie",
+          "number": "6",
+          "preferences": {
+            "navigation_order": [
+              "4154980-project-tasks",
+              "4154979-project-budgets",
+              "4154981-project-docs",
+              "time"
+            ]
+          },
+          "project_number": "6",
+          "project_type_id": 2,
+          "project_color_id": 1,
+          "last_activity_at": "2026-11-11T11:54:50.000+01:00",
+          "tag_colors": {},
+          "archived_at": null,
+          "created_at": "2026-11-11T11:54:49.940+01:00",
+          "template": false,
+          "duplication_status": "idle",
+          "custom_fields": null,
+          "task_custom_fields_ids": null,
+          "task_custom_fields_positions": {},
+          "page_custom_fields_ids": null,
+          "page_custom_fields_positions": {},
+          "sample_data": false,
+          "external_deal_id": null,
+          "exported": false,
+          "exported_at": null,
+          "export_id": null,
+          "export_url": null,
+          "export_status": "unexported",
+          "export_error": null
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "company": {
+            "meta": {
+              "included": false
+            }
+          },
+          "project_manager": {
+            "meta": {
+              "included": false
+            }
+          },
+          "last_actor": {
+            "meta": {
+              "included": false
+            }
+          },
+          "workflow": {
+            "meta": {
+              "included": false
+            }
+          },
+          "import": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_people": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_attachments": {
+            "meta": {
+              "included": false
+            }
+          },
+          "memberships": {
+            "meta": {
+              "included": false
+            }
+          },
+          "template_object": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      },
+      {
+        "id": "1108946",
+        "type": "projects",
+        "attributes": {
+          "name": "Riverside Lofts, web",
+          "number": "7",
+          "preferences": {
+            "navigation_order": [
+              "4155031-project-tasks",
+              "4155033-project-budgets",
+              "4155032-project-docs",
+              "time"
+            ]
+          },
+          "project_number": "7",
+          "project_type_id": 2,
+          "project_color_id": 2,
+          "last_activity_at": "2026-11-11T11:57:05.000+01:00",
+          "tag_colors": {},
+          "archived_at": null,
+          "created_at": "2026-11-11T11:57:05.162+01:00",
+          "template": false,
+          "duplication_status": "idle",
+          "custom_fields": null,
+          "task_custom_fields_ids": null,
+          "task_custom_fields_positions": {},
+          "page_custom_fields_ids": null,
+          "page_custom_fields_positions": {},
+          "sample_data": false,
+          "external_deal_id": null,
+          "exported": false,
+          "exported_at": null,
+          "export_id": null,
+          "export_url": null,
+          "export_status": "unexported",
+          "export_error": null
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "company": {
+            "meta": {
+              "included": false
+            }
+          },
+          "project_manager": {
+            "meta": {
+              "included": false
+            }
+          },
+          "last_actor": {
+            "meta": {
+              "included": false
+            }
+          },
+          "workflow": {
+            "meta": {
+              "included": false
+            }
+          },
+          "import": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_people": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_attachments": {
+            "meta": {
+              "included": false
+            }
+          },
+          "memberships": {
+            "meta": {
+              "included": false
+            }
+          },
+          "template_object": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      },
+      {
+        "id": "1108949",
+        "type": "projects",
+        "attributes": {
+          "name": "Interné R&D",
+          "number": "9",
+          "preferences": {
+            "navigation_order": [
+              "4155048-project-tasks",
+              "4155050-project-budgets",
+              "4155049-project-docs",
+              "time"
+            ]
+          },
+          "project_number": "9",
+          "project_type_id": 1,
+          "project_color_id": 5,
+          "last_activity_at": "2026-11-11T12:02:30.000+01:00",
+          "tag_colors": {},
+          "archived_at": null,
+          "created_at": "2026-11-11T12:02:29.265+01:00",
+          "template": false,
+          "duplication_status": "idle",
+          "custom_fields": null,
+          "task_custom_fields_ids": null,
+          "task_custom_fields_positions": {},
+          "page_custom_fields_ids": null,
+          "page_custom_fields_positions": {},
+          "sample_data": false,
+          "external_deal_id": null,
+          "exported": false,
+          "exported_at": null,
+          "export_id": null,
+          "export_url": null,
+          "export_status": "unexported",
+          "export_error": null
+        },
+        "relationships": {
+          "organization": {
+            "data": {
+              "type": "organizations",
+              "id": "63284"
+            }
+          },
+          "company": {
+            "meta": {
+              "included": false
+            }
+          },
+          "project_manager": {
+            "meta": {
+              "included": false
+            }
+          },
+          "last_actor": {
+            "meta": {
+              "included": false
+            }
+          },
+          "workflow": {
+            "meta": {
+              "included": false
+            }
+          },
+          "import": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_people": {
+            "meta": {
+              "included": false
+            }
+          },
+          "custom_field_attachments": {
+            "meta": {
+              "included": false
+            }
+          },
+          "memberships": {
+            "meta": {
+              "included": false
+            }
+          },
+          "template_object": {
+            "meta": {
+              "included": false
+            }
+          }
+        }
+      }
+    ],
+    "links": {
+      "first": "https://api.productive.io/api/v2/deals?include=project&page%5Bnumber%5D=1&page%5Bsize%5D=200",
+      "last": "https://api.productive.io/api/v2/deals?include=project&page%5Bnumber%5D=1&page%5Bsize%5D=200"
+    },
+    "meta": {
+      "current_page": 1,
+      "total_pages": 1,
+      "total_count": 4,
+      "page_size": 200,
+      "max_page_size": 200
+    }
+  }
+]
